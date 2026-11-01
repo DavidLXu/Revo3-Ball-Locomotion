@@ -1,0 +1,77 @@
+{
+  "time_unix": 1792810944.726932,
+  "verified_raw_artifact_hashes": {
+    "runs/teleop_opposed_v171_body_acceleration_smooth/model_7650.pt": "db6a70291a5413946c6479f8a1a39ac38f46b6653aac61b5b27f4e5a1ca04892",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/evaluation_1000us.json": "0baf11658d2d2015367f612de7a116b94f313d29aa5cf1d05a623569e4ed99ec",
+    "runs/teleop_opposed_v171_body_acceleration_smooth/env_config.json": "5b09983f5675575e24e374c2b34dbb2d7992ce2836afb47bd1d2106d01a1bee3",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/motion_0.npz": "29f1b7781edd578ae81cdd25545a9a134708a096a2c164a94175922ac4ba9596",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/motion_1.npz": "1e89c04a18e0788a14838faa0b1384d49a5e1d2c634d91a208401e89fc2f841d",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/motion_2.npz": "4bc1edb79574042d8145859037d40334229a6ebadcf26b0dc9e984e50b9000b5",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/motion_3.npz": "6587d2d8d3cb1b635f9898f02d2081fc2930908c15c28fcdccd9ad1997e57027",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/motion_4.npz": "2c6ff69fe4c354fb5156e903742094fcc508aa59d17b7d4d55abb91ebea5ff4e",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/motion_5.npz": "ba81731d33a24bd16b0334b432304ab47aed6fa66bc735029e27f8f32d05bb7f",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/evaluation_500us.json": "daba2d46e9e71bd66ea7aa5d212bb6aec2d9fee42505487429bf1303ae9c10c3",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/motion_6.npz": "e7899a6abbe5775aa325ceac38b35ad7cfb3d72823a37920f83e2905d85900f9",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/motion_7.npz": "17eeb4f18e9fbe798b71b1dec73609c5d80b88bba50a9b444dc62d70ff576bb5",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/motion_8.npz": "ac1ca8464c4c6aa504d508864b938b98253c18e334f3a5d2baff2ac644109c18",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/motion_9.npz": "5343b78a161f947e89de398857b711d607136be3aee3b50c4653a78162c1226c",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/motion_10.npz": "945dcec04a7a40b8643df941755fd3bc129f93530de46497873e9c502cf5225c",
+    "outputs/teleop_opposed_v171_body_acceleration_smooth/iteration_7650/motion_11.npz": "7baf96aa795ec9b7c455f29eed1fa944f2f6e62c64fb222b82611900b1f2ff23"
+  },
+  "completed_raw_trials": 11,
+  "raw_trials": 12,
+  "matched_groups": {
+    "stop": {
+      "cases": 2,
+      "source_completed": 2,
+      "candidate_completed": 2,
+      "comparable_cases": 2,
+      "mean_ratios": {
+        "angular": {
+          "raw_rms": 0.8826261698481168,
+          "band_3_to_12_hz_rms": 0.898579719711677
+        },
+        "vertical": {
+          "raw_rms": 0.8208726536461141,
+          "band_3_to_12_hz_rms": 0.8313019110096771
+        },
+        "relative_vertical": {
+          "raw_rms": 0.8224538505559364,
+          "band_3_to_12_hz_rms": 0.8334319605959282
+        },
+        "joint": {
+          "raw_rms": 0.9391716748955401,
+          "band_3_to_12_hz_rms": 0.9499218429902226
+        }
+      }
+    },
+    "moving": {
+      "cases": 10,
+      "source_completed": 9,
+      "candidate_completed": 9,
+      "comparable_cases": 8,
+      "mean_ratios": {
+        "angular": {
+          "raw_rms": 0.9746405046500164,
+          "band_3_to_12_hz_rms": 0.9724852126065076
+        },
+        "vertical": {
+          "raw_rms": 0.990857974003982,
+          "band_3_to_12_hz_rms": 1.002441113735864
+        },
+        "relative_vertical": {
+          "raw_rms": 0.9881346628014627,
+          "band_3_to_12_hz_rms": 0.9994063025243151
+        },
+        "joint": {
+          "raw_rms": 1.0211922159352487,
+          "band_3_to_12_hz_rms": 1.0254996570023758
+        }
+      }
+    }
+  },
+  "goal_achieved": false,
+  "finding": "Modest body-motion reductions in8common full moving cases:angular2.54%,vertical0.91%;jointvelocity increases2.12%.Stronger stop improvement. Full tracking117/120 with all cardinal meansbelow0.1m/s and switchfailure.",
+  "decision": "Retain final checkpoint as comparison; do not extend this unchanged branch on the present evidence. Existing v178 trial continues.",
+  "scope": "One matched recording seed per profile/dt; failedcases excluded from ratios and counted separately; moving and stop separate."
+}

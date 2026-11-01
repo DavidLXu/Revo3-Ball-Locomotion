@@ -1,0 +1,65 @@
+{
+  "time_unix": 1792810855.742597,
+  "reports_verified": true,
+  "checkpoint_sha256": "db6a70291a5413946c6479f8a1a39ac38f46b6653aac61b5b27f4e5a1ca04892",
+  "completed": 117,
+  "trials": 120,
+  "cardinal_tracking": {
+    "forward": {
+      "trials": 12,
+      "completed": 12,
+      "requested_speed_mps": 0.1,
+      "full_trial_mean_command_axis_speed_mps": 0.07187248903673292,
+      "scope": "Actual signed velocity along the command, completed30s trials only; failed trials excluded from speed mean and counted in completion."
+    },
+    "backward": {
+      "trials": 12,
+      "completed": 12,
+      "requested_speed_mps": 0.1,
+      "full_trial_mean_command_axis_speed_mps": 0.06884557491465818,
+      "scope": "Actual signed velocity along the command, completed30s trials only; failed trials excluded from speed mean and counted in completion."
+    },
+    "left": {
+      "trials": 12,
+      "completed": 12,
+      "requested_speed_mps": 0.1,
+      "full_trial_mean_command_axis_speed_mps": 0.0738716912570726,
+      "scope": "Actual signed velocity along the command, completed30s trials only; failed trials excluded from speed mean and counted in completion."
+    },
+    "right": {
+      "trials": 12,
+      "completed": 12,
+      "requested_speed_mps": 0.1,
+      "full_trial_mean_command_axis_speed_mps": 0.05592113087323505,
+      "scope": "Actual signed velocity along the command, completed30s trials only; failed trials excluded from speed mean and counted in completion."
+    }
+  },
+  "failures": [
+    {
+      "engine": "MjLab / MuJoCo Warp",
+      "timestep_s": 0.001,
+      "profile": "diagonal",
+      "seed": 31000,
+      "survival_s": 15.34,
+      "reason": "physical_or_reward_failure"
+    },
+    {
+      "engine": "MjLab / MuJoCo Warp",
+      "timestep_s": 0.001,
+      "profile": "switch",
+      "seed": 31001,
+      "survival_s": 26.75,
+      "reason": "physical_or_reward_failure"
+    },
+    {
+      "engine": "native_mujoco",
+      "timestep_s": 0.0005,
+      "profile": "switch",
+      "seed": 31000,
+      "survival_s": 11.94,
+      "reason": "fall"
+    }
+  ],
+  "raw_motion_pending": true,
+  "goal_achieved": false
+}

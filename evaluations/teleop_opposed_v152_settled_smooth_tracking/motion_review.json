@@ -1,0 +1,113 @@
+{
+  "time_unix": 1792807296.210691,
+  "raw_files_verified": 12,
+  "raw_completed": 12,
+  "raw_trials": 12,
+  "matched_100update_comparison": {
+    "stop": {
+      "cases": 2,
+      "source_completed": 2,
+      "candidate_completed": 2,
+      "comparable_cases": 2,
+      "mean_ratios": {
+        "angular": {
+          "raw_rms": 1.1892375104100679,
+          "band_3_to_12_hz_rms": 1.173422436557463
+        },
+        "vertical": {
+          "raw_rms": 1.183141499454255,
+          "band_3_to_12_hz_rms": 1.1630430415605968
+        },
+        "relative_vertical": {
+          "raw_rms": 1.1846128337701036,
+          "band_3_to_12_hz_rms": 1.1624827326161906
+        },
+        "joint": {
+          "raw_rms": 1.1052143572724427,
+          "band_3_to_12_hz_rms": 1.0968265315137198
+        }
+      }
+    },
+    "moving": {
+      "cases": 10,
+      "source_completed": 9,
+      "candidate_completed": 10,
+      "comparable_cases": 9,
+      "mean_ratios": {
+        "angular": {
+          "raw_rms": 1.0292479439599225,
+          "band_3_to_12_hz_rms": 1.0302915380341982
+        },
+        "vertical": {
+          "raw_rms": 0.9928861674421233,
+          "band_3_to_12_hz_rms": 0.9673822006621869
+        },
+        "relative_vertical": {
+          "raw_rms": 0.9941048370735432,
+          "band_3_to_12_hz_rms": 0.9675452964889928
+        },
+        "joint": {
+          "raw_rms": 1.0127345094880211,
+          "band_3_to_12_hz_rms": 1.0135853832844097
+        }
+      }
+    }
+  },
+  "source7550_comparison": {
+    "stop": {
+      "cases": 2,
+      "source_completed": 2,
+      "candidate_completed": 2,
+      "comparable_cases": 2,
+      "mean_ratios": {
+        "angular": {
+          "raw_rms": 0.8093444113128003,
+          "band_3_to_12_hz_rms": 0.841649595242097
+        },
+        "vertical": {
+          "raw_rms": 0.8701948674423918,
+          "band_3_to_12_hz_rms": 0.8810716101742236
+        },
+        "relative_vertical": {
+          "raw_rms": 0.8670493595951332,
+          "band_3_to_12_hz_rms": 0.8786428053783024
+        },
+        "joint": {
+          "raw_rms": 0.8274684514899701,
+          "band_3_to_12_hz_rms": 0.8336707301288286
+        }
+      }
+    },
+    "moving": {
+      "cases": 10,
+      "source_completed": 8,
+      "candidate_completed": 10,
+      "comparable_cases": 8,
+      "mean_ratios": {
+        "angular": {
+          "raw_rms": 0.9242035635958104,
+          "band_3_to_12_hz_rms": 0.9058493678988759
+        },
+        "vertical": {
+          "raw_rms": 0.9324188847907847,
+          "band_3_to_12_hz_rms": 0.9516862734128924
+        },
+        "relative_vertical": {
+          "raw_rms": 0.9318050892392549,
+          "band_3_to_12_hz_rms": 0.9520780502395145
+        },
+        "joint": {
+          "raw_rms": 0.9778251878418414,
+          "band_3_to_12_hz_rms": 0.9812942662087911
+        }
+      }
+    }
+  },
+  "full_batch_completed": 120,
+  "full_batch_trials": 120,
+  "training_audit_passed": false,
+  "known_training_fault_iteration": 7590,
+  "goal_achieved": false,
+  "conclusion": "No consistent smoothing advantage from settled sampler: nine shared moving cases angularRMS+2.92%, verticalRMS-0.71%; stop angular+18.9%, vertical+18.3%. Do not adopt as a smoothing improvement; speed goal unmet.",
+  "video_verified": true
+}

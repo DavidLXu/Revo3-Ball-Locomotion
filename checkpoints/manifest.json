@@ -1,0 +1,48 @@
+{
+  "checkpoints": [
+    {
+      "path": "checkpoints/teleop_opposed_v152_settled_smooth_tracking/model_7650.pt",
+      "sha256": "2f09740934f71a8d1f3ef331f8f92fde77d4caa017d76fc6d07035d15d72081b",
+      "original_sha256": "e638d5b28d3ec4bf08ef0f569e9d786516e92ce962673ddcff1d80efb3ca290a",
+      "bytes": 8259765,
+      "actor_critic_optimizer_preserved": true,
+      "metadata_change": "Host-specific path prefixes removed; numerical state unchanged.",
+      "run": "teleop_opposed_v152_settled_smooth_tracking",
+      "iteration": 7650,
+      "selection_reason": "Completion baseline with mixed settled starts",
+      "completed": 120,
+      "trials": 120,
+      "goal_achieved": false
+    },
+    {
+      "path": "checkpoints/teleop_opposed_v171_body_acceleration_smooth/model_7650.pt",
+      "sha256": "374a0761ba2aa6613072f85aed060a23353df0551504e29d8cbb21e39d2c86fe",
+      "original_sha256": "db6a70291a5413946c6479f8a1a39ac38f46b6653aac61b5b27f4e5a1ca04892",
+      "bytes": 8259701,
+      "actor_critic_optimizer_preserved": true,
+      "metadata_change": "Host-specific path prefixes removed; numerical state unchanged.",
+      "run": "teleop_opposed_v171_body_acceleration_smooth",
+      "iteration": 7650,
+      "selection_reason": "Body-acceleration penalty comparison",
+      "completed": 117,
+      "trials": 120,
+      "goal_achieved": false
+    },
+    {
+      "path": "checkpoints/teleop_opposed_v178_action_bounds_smooth/model_7750.pt",
+      "sha256": "00a2885e6b24775924fad6d97a38f7f913c6ac986e9061bbdef3d9318aefbe16",
+      "original_sha256": "04fd3024f008813d2f9430ebdb364f14b9f1f1f33e1ccc85548aea5e3366ff50",
+      "bytes": 8259957,
+      "actor_critic_optimizer_preserved": true,
+      "metadata_change": "Host-specific path prefixes removed; numerical state unchanged.",
+      "run": "teleop_opposed_v178_action_bounds_smooth",
+      "iteration": 7750,
+      "selection_reason": "Current demonstration and action-bound penalty",
+      "completed": 118,
+      "trials": 120,
+      "goal_achieved": false
+    }
+  ],
+  "policy_training_target_mps": 0.1,
+  "license": "MIT; excludes upstream robot assets"
+}

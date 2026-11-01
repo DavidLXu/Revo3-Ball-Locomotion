@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+assets/
+outputs/
+runs/
+checkpoints/**/pose_scene.xml
+checkpoints/**/pose_initial_*.json
+checkpoints/**/pose_initial_*.npy

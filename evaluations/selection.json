@@ -1,0 +1,71 @@
+{
+  "protocol": "30 s, requested 0.1 m/s, 10 profiles, seeds 31000\u201331002, native and MjLab at 1 ms and 0.5 ms",
+  "checkpoints": [
+    {
+      "run": "teleop_opposed_v178_action_bounds_smooth",
+      "iteration": 7750,
+      "selection_reason": "Current demonstration and action-bound penalty",
+      "counts": {
+        "evaluation_mjlab.json": {
+          "completed": 59,
+          "trials": 60
+        },
+        "evaluation_1000us.json": {
+          "completed": 29,
+          "trials": 30
+        },
+        "evaluation_500us.json": {
+          "completed": 30,
+          "trials": 30
+        }
+      },
+      "completed": 118,
+      "trials": 120,
+      "goal_achieved": false
+    },
+    {
+      "run": "teleop_opposed_v152_settled_smooth_tracking",
+      "iteration": 7650,
+      "selection_reason": "Completion baseline with mixed settled starts",
+      "counts": {
+        "evaluation_mjlab.json": {
+          "completed": 60,
+          "trials": 60
+        },
+        "evaluation_1000us.json": {
+          "completed": 30,
+          "trials": 30
+        },
+        "evaluation_500us.json": {
+          "completed": 30,
+          "trials": 30
+        }
+      },
+      "completed": 120,
+      "trials": 120,
+      "goal_achieved": false
+    },
+    {
+      "run": "teleop_opposed_v171_body_acceleration_smooth",
+      "iteration": 7650,
+      "selection_reason": "Body-acceleration penalty comparison",
+      "counts": {
+        "evaluation_mjlab.json": {
+          "completed": 58,
+          "trials": 60
+        },
+        "evaluation_1000us.json": {
+          "completed": 30,
+          "trials": 30
+        },
+        "evaluation_500us.json": {
+          "completed": 29,
+          "trials": 30
+        }
+      },
+      "completed": 117,
+      "trials": 120,
+      "goal_achieved": false
+    }
+  ]
+}

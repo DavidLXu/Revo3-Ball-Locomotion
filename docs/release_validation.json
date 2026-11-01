@@ -1,0 +1,42 @@
+{
+  "model_arrays_match_original": true,
+  "checkpoint_tensor_preservation": true,
+  "native_smoke_tests": [
+    {
+      "checkpoint": "checkpoints/teleop_opposed_v152_settled_smooth_tracking/model_7650.pt",
+      "seconds": 2.0,
+      "finite_actions": true,
+      "completed": true
+    },
+    {
+      "checkpoint": "checkpoints/teleop_opposed_v171_body_acceleration_smooth/model_7650.pt",
+      "seconds": 2.0,
+      "finite_actions": true,
+      "completed": true
+    },
+    {
+      "checkpoint": "checkpoints/teleop_opposed_v178_action_bounds_smooth/model_7750.pt",
+      "seconds": 2.0,
+      "finite_actions": true,
+      "completed": true
+    }
+  ],
+  "scope": "Release smoke tests, not a new full evaluation.",
+  "teleop_smoke": {
+    "loopback_http": true,
+    "rendered_frame_bytes": 51933,
+    "paused_initial_state": true,
+    "command_endpoint": true
+  },
+  "gpu_training_smoke": {
+    "backend": "MjLab / MuJoCo Warp",
+    "num_envs": 32,
+    "ppo_iterations": 1,
+    "source": "v178/7750",
+    "completed": true,
+    "nonfinite_world_count": 0,
+    "invalid_action_fraction": 0,
+    "iteration_seconds": 13.78
+  },
+  "asset_setup_test": "Existing official asset snapshot verified against all 141 pinned source-file hashes. Fresh network download was not completed during validation."
+}

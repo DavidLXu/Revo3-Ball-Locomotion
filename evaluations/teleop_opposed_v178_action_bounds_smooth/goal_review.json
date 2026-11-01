@@ -1,0 +1,541 @@
+{
+  "checkpoint": "runs/teleop_opposed_v178_action_bounds_smooth/model_7750.pt",
+  "reports": {
+    "evaluation_mjlab.json": {
+      "source": "outputs/teleop_opposed_v178_action_bounds_smooth/iteration_7750/evaluation_mjlab.json",
+      "source_sha256": "f7085269cb073107a88a33dbeaccc34db598007dd18f30daed73e027eebb6f09",
+      "engine": "MjLab / MuJoCo Warp",
+      "trials": 60,
+      "completed": 59,
+      "moving_trials": 54,
+      "moving_completed": 53,
+      "mean_moving_survival_s": 29.87962962962963,
+      "profiles": {
+        "stop": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.0031968074398074416,
+          "full_trial_mean_error_mps": 0.0031968074398074416,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.0004477237133300831,
+            -0.0004918051521998041
+          ],
+          "mean_displacement_xy_m": [
+            -0.01582883927039802,
+            -0.014089614308128754
+          ]
+        },
+        "forward": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.029651739409822568,
+          "full_trial_mean_error_mps": 0.029651739409822568,
+          "full_trial_mean_actual_velocity_mps": [
+            0.07067049383917558,
+            0.00012713515649797575
+          ],
+          "mean_displacement_xy_m": [
+            2.0085140665372214,
+            0.004810297551254432
+          ]
+        },
+        "backward": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.03209451792737843,
+          "full_trial_mean_error_mps": 0.03209451792737843,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.06917508910099665,
+            -0.007014190424067155
+          ],
+          "mean_displacement_xy_m": [
+            -1.9758715828259785,
+            -0.19814286505182585
+          ]
+        },
+        "left": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.029148020832033352,
+          "full_trial_mean_error_mps": 0.029148020832033352,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.0012385168496484304,
+            0.07157172987570189
+          ],
+          "mean_displacement_xy_m": [
+            -0.034939355527361236,
+            2.0383674701054892
+          ]
+        },
+        "right": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.04459185745645371,
+          "full_trial_mean_error_mps": 0.04459185745645371,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.004946815897722829,
+            -0.05927442979754968
+          ],
+          "mean_displacement_xy_m": [
+            -0.14714144791165987,
+            -1.6941573023796082
+          ]
+        },
+        "diagonal": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.024725063670352453,
+          "full_trial_mean_error_mps": 0.024725063670352453,
+          "full_trial_mean_actual_velocity_mps": [
+            0.056560235357111584,
+            0.0513363385241523
+          ],
+          "mean_displacement_xy_m": [
+            1.6068980892499287,
+            1.459720293680827
+          ]
+        },
+        "diagonal_forward_right": {
+          "trials": 6,
+          "completed": 5,
+          "mean_survival_s": 28.916666666666668,
+          "mean_error_mps": 0.03980943795879928,
+          "full_trial_mean_error_mps": 0.04001438591602153,
+          "full_trial_mean_actual_velocity_mps": [
+            0.04539155563173283,
+            -0.042770692359456526
+          ],
+          "mean_displacement_xy_m": [
+            1.2404035727183025,
+            -1.188693344593048
+          ]
+        },
+        "diagonal_backward_left": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.02922692608840483,
+          "full_trial_mean_error_mps": 0.02922692608840483,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.04881586636605096,
+            0.05349466663053525
+          ],
+          "mean_displacement_xy_m": [
+            -1.3924754460652669,
+            1.5257769624392192
+          ]
+        },
+        "diagonal_backward_right": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.030441942435522625,
+          "full_trial_mean_error_mps": 0.030441942435522625,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.0471152986726901,
+            -0.05526333240947376
+          ],
+          "mean_displacement_xy_m": [
+            -1.3505677382151287,
+            -1.5802930394808452
+          ]
+        },
+        "switch": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.032789809958734234,
+          "full_trial_mean_error_mps": 0.032789809958734234,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.0022203591253163527,
+            0.0006485142422565713
+          ],
+          "mean_displacement_xy_m": [
+            -0.03906290947149197,
+            0.019207509273352723
+          ]
+        }
+      }
+    },
+    "evaluation_1000us.json": {
+      "source": "outputs/teleop_opposed_v178_action_bounds_smooth/iteration_7750/evaluation_1000us.json",
+      "source_sha256": "98d26d6712eba101618b0cf940799c90fb37f301d0816df654463b66893d14d2",
+      "engine": "native_mujoco",
+      "trials": 30,
+      "completed": 29,
+      "moving_trials": 27,
+      "moving_completed": 26,
+      "mean_moving_survival_s": 29.88962962962963,
+      "profiles": {
+        "stop": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.002828929629588989,
+          "full_trial_mean_error_mps": 0.002828929629588989,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.0006504866465082799,
+            -0.0003161210649844537
+          ],
+          "mean_displacement_xy_m": [
+            -0.0219152494025972,
+            -0.010685544994087703
+          ]
+        },
+        "forward": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.028808711583653092,
+          "full_trial_mean_error_mps": 0.028808711583653092,
+          "full_trial_mean_actual_velocity_mps": [
+            0.07144114684040938,
+            0.0008510295775775726
+          ],
+          "mean_displacement_xy_m": [
+            2.030197051495309,
+            0.023957871760081437
+          ]
+        },
+        "backward": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.0311610441482393,
+          "full_trial_mean_error_mps": 0.0311610441482393,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.07094518781981912,
+            -0.010026098306199537
+          ],
+          "mean_displacement_xy_m": [
+            -2.0256198300011454,
+            -0.2839957240743291
+          ]
+        },
+        "left": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.027963928787361914,
+          "full_trial_mean_error_mps": 0.027963928787361914,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.0038594326456971623,
+            0.07307143513537302
+          ],
+          "mean_displacement_xy_m": [
+            -0.10777790488957702,
+            2.079775598474575
+          ]
+        },
+        "right": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.03740545159504745,
+          "full_trial_mean_error_mps": 0.03740545159504745,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.0041998918478283,
+            -0.06735419433952852
+          ],
+          "mean_displacement_xy_m": [
+            -0.12434551914116863,
+            -1.9219695804678645
+          ]
+        },
+        "diagonal": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.02397587581091864,
+          "full_trial_mean_error_mps": 0.02397587581091864,
+          "full_trial_mean_actual_velocity_mps": [
+            0.05771264100990621,
+            0.05129792910329684
+          ],
+          "mean_displacement_xy_m": [
+            1.6386010747926412,
+            1.4569388593519583
+          ]
+        },
+        "diagonal_forward_right": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.038438555970446896,
+          "full_trial_mean_error_mps": 0.038438555970446896,
+          "full_trial_mean_actual_velocity_mps": [
+            0.04536552552411984,
+            -0.04544255695057623
+          ],
+          "mean_displacement_xy_m": [
+            1.2839047099140843,
+            -1.2961680901358164
+          ]
+        },
+        "diagonal_backward_left": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.02675809485573333,
+          "full_trial_mean_error_mps": 0.02675809485573333,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.04951738249883021,
+            0.05749372834041944
+          ],
+          "mean_displacement_xy_m": [
+            -1.4124268707516718,
+            1.6350137195749361
+          ]
+        },
+        "diagonal_backward_right": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.02501901149911274,
+          "full_trial_mean_error_mps": 0.02501901149911274,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.04770677441677949,
+            -0.0636077777109458
+          ],
+          "mean_displacement_xy_m": [
+            -1.3663073619340311,
+            -1.8155472313560974
+          ]
+        },
+        "switch": {
+          "trials": 3,
+          "completed": 2,
+          "mean_survival_s": 29.006666666666668,
+          "mean_error_mps": 0.03319363589345383,
+          "full_trial_mean_error_mps": 0.03172890362478701,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.003027383976534793,
+            -0.00037222733769810384
+          ],
+          "mean_displacement_xy_m": [
+            -0.05426330531111057,
+            -0.02772807746563496
+          ]
+        }
+      }
+    },
+    "evaluation_500us.json": {
+      "source": "outputs/teleop_opposed_v178_action_bounds_smooth/iteration_7750/evaluation_500us.json",
+      "source_sha256": "e4ac2326dce1d5467df1951c36b1cdb33fdd73b0cca344e8cff686a3454a185b",
+      "engine": "native_mujoco",
+      "trials": 30,
+      "completed": 30,
+      "moving_trials": 27,
+      "moving_completed": 27,
+      "mean_moving_survival_s": 30.0,
+      "profiles": {
+        "stop": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.00289958184824948,
+          "full_trial_mean_error_mps": 0.00289958184824948,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.00014670675966581647,
+            -0.0007492564966269887
+          ],
+          "mean_displacement_xy_m": [
+            -0.006921255112732704,
+            -0.020136369802453383
+          ]
+        },
+        "forward": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.030405605103141872,
+          "full_trial_mean_error_mps": 0.030405605103141872,
+          "full_trial_mean_actual_velocity_mps": [
+            0.07000727613833871,
+            -0.0006598292433342614
+          ],
+          "mean_displacement_xy_m": [
+            1.9897266087102055,
+            -0.01655022389830303
+          ]
+        },
+        "backward": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.033026376546598256,
+          "full_trial_mean_error_mps": 0.033026376546598256,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.06742678537155532,
+            -0.004225169961251759
+          ],
+          "mean_displacement_xy_m": [
+            -1.9269266859343057,
+            -0.11792479608945355
+          ]
+        },
+        "left": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.030420402579916846,
+          "full_trial_mean_error_mps": 0.030420402579916846,
+          "full_trial_mean_actual_velocity_mps": [
+            0.0016872699820077,
+            0.07001517439832364
+          ],
+          "mean_displacement_xy_m": [
+            0.047571127272324376,
+            1.9959618978912639
+          ]
+        },
+        "right": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.05197197271702083,
+          "full_trial_mean_error_mps": 0.05197197271702083,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.006145063031038955,
+            -0.05107707325058634
+          ],
+          "mean_displacement_xy_m": [
+            -0.18018553497755635,
+            -1.4628667225003342
+          ]
+        },
+        "diagonal": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.025043619936752932,
+          "full_trial_mean_error_mps": 0.025043619936752932,
+          "full_trial_mean_actual_velocity_mps": [
+            0.05572704586875162,
+            0.05161867371713264
+          ],
+          "mean_displacement_xy_m": [
+            1.5849386407506265,
+            1.468561392177064
+          ]
+        },
+        "diagonal_forward_right": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.04065509299532032,
+          "full_trial_mean_error_mps": 0.04065509299532032,
+          "full_trial_mean_actual_velocity_mps": [
+            0.04500714690842988,
+            -0.041741456388283575
+          ],
+          "mean_displacement_xy_m": [
+            1.2747828238801722,
+            -1.1891452601212231
+          ]
+        },
+        "diagonal_backward_left": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.031672103645808344,
+          "full_trial_mean_error_mps": 0.031672103645808344,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.04807749349326639,
+            0.04948279752499839
+          ],
+          "mean_displacement_xy_m": [
+            -1.3709544458023475,
+            1.4141889724742587
+          ]
+        },
+        "diagonal_backward_right": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.03593369934174698,
+          "full_trial_mean_error_mps": 0.03593369934174698,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.04652843167731646,
+            -0.046921728330440345
+          ],
+          "mean_displacement_xy_m": [
+            -1.335085035287866,
+            -1.3456173827327214
+          ]
+        },
+        "switch": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.03327537267172135,
+          "full_trial_mean_error_mps": 0.03327537267172135,
+          "full_trial_mean_actual_velocity_mps": [
+            -0.0017673490110765276,
+            0.0015816424502812952
+          ],
+          "mean_displacement_xy_m": [
+            -0.02588384898841523,
+            0.046437923923991174
+          ]
+        }
+      }
+    }
+  },
+  "cardinal_tracking": {
+    "forward": {
+      "trials": 12,
+      "completed": 12,
+      "requested_speed_mps": 0.1,
+      "full_trial_mean_command_axis_speed_mps": 0.0706973526642748,
+      "scope": "Actual signed velocity along the command, completed30s trials only; failed trials excluded from speed mean and counted in completion."
+    },
+    "backward": {
+      "trials": 12,
+      "completed": 12,
+      "requested_speed_mps": 0.1,
+      "full_trial_mean_command_axis_speed_mps": 0.06918053784834194,
+      "scope": "Actual signed velocity along the command, completed30s trials only; failed trials excluded from speed mean and counted in completion."
+    },
+    "left": {
+      "trials": 12,
+      "completed": 12,
+      "requested_speed_mps": 0.1,
+      "full_trial_mean_command_axis_speed_mps": 0.0715575173212751,
+      "scope": "Actual signed velocity along the command, completed30s trials only; failed trials excluded from speed mean and counted in completion."
+    },
+    "right": {
+      "trials": 12,
+      "completed": 12,
+      "requested_speed_mps": 0.1,
+      "full_trial_mean_command_axis_speed_mps": 0.05924503179630356,
+      "scope": "Actual signed velocity along the command, completed30s trials only; failed trials excluded from speed mean and counted in completion."
+    }
+  },
+  "baseline_checkpoint": "runs/teleop_opposed_v134_target_startup/model_7550.pt",
+  "changes": {
+    "evaluation_mjlab.json": {
+      "baseline_source_sha256": "48a36883763e1337a6460aa56099ba39eaee0f011937021464855d5bfd9ee193",
+      "moving_completed_delta": 1,
+      "mean_moving_survival_delta_s": 0.9077777777777776
+    },
+    "evaluation_1000us.json": {
+      "baseline_source_sha256": "26bf51fa7c503962cfb1349f2b700128efa5680e8f1213c4d764c110c6b3846f",
+      "moving_completed_delta": 1,
+      "mean_moving_survival_delta_s": 1.94962962962963
+    },
+    "evaluation_500us.json": {
+      "baseline_source_sha256": "b038249d0b6c167966fc65327a267e83b4eda32987836b1b59fa8c6783a01792",
+      "moving_completed_delta": 2,
+      "mean_moving_survival_delta_s": 2.057407407407407
+    }
+  },
+  "goal_achieved": false,
+  "scope": "Complete matched 120-case target-speed batch. Error averages for failed trials have unequal durations; survival and displacement alone do not prove tracking. Smoothness, sustained turns/stops and keyboard operation require separate evidence."
+}

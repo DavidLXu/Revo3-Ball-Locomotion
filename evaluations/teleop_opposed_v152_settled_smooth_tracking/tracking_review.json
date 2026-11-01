@@ -1,0 +1,36 @@
+{
+  "time_unix": 1792807049.749287,
+  "report_hashes": {
+    "evaluation_mjlab.json": "5b795341e4858e0148d1318d3f3dfc617e3539a66d19011ff18d7dd74ed9d279",
+    "evaluation_1000us.json": "48e1cee11c9b2d56c829af22978d679eab8aae8f992b657bb75ea58c2fd5c690",
+    "evaluation_500us.json": "9eb8f777f7a57c50b8058c90cbbc63c9c945ba930dec5ab09d4849646277fc3d"
+  },
+  "completed": 120,
+  "trials": 120,
+  "cardinals": {
+    "forward": {
+      "completed": 12,
+      "trials": 12,
+      "full_case_mean_axis_speed_mps": 0.07530947883868448
+    },
+    "backward": {
+      "completed": 12,
+      "trials": 12,
+      "full_case_mean_axis_speed_mps": 0.06799281288711745
+    },
+    "left": {
+      "completed": 12,
+      "trials": 12,
+      "full_case_mean_axis_speed_mps": 0.07130386678919785
+    },
+    "right": {
+      "completed": 12,
+      "trials": 12,
+      "full_case_mean_axis_speed_mps": 0.05703277268398427
+    }
+  },
+  "training_audit_passed": false,
+  "goal_achieved": false,
+  "raw_motion_pending": false,
+  "scope": "Full fixed-seed120case evaluation. Speed below0.1m/s; completion is not smoothness qualification."
+}

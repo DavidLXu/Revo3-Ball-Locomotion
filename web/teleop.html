@@ -1,0 +1,37 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Revo3 · 球上遥控</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#0c1520;color:#eef5fd;font:16px system-ui,sans-serif}main{max-width:1240px;margin:auto;padding:28px}header{display:flex;align-items:center;justify-content:space-between}h1{font-size:25px;letter-spacing:.02em;margin:0}small{color:#8fa7be}#view{width:100%;aspect-ratio:4/3;object-fit:contain;background:#1c2e3e;border-radius:14px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:24px;margin-top:22px}.panel{background:#142232;border:1px solid #283b4f;border-radius:14px;padding:20px}.label{color:#92adc7;font-size:13px;margin-bottom:7px}.value{font-size:29px;font-variant-numeric:tabular-nums}.metric{margin-bottom:24px}button{background:#263b51;color:white;border:1px solid #425e7a;border-radius:8px;font:inherit;min-width:48px;min-height:45px;cursor:pointer}button:active,button.on{background:#3776ad}#keys{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:18px 0}#keys button:first-child{grid-column:2}#keys button:nth-child(2){grid-column:1}input{width:100%;accent-color:#73c3ff}.note{color:#adc1d5;font-size:13px;line-height:1.8}.status{padding:10px 0;color:#a9d5fa}#reset{width:100%;margin-top:12px}.pill{padding:6px 11px;border-radius:16px;background:#23364b;font-size:12px}@media(max-width:760px){.layout{grid-template-columns:1fr}main{padding:16px}}</style>
+<main><header><div><h1>Revo3 · 球上遥控</h1><small>拇指对向姿态 / 强化学习策略 / 实时物理仿真</small></div><span class="pill" id="connection">连接中</span></header><div class="layout"><div><img id="view" alt="实时 MuJoCo 仿真画面"><div class="status" id="status">加载策略状态…</div></div><aside class="panel"><div class="metric"><div class="label">目标速度</div><div class="value"><span id="speedValue">0.025</span> <small>m/s</small></div><input id="speed" type="range" min="0.005" max="0.2" step="0.005" value="0.025"></div><div class="metric"><div class="label">球的实际速度</div><div class="value"><span id="actual">0.00</span> <small>m/s</small></div></div><div class="label">按住 W A S D / 方向键移动</div><div id="keys"><button data-key="w">W ↑</button><button data-key="a">A ←</button><button data-key="s">S ↓</button><button data-key="d">D →</button></div><button id="toggle" style="width:100%;margin-bottom:10px">开始 / 暂停</button><button id="stop" style="width:100%">空格 · 停止</button><button id="reset">R · 重置当前策略</button><p class="note">支持组合键斜向移动。松开按键后减速至停止。+ / − 调整速度。画面离开焦点后自动停止指令。</p><p class="note" id="training"></p><p class="note">速度滑块表示期望值，实际能力以回放评估为准。前后对应世界 ±X，左右对应 ±Y。</p></aside></div></main>
+<script>
+const keys=new Set(),keyboardKeys=new Map(),pointerKeys=new Set(),speed=document.querySelector('#speed');let connected=false,requesting=false,pendingCommand=false,speedInitialized=false,stopAcknowledged=false;
+const mapping={ArrowUp:'w',ArrowDown:'s',ArrowLeft:'a',ArrowRight:'d'};
+function drawKeys(){document.querySelectorAll('[data-key]').forEach(b=>b.classList.toggle('on',keys.has(b.dataset.key)))}
+async function send(){
+  pendingCommand=true;drawKeys();
+  if(requesting)return;
+  requesting=true;
+  try{
+    // Send the latest input after an in-flight request; never replay stale turns.
+    while(pendingCommand){
+      pendingCommand=false;
+      const x=Number(keys.has('w'))-Number(keys.has('s')),y=Number(keys.has('a'))-Number(keys.has('d')),n=Math.max(1,Math.hypot(x,y));
+      const response=await fetch('/command',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({vx:x/n*+speed.value,vy:y/n*+speed.value})});
+      if(!response.ok)throw new Error('指令发送失败');
+      stopAcknowledged=x===0&&y===0;
+    }
+  }catch(e){
+    // The heartbeat retries the current input after a connection failure.
+    stopAcknowledged=false;connected=false;document.querySelector('#connection').textContent='指令连接中断';
+  }finally{requesting=false}
+}
+function updateKeys(){keys.clear();for(const k of keyboardKeys.values())keys.add(k);for(const k of pointerKeys)keys.add(k);send()}
+function stop(){keyboardKeys.clear();pointerKeys.clear();updateKeys()}
+function updateSpeed(){document.querySelector('#speedValue').textContent=(+speed.value).toFixed(3);send()}
+document.querySelector('#toggle').onclick=()=>fetch('/toggle',{method:'POST'});speed.oninput=()=>{speedInitialized=true;updateSpeed()};document.querySelector('#stop').onclick=stop;
+document.querySelector('#reset').onclick=()=>{stop();fetch('/reset',{method:'POST'})};
+window.onkeydown=e=>{const k=mapping[e.key]||e.key.toLowerCase();if(['w','a','s','d',' ','r','+','=','-'].includes(k)){e.preventDefault();if(k===' ')stop();else if(k==='r'&&!e.repeat)document.querySelector('#reset').click();else if('wasd'.includes(k)){const physical=e.code||e.key.toLowerCase();if(e.repeat&&!keyboardKeys.has(physical))return;keyboardKeys.set(physical,k);updateKeys()}else if(['+','=','-'].includes(k)){speedInitialized=true;speed.value=+speed.value+(k==='-'?-1:1)*Number(speed.step);updateSpeed()}}};
+window.onkeyup=e=>{keyboardKeys.delete(e.code||e.key.toLowerCase());updateKeys()};window.onblur=stop;document.onvisibilitychange=()=>{if(document.hidden)stop()};
+document.querySelectorAll('[data-key]').forEach(b=>{b.onpointerdown=e=>{b.setPointerCapture(e.pointerId);pointerKeys.add(b.dataset.key);updateKeys()};b.onpointerup=b.onpointercancel=()=>{pointerKeys.delete(b.dataset.key);updateKeys()}});
+// Keep moving commands alive and retry uncertain stops; leave acknowledged idle input free.
+setInterval(()=>{if(keys.size||!stopAcknowledged)send()},200);
+async function refresh(){try{const s=await(await fetch('/state')).json();if(s.error)throw new Error(s.error);if(!Array.isArray(s.measured_velocity_mps))throw new Error('等待仿真初始化');connected=true;speed.max=s.target_speed_mps;if(+speed.value>+speed.max){speed.value=speed.max;updateSpeed()}if(!speedInitialized){speed.value=Math.max(Number(speed.min),s.trained_speed_limit_mps);speedInitialized=true;updateSpeed()}document.querySelector('#reset').textContent=s.follow_latest?'R · 重置并载入最新策略':'R · 重置当前策略';document.querySelector('#actual').textContent=Math.hypot(...s.measured_velocity_mps).toFixed(3);document.querySelector('#status').textContent=s.failed?'手已失去平衡，按 R 重置。':s.paused?'仿真已暂停。点击「开始 / 暂停」运行策略。':`仿真 ${s.time_s.toFixed(1)} s · 承重手指 ${s.load_bearing_fingers}/5 · 指令 (${s.command_mps.map(x=>x.toFixed(3)).join(', ')}) m/s`;document.querySelector('#training').textContent=`当前策略：${s.checkpoint}。最终训练目标 ${s.target_speed_mps.toFixed(3)} m/s，当前课程速度上限 ${s.trained_speed_limit_mps.toFixed(3)} m/s；这不代表已通过独立评估。`;document.querySelector('#view').src='/frame?t='+Date.now()}catch(e){connected=false;document.querySelector('#status').textContent='连接未就绪：'+e.message}document.querySelector('#connection').textContent=connected?'实时连接':'连接断开';setTimeout(refresh,100)}refresh();
+</script></html>

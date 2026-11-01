@@ -1,0 +1,4019 @@
+{
+  "time_unix": 1792832028.108327,
+  "source": "outputs/teleop_opposed_v178_action_bounds_smooth/iteration_7650/motion.json",
+  "source_sha256": "eb3490cd4ba077f627f7e13cbae3dc92c03aa82795062b6716ba8553fd3cb998",
+  "candidate": "outputs/teleop_opposed_v178_action_bounds_smooth/iteration_7750/motion.json",
+  "candidate_sha256": "73e79df93a86b10e324a62fd256e56224a9a606fcc6960bc0b8c140933a1eb8b",
+  "requested_speed_mps": 0.1,
+  "groups": {
+    "stop": {
+      "cases": 2,
+      "source_completed": 2,
+      "candidate_completed": 2,
+      "comparable_cases": 2,
+      "mean_ratios": {
+        "angular": {
+          "raw_rms": 0.802484175601136,
+          "band_3_to_12_hz_rms": 0.8402884324315409
+        },
+        "vertical": {
+          "raw_rms": 0.7273962201123658,
+          "band_3_to_12_hz_rms": 0.7433269885821082
+        },
+        "relative_vertical": {
+          "raw_rms": 0.7247920020443512,
+          "band_3_to_12_hz_rms": 0.7420761207268811
+        },
+        "joint": {
+          "raw_rms": 0.8792067178272055,
+          "band_3_to_12_hz_rms": 0.8911489527932761
+        }
+      }
+    },
+    "moving": {
+      "cases": 10,
+      "source_completed": 10,
+      "candidate_completed": 9,
+      "comparable_cases": 9,
+      "mean_ratios": {
+        "angular": {
+          "raw_rms": 0.9235164047490135,
+          "band_3_to_12_hz_rms": 0.9142838819616471
+        },
+        "vertical": {
+          "raw_rms": 0.9399467114042177,
+          "band_3_to_12_hz_rms": 0.9413989573488671
+        },
+        "relative_vertical": {
+          "raw_rms": 0.9381875242701803,
+          "band_3_to_12_hz_rms": 0.9410837416717734
+        },
+        "joint": {
+          "raw_rms": 0.9989228768491171,
+          "band_3_to_12_hz_rms": 1.0009683189451934
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "profile": "stop",
+      "timestep_s": 0.001,
+      "seed": 31000,
+      "source": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.003938248421697687,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.40987308918030635,
+            "dc_vector_norm": 0.0009002164658483313,
+            "ac_vector_rms": 0.40987210059300444,
+            "peak_above_half_hz": 8.25,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.02429628258851671,
+                "variance_fraction": 0.0035138477915565547
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.024955240979004208,
+                "variance_fraction": 0.003707036147614566
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.3701943249829041,
+                "variance_fraction": 0.8157607368412064
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.1635794228869886,
+                "variance_fraction": 0.15927977307012883
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.05458937261951718,
+                "variance_fraction": 0.01773860614949374
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.029616422674569636,
+            "dc_vector_norm": 1.1063592352641583e-05,
+            "ac_vector_rms": 0.02961642060809656,
+            "peak_above_half_hz": 8.25,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0006894496190553526,
+                "variance_fraction": 0.0005419259323572813
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0014240030001849097,
+                "variance_fraction": 0.0023118341253075127
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.028506584028723837,
+                "variance_fraction": 0.9264568964935288
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.00704874745987192,
+                "variance_fraction": 0.056644632524150536
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.003509853355083603,
+                "variance_fraction": 0.014044710924655878
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.029432256636993493,
+            "dc_vector_norm": 9.527387375969112e-06,
+            "ac_vector_rms": 0.02943225509495895,
+            "peak_above_half_hz": 8.25,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0006903075082789947,
+                "variance_fraction": 0.0005500955304708785
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0014210065145968318,
+                "variance_fraction": 0.002331014955995683
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.02822916655664549,
+                "variance_fraction": 0.9199178254936624
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.00731048579369056,
+                "variance_fraction": 0.06169435058755737
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.003665079669207841,
+                "variance_fraction": 0.015506713432313739
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 3.2995122827867864,
+            "dc_vector_norm": 0.006700892475499779,
+            "ac_vector_rms": 3.2995054784468687,
+            "peak_above_half_hz": 8.25,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.1253061455778179,
+                "variance_fraction": 0.0014422715439542351
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.1841397075435047,
+                "variance_fraction": 0.0031145635056472154
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 3.1983414340535465,
+                "variance_fraction": 0.939619326745316
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.6426234063360566,
+                "variance_fraction": 0.03793284112984281
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.44133271930876716,
+                "variance_fraction": 0.017890997075239706
+              }
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.002631471653843422,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.315699745626648,
+            "dc_vector_norm": 0.0006456177901594543,
+            "ac_vector_rms": 0.315699085469691,
+            "peak_above_half_hz": 7.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00457717960837898,
+                "variance_fraction": 0.00021020801022017128
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.006259021941763134,
+                "variance_fraction": 0.00039306674326965114
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.29943468968084747,
+                "variance_fraction": 0.8996168406578481
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.08907196597793854,
+                "variance_fraction": 0.07960409852154203
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.04484236980941114,
+                "variance_fraction": 0.0201757860671203
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.02148360456259045,
+            "dc_vector_norm": 7.104381930126211e-06,
+            "ac_vector_rms": 0.021483603387921556,
+            "peak_above_half_hz": 7.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 8.408552771990835e-05,
+                "variance_fraction": 1.5318923800656897e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0003153644749376009,
+                "variance_fraction": 0.00021548214329131316
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.02107157640089705,
+                "variance_fraction": 0.9620104770698432
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.003202339301849534,
+                "variance_fraction": 0.022218791748547927
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.0026781300152304947,
+                "variance_fraction": 0.015539930114517165
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.021260262161107553,
+            "dc_vector_norm": 7.027770195627415e-06,
+            "ac_vector_rms": 0.02126026099956131,
+            "peak_above_half_hz": 7.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 8.387646831148771e-05,
+                "variance_fraction": 1.5564783640142677e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0003144612173905306,
+                "variance_fraction": 0.00021877465074726646
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.02081613152708197,
+                "variance_fraction": 0.9586561507612513
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.0033018860008164255,
+                "variance_fraction": 0.024120536665678746
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.002771099733882732,
+                "variance_fraction": 0.016988973138682487
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 2.8627959541163093,
+            "dc_vector_norm": 0.009004735805795696,
+            "ac_vector_rms": 2.8627817921800776,
+            "peak_above_half_hz": 7.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.03504371251410491,
+                "variance_fraction": 0.0001498455068454678
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.05574016539321044,
+                "variance_fraction": 0.00037910543731611954
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 2.8144645442690512,
+                "variance_fraction": 0.9665294047936865
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.4001389167286979,
+                "variance_fraction": 0.019536424863562843
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.3314554844689251,
+                "variance_fraction": 0.013405219398589161
+              }
+            ]
+          }
+        }
+      },
+      "comparable": true,
+      "ratios": {
+        "angular": {
+          "raw_rms": 0.7702377978949704,
+          "band_3_to_12_hz_rms": 0.8088581306444274
+        },
+        "vertical": {
+          "raw_rms": 0.7253949877288018,
+          "band_3_to_12_hz_rms": 0.7391827929879246
+        },
+        "relative_vertical": {
+          "raw_rms": 0.7223456367387564,
+          "band_3_to_12_hz_rms": 0.7373980200694802
+        },
+        "joint": {
+          "raw_rms": 0.8676421570094522,
+          "band_3_to_12_hz_rms": 0.8799762634166379
+        }
+      }
+    },
+    {
+      "profile": "forward",
+      "timestep_s": 0.001,
+      "seed": 31000,
+      "source": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.029035649504038617,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.8823001663166967,
+            "dc_vector_norm": 0.004011808846927422,
+            "ac_vector_rms": 0.8822910454448953,
+            "peak_above_half_hz": 7.4642857142857135,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.011797990491413708,
+                "variance_fraction": 0.00017881022127690964
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.08018874306799077,
+                "variance_fraction": 0.008260437872975486
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.7817418975166269,
+                "variance_fraction": 0.7850603331273922
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.3844017237281383,
+                "variance_fraction": 0.18982215954069295
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.113942890255278,
+                "variance_fraction": 0.016678259237662477
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.07241687397209211,
+            "dc_vector_norm": 6.455803413444322e-05,
+            "ac_vector_rms": 0.07241684519605988,
+            "peak_above_half_hz": 7.4642857142857135,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00043931694017074413,
+                "variance_fraction": 3.680244717866652e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0032988764816214745,
+                "variance_fraction": 0.00207516630652383
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.06577186981436114,
+                "variance_fraction": 0.8248997554632016
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.029303437027850262,
+                "variance_fraction": 0.16374118239787136
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.006963734789086183,
+                "variance_fraction": 0.009247093385224602
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.0716662502175912,
+            "dc_vector_norm": 6.543872983532433e-05,
+            "ac_vector_rms": 0.0716662203414065,
+            "peak_above_half_hz": 7.4642857142857135,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0004429183681679151,
+                "variance_fraction": 3.8196043686632e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0032934964741186635,
+                "variance_fraction": 0.0021119586198360624
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.06473425440801275,
+                "variance_fraction": 0.8159044458019403
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.029665575051131543,
+                "variance_fraction": 0.17134701443824107
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.007377926906760256,
+                "variance_fraction": 0.010598385096295997
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 5.9299744456380905,
+            "dc_vector_norm": 0.006899987196835865,
+            "ac_vector_rms": 5.929970431300434,
+            "peak_above_half_hz": 7.4642857142857135,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.08523893779914511,
+                "variance_fraction": 0.00020661935552805397
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.6802052786051362,
+                "variance_fraction": 0.01315754730376959
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 5.690810221095497,
+                "variance_fraction": 0.9209650515185128
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.3369597327746425,
+                "variance_fraction": 0.050831344687320874
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.7223725624303716,
+                "variance_fraction": 0.014839437134868778
+              }
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.029142837165671318,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.8709294368984136,
+            "dc_vector_norm": 0.003960552293638929,
+            "ac_vector_rms": 0.870920431544534,
+            "peak_above_half_hz": 7.107142857142857,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.008111228935481963,
+                "variance_fraction": 8.673938936803696e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.08585745718608062,
+                "variance_fraction": 0.009718496570482163
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.7495936627737109,
+                "variance_fraction": 0.7407895620258439
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.42006281780121935,
+                "variance_fraction": 0.23263310880144406
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.11279039375233073,
+                "variance_fraction": 0.016772093212861848
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.07004135807924156,
+            "dc_vector_norm": 3.084355193531864e-05,
+            "ac_vector_rms": 0.07004135128807724,
+            "peak_above_half_hz": 7.107142857142857,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0002832139239359863,
+                "variance_fraction": 1.6350090842736722e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.00417739405014721,
+                "variance_fraction": 0.003557147346996077
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.0616107876119502,
+                "variance_fraction": 0.7737568182331929
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.03228008099987185,
+                "variance_fraction": 0.21240278125737577
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.007096990880633745,
+                "variance_fraction": 0.010266903071592353
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.06938328538519527,
+            "dc_vector_norm": 3.0374983470540636e-05,
+            "ac_vector_rms": 0.06938327873633408,
+            "peak_above_half_hz": 7.107142857142857,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00028141024709739246,
+                "variance_fraction": 1.6450161935622633e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.004164986273958549,
+                "variance_fraction": 0.0036034417950211966
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.060680046559749845,
+                "variance_fraction": 0.7648603945395711
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.03252484419648486,
+                "variance_fraction": 0.21974591587112755
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.007528580564447215,
+                "variance_fraction": 0.01177379763234468
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 6.033439386581902,
+            "dc_vector_norm": 0.010511933856907575,
+            "ac_vector_rms": 6.033430229214917,
+            "peak_above_half_hz": 7.107142857142857,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.07578490826062878,
+                "variance_fraction": 0.0001577745203838721
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.6689064393995088,
+                "variance_fraction": 0.012291422971420256
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 5.803486580165702,
+                "variance_fraction": 0.925229303771453
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.3374245402041267,
+                "variance_fraction": 0.049137152521364996
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.692777213042243,
+                "variance_fraction": 0.013184346215378211
+              }
+            ]
+          }
+        }
+      },
+      "comparable": true,
+      "ratios": {
+        "angular": {
+          "raw_rms": 0.9871124024993081,
+          "band_3_to_12_hz_rms": 0.9588761522888284
+        },
+        "vertical": {
+          "raw_rms": 0.9671966523469927,
+          "band_3_to_12_hz_rms": 0.9367346220480661
+        },
+        "relative_vertical": {
+          "raw_rms": 0.9681444916475405,
+          "band_3_to_12_hz_rms": 0.93737152168758
+        },
+        "joint": {
+          "raw_rms": 1.017447788669632,
+          "band_3_to_12_hz_rms": 1.0197997042060056
+        }
+      }
+    },
+    {
+      "profile": "backward",
+      "timestep_s": 0.001,
+      "seed": 31000,
+      "source": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.0316070187349488,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.9244250888178032,
+            "dc_vector_norm": 0.002845361624011579,
+            "ac_vector_rms": 0.9244207098248243,
+            "peak_above_half_hz": 8.714285714285714,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.01722294500539007,
+                "variance_fraction": 0.0003471166907911917
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.06614147599428048,
+                "variance_fraction": 0.00511927466822657
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.8477654505439054,
+                "variance_fraction": 0.8410311747947596
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.3515319639808892,
+                "variance_fraction": 0.14460733024846584
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.08718568251438519,
+                "variance_fraction": 0.008895103597756655
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.02230720764409123,
+            "dc_vector_norm": 1.8737707100717663e-05,
+            "ac_vector_rms": 0.02230719977439873,
+            "peak_above_half_hz": 8.714285714285714,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00019816518920776676,
+                "variance_fraction": 7.891591915599199e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0028240891377374045,
+                "variance_fraction": 0.016027533284097912
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.0146248654225353,
+                "variance_fraction": 0.42982695135767013
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.01571583929011976,
+                "variance_fraction": 0.49634659261237063
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.005359302161167443,
+                "variance_fraction": 0.05772000682670538
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.022941748779333714,
+            "dc_vector_norm": 1.876556106990645e-05,
+            "ac_vector_rms": 0.022941741104540815,
+            "peak_above_half_hz": 8.714285714285714,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00019826132930719312,
+                "variance_fraction": 7.468326195921646e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0028180352898013942,
+                "variance_fraction": 0.015088292888844789
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.01412196774760039,
+                "variance_fraction": 0.3789114086353372
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.016926270814711725,
+                "variance_fraction": 0.5443394640525345
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.005693350305513044,
+                "variance_fraction": 0.061586151161324466
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 5.308886302837427,
+            "dc_vector_norm": 0.012015145492961114,
+            "ac_vector_rms": 5.308872706397624,
+            "peak_above_half_hz": 8.714285714285714,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.06980104112408426,
+                "variance_fraction": 0.00017286981870743336
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.7226963256326739,
+                "variance_fraction": 0.018531350443168084
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 5.026609323725437,
+                "variance_fraction": 0.8964903944113997
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.3582256388702125,
+                "variance_fraction": 0.06545445697715693
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.7385046166820842,
+                "variance_fraction": 0.019350928349567705
+              }
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.03127704448704627,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.8414399975316703,
+            "dc_vector_norm": 0.002465796371965184,
+            "ac_vector_rms": 0.8414363845795767,
+            "peak_above_half_hz": 8.321428571428571,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.010068292724540288,
+                "variance_fraction": 0.00014317562662470966
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.05501606862980399,
+                "variance_fraction": 0.004275004058169941
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.759866043445214,
+                "variance_fraction": 0.8155141481590982
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.346305709106243,
+                "variance_fraction": 0.1693856939412626
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.08696552666327846,
+                "variance_fraction": 0.010681978214844715
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.020978065518075042,
+            "dc_vector_norm": 9.526945001838448e-07,
+            "ac_vector_rms": 0.020978065496442284,
+            "peak_above_half_hz": 8.321428571428571,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0001265883815467786,
+                "variance_fraction": 3.6413030150932314e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.001727564511433068,
+                "variance_fraction": 0.006781685942739351
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.015192281626068324,
+                "variance_fraction": 0.5244633335024591
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.013272001363276543,
+                "variance_fraction": 0.40025978821380176
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.0054888329379686055,
+                "variance_fraction": 0.06845877931084905
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.021240479111955462,
+            "dc_vector_norm": 5.596309899223638e-07,
+            "ac_vector_rms": 0.021240479104583054,
+            "peak_above_half_hz": 8.321428571428571,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0001264706045337804,
+                "variance_fraction": 3.545280254783958e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.001723787376483772,
+                "variance_fraction": 0.006586258542605117
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.014614459508917856,
+                "variance_fraction": 0.47340942459423296
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.014170027762306197,
+                "variance_fraction": 0.4450540783573605
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.005813639250655784,
+                "variance_fraction": 0.07491478570325368
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 5.420861795733706,
+            "dc_vector_norm": 0.005074040775199535,
+            "ac_vector_rms": 5.420859421028687,
+            "peak_above_half_hz": 8.321428571428571,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.04365880165744045,
+                "variance_fraction": 6.486453847898286e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.5207887114382808,
+                "variance_fraction": 0.009229684041063705
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 5.16224094525503,
+                "variance_fraction": 0.9068600130298163
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.3967833624365056,
+                "variance_fraction": 0.06639292724097136
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.716138639639551,
+                "variance_fraction": 0.017452511149669715
+              }
+            ]
+          }
+        }
+      },
+      "comparable": true,
+      "ratios": {
+        "angular": {
+          "raw_rms": 0.910230593814521,
+          "band_3_to_12_hz_rms": 0.8963163608020387
+        },
+        "vertical": {
+          "raw_rms": 0.9404164722352305,
+          "band_3_to_12_hz_rms": 1.0387980461453477
+        },
+        "relative_vertical": {
+          "raw_rms": 0.9258439413777043,
+          "band_3_to_12_hz_rms": 1.0348741598989382
+        },
+        "joint": {
+          "raw_rms": 1.0210920872116684,
+          "band_3_to_12_hz_rms": 1.0269827258882873
+        }
+      }
+    },
+    {
+      "profile": "left",
+      "timestep_s": 0.001,
+      "seed": 31000,
+      "source": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.026782862299307784,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.9666545232005594,
+            "dc_vector_norm": 0.00392373723332745,
+            "ac_vector_rms": 0.966646559767439,
+            "peak_above_half_hz": 15.535714285714285,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.01951076976662032,
+                "variance_fraction": 0.000407392837213942
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.2579600245214866,
+                "variance_fraction": 0.07121465911592952
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.6320321644238464,
+                "variance_fraction": 0.4275067155482182
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.6753754904150366,
+                "variance_fraction": 0.48815211184596413
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.10901750869731704,
+                "variance_fraction": 0.01271912065267426
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.0592433252568747,
+            "dc_vector_norm": 9.712116433517419e-05,
+            "ac_vector_rms": 0.059243245648523395,
+            "peak_above_half_hz": 15.535714285714285,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0005620080682784187,
+                "variance_fraction": 8.999272738828189e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.006811495557336398,
+                "variance_fraction": 0.013219263778856568
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.03428312902888806,
+                "variance_fraction": 0.3348753801868386
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.0474400283428108,
+                "variance_fraction": 0.6412275789055867
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.00609594988470078,
+                "variance_fraction": 0.01058778440133003
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.06047453936992107,
+            "dc_vector_norm": 9.570994235665255e-05,
+            "ac_vector_rms": 0.06047446363227265,
+            "peak_above_half_hz": 15.535714285714285,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0005563311392480063,
+                "variance_fraction": 8.462967791630173e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.006778179122747014,
+                "variance_fraction": 0.012562672340778064
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.033292286566068315,
+                "variance_fraction": 0.3030701738524746
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.04959794399642011,
+                "variance_fraction": 0.6726409408140881
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.006524962956621894,
+                "variance_fraction": 0.011641583314742878
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 6.260611419778233,
+            "dc_vector_norm": 0.009368467793426098,
+            "ac_vector_rms": 6.260604410220218,
+            "peak_above_half_hz": 7.75,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.08733537617857964,
+                "variance_fraction": 0.0001946022533629667
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 1.019792176724244,
+                "variance_fraction": 0.02653327305085872
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 5.822129305828923,
+                "variance_fraction": 0.8648308387381732
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.8971924543912835,
+                "variance_fraction": 0.0918311983623034
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.8068675026529442,
+                "variance_fraction": 0.01661008759530155
+              }
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.027860877919285817,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.8946624362774258,
+            "dc_vector_norm": 0.0025824024534666498,
+            "ac_vector_rms": 0.8946587092760162,
+            "peak_above_half_hz": 15.392857142857142,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.010495775525627441,
+                "variance_fraction": 0.00013763037068444768
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.2581123814606231,
+                "variance_fraction": 0.08323440658214676
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.5554732451105836,
+                "variance_fraction": 0.3854885679047058
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.6440636625106914,
+                "variance_fraction": 0.5182541716700231
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.10155548195888116,
+                "variance_fraction": 0.012885223472440038
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.057260342505149095,
+            "dc_vector_norm": 4.499388569491883e-05,
+            "ac_vector_rms": 0.057260324827556074,
+            "peak_above_half_hz": 15.392857142857142,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0004006649885677069,
+                "variance_fraction": 4.8961551718032935e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.004830437163238436,
+                "variance_fraction": 0.007116480426463571
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.03281569935588032,
+                "variance_fraction": 0.32843975061024394
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.04631911289576455,
+                "variance_fraction": 0.6543541357263237
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.005737665036412459,
+                "variance_fraction": 0.010040671685250949
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.058620166997818184,
+            "dc_vector_norm": 4.8473642333510466e-05,
+            "ac_vector_rms": 0.05862014695612841,
+            "peak_above_half_hz": 15.392857142857142,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00040933548117821027,
+                "variance_fraction": 4.876014361683849e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.004812004568320156,
+                "variance_fraction": 0.006738422785880839
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.03184002027469803,
+                "variance_fraction": 0.2950209556902165
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.04859937530719628,
+                "variance_fraction": 0.6873335895593662
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.006108397033060661,
+                "variance_fraction": 0.01085827182091973
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 5.986798966231329,
+            "dc_vector_norm": 0.0058179944857005275,
+            "ac_vector_rms": 5.986796139255844,
+            "peak_above_half_hz": 7.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.07257395735595153,
+                "variance_fraction": 0.00014695104221514743
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.9142995953207047,
+                "variance_fraction": 0.02332319886195778
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 5.572054151485382,
+                "variance_fraction": 0.8662469470170845
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.8363454899774077,
+                "variance_fraction": 0.09408488221707516
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.7619481990745298,
+                "variance_fraction": 0.016198020861667283
+              }
+            ]
+          }
+        }
+      },
+      "comparable": true,
+      "ratios": {
+        "angular": {
+          "raw_rms": 0.9255244917441959,
+          "band_3_to_12_hz_rms": 0.8788686341888106
+        },
+        "vertical": {
+          "raw_rms": 0.9665281659473445,
+          "band_3_to_12_hz_rms": 0.9571967403625488
+        },
+        "relative_vertical": {
+          "raw_rms": 0.9693363125800804,
+          "band_3_to_12_hz_rms": 0.9563782953601498
+        },
+        "joint": {
+          "raw_rms": 0.9562642631545717,
+          "band_3_to_12_hz_rms": 0.9570474750374963
+        }
+      }
+    },
+    {
+      "profile": "right",
+      "timestep_s": 0.001,
+      "seed": 31000,
+      "source": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.040359324348402836,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.978761611740029,
+            "dc_vector_norm": 0.00577848285845803,
+            "ac_vector_rms": 0.9787445538810389,
+            "peak_above_half_hz": 6.5,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.019416693396633745,
+                "variance_fraction": 0.000393560794584972
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.09762854355944908,
+                "variance_fraction": 0.009949812666010216
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.8649769590367733,
+                "variance_fraction": 0.7810347572551626
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.4287614809629339,
+                "variance_fraction": 0.19190787993428962
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.12653463569222234,
+                "variance_fraction": 0.016713989349952555
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.024877619038962927,
+            "dc_vector_norm": 7.573811661873938e-06,
+            "ac_vector_rms": 0.02487761788606674,
+            "peak_above_half_hz": 19.535714285714285,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0001296386941182687,
+                "variance_fraction": 2.7155118949056253e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.002460599852085666,
+                "variance_fraction": 0.009782827627527215
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.011808614061295257,
+                "variance_fraction": 0.22530989852774366
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.020489440454476263,
+                "variance_fraction": 0.6783324777953974
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.007318741536350523,
+                "variance_fraction": 0.08654764093038278
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.026058696441505665,
+            "dc_vector_norm": 7.722362503931414e-06,
+            "ac_vector_rms": 0.02605869529726416,
+            "peak_above_half_hz": 19.535714285714285,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00012986190636285174,
+                "variance_fraction": 2.483465964996258e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0024595246953405822,
+                "variance_fraction": 0.008908345239600208
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.01194518899412665,
+                "variance_fraction": 0.21012644617059503
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.02168202115379832,
+                "variance_fraction": 0.6922997776638384
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.007758343465894038,
+                "variance_fraction": 0.08864059626631648
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 7.056092234618348,
+            "dc_vector_norm": 0.014737709711945688,
+            "ac_vector_rms": 7.056076843640084,
+            "peak_above_half_hz": 6.5,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.09849189782620252,
+                "variance_fraction": 0.00019483833434739316
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.9709089825836215,
+                "variance_fraction": 0.018933479534837806
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 6.7386048367583715,
+                "variance_fraction": 0.9120389272777409
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.6471841299262469,
+                "variance_fraction": 0.05449513026997483
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.8448933737996971,
+                "variance_fraction": 0.01433762458309911
+              }
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.03657462346672488,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.9366826175075502,
+            "dc_vector_norm": 0.004676432533009323,
+            "ac_vector_rms": 0.9366709437788491,
+            "peak_above_half_hz": 6.428571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.018054864424035675,
+                "variance_fraction": 0.0003715475198130053
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.09779445687485559,
+                "variance_fraction": 0.010900699849894925
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.8019203383815235,
+                "variance_fraction": 0.7329736459254
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.45515889173945173,
+                "variance_fraction": 0.23613043434889505
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.1312130982612566,
+                "variance_fraction": 0.019623672355996727
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.026386782443069905,
+            "dc_vector_norm": 6.587329984903364e-06,
+            "ac_vector_rms": 0.026386781620822686,
+            "peak_above_half_hz": 6.428571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00020389087722713392,
+                "variance_fraction": 5.970665529616239e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0035325839579067285,
+                "variance_fraction": 0.017923059194623923
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.013312006876286262,
+                "variance_fraction": 0.2545154911439792
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.02121956916508626,
+                "variance_fraction": 0.6466961539776476
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.007500792009470544,
+                "variance_fraction": 0.0808055890284532
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.027550590540113495,
+            "dc_vector_norm": 7.0279928081475e-06,
+            "ac_vector_rms": 0.027550589643713767,
+            "peak_above_half_hz": 6.428571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00020372728815655464,
+                "variance_fraction": 5.468102064061158e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0035223406026658913,
+                "variance_fraction": 0.01634560130861138
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.013497350111073973,
+                "variance_fraction": 0.24001325695011552
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.022400048625725876,
+                "variance_fraction": 0.6610527646721779
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.007914920285851754,
+                "variance_fraction": 0.08253369604845455
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 7.172572254545774,
+            "dc_vector_norm": 0.011081341527245712,
+            "ac_vector_rms": 7.172563694422644,
+            "peak_above_half_hz": 6.428571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.07075448133642055,
+                "variance_fraction": 9.731035933632318e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.7887131798659696,
+                "variance_fraction": 0.012091755840525137
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 6.842996234359442,
+                "variance_fraction": 0.9102145527207205
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.803258561016248,
+                "variance_fraction": 0.06320729112875782
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.8603815272833627,
+                "variance_fraction": 0.014389089950660476
+              }
+            ]
+          }
+        }
+      },
+      "comparable": true,
+      "ratios": {
+        "angular": {
+          "raw_rms": 0.9570079233515593,
+          "band_3_to_12_hz_rms": 0.9271002308252595
+        },
+        "vertical": {
+          "raw_rms": 1.0606634984539056,
+          "band_3_to_12_hz_rms": 1.1273132314416667
+        },
+        "relative_vertical": {
+          "raw_rms": 1.0572512942831467,
+          "band_3_to_12_hz_rms": 1.129940272833733
+        },
+        "joint": {
+          "raw_rms": 1.0165077235464632,
+          "band_3_to_12_hz_rms": 1.0154915446342285
+        }
+      }
+    },
+    {
+      "profile": "switch",
+      "timestep_s": 0.001,
+      "seed": 31000,
+      "source": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.03233195017539915,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.8108193319937359,
+            "dc_vector_norm": 0.003663132265778622,
+            "ac_vector_rms": 0.8108110572733769,
+            "peak_above_half_hz": 6.571428571428571,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.04441412999427242,
+                "variance_fraction": 0.0030005646837998703
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.15861825753384878,
+                "variance_fraction": 0.038270754480290096
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.6714934336946619,
+                "variance_fraction": 0.6858738027143777
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.41219704279460173,
+                "variance_fraction": 0.2584463589457431
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.09732610362532221,
+                "variance_fraction": 0.014408519175789433
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.04406125075313408,
+            "dc_vector_norm": 5.3651445636495104e-05,
+            "ac_vector_rms": 0.044061218088620055,
+            "peak_above_half_hz": 7.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0018206115531531396,
+                "variance_fraction": 0.0017073461919054334
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.005201917640432287,
+                "variance_fraction": 0.013938432794718712
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.035348350230165713,
+                "variance_fraction": 0.6436137300334532
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.025063567746681472,
+                "variance_fraction": 0.3235733800063505
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.005773047176377134,
+                "variance_fraction": 0.0171671109735721
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.044263253044053055,
+            "dc_vector_norm": 5.23389292016438e-05,
+            "ac_vector_rms": 0.04426322210005008,
+            "peak_above_half_hz": 7.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0018194420148984001,
+                "variance_fraction": 0.0016896252419531846
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0051847781933402485,
+                "variance_fraction": 0.013720638248405125
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.034806756496390694,
+                "variance_fraction": 0.6183595327869044
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.026080985600817407,
+                "variance_fraction": 0.3471857960212556
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.006108390034171607,
+                "variance_fraction": 0.01904440770148182
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 5.486828391674775,
+            "dc_vector_norm": 0.00917265562039853,
+            "ac_vector_rms": 5.486820724433892,
+            "peak_above_half_hz": 7.75,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.28749472753942157,
+                "variance_fraction": 0.0027454796447048
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.9149662434724141,
+                "variance_fraction": 0.02780792622122089
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 5.180693264566828,
+                "variance_fraction": 0.8915264213405757
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.361000834855316,
+                "variance_fraction": 0.06152834627280343
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.7024807776838544,
+                "variance_fraction": 0.01639182652069512
+              }
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "completed": false,
+        "survival_s": 27.02,
+        "full_horizon": false,
+        "mean_error_mps": 0.03612310043078748
+      },
+      "comparable": false
+    },
+    {
+      "profile": "stop",
+      "timestep_s": 0.0005,
+      "seed": 31000,
+      "source": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.0037754294450353335,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.36449703649122905,
+            "dc_vector_norm": 0.0010581087868595255,
+            "ac_vector_rms": 0.36449550068098713,
+            "peak_above_half_hz": 8.178571428571429,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0223868977303376,
+                "variance_fraction": 0.0037722762300364068
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.018660822924535928,
+                "variance_fraction": 0.002621061673897554
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.338666096479945,
+                "variance_fraction": 0.8632947514199717
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.12074281587913975,
+                "variance_fraction": 0.10973325362299853
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.05228783819481145,
+                "variance_fraction": 0.020578657053095962
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.027502848290176084,
+            "dc_vector_norm": 2.458470349450139e-05,
+            "ac_vector_rms": 0.02750283730208205,
+            "peak_above_half_hz": 8.178571428571429,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0007470531555940524,
+                "variance_fraction": 0.0007378158994791112
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0011993257151424808,
+                "variance_fraction": 0.0019016005393180581
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.026376693725603906,
+                "variance_fraction": 0.9197837100916773
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.006789054534378452,
+                "variance_fraction": 0.060934548159476846
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.0035480072873986085,
+                "variance_fraction": 0.01664232531004869
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.02746262474870637,
+            "dc_vector_norm": 2.52589274349995e-05,
+            "ac_vector_rms": 0.027462613132672654,
+            "peak_above_half_hz": 8.178571428571429,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0007483280018646143,
+                "variance_fraction": 0.0007425065257901875
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0011995892323952294,
+                "variance_fraction": 0.0019080133087254277
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.02624423284458479,
+                "variance_fraction": 0.9132381518623882
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.007056214989711954,
+                "variance_fraction": 0.06601762416083334
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.003694074088073028,
+                "variance_fraction": 0.018093704142262756
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 3.305210549759859,
+            "dc_vector_norm": 0.008102454075851851,
+            "ac_vector_rms": 3.3052006184922904,
+            "peak_above_half_hz": 8.178571428571429,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.11571103147600408,
+                "variance_fraction": 0.001225614468792849
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.1269387530341117,
+                "variance_fraction": 0.001475002664446078
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 3.21031610178687,
+                "variance_fraction": 0.9434088443497617
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.623800915203052,
+                "variance_fraction": 0.03562020089171586
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.44675673856642745,
+                "variance_fraction": 0.018270337625283642
+              }
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.0028654294906521266,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.30425681294919543,
+            "dc_vector_norm": 0.0006832844106449058,
+            "ac_vector_rms": 0.30425604570561265,
+            "peak_above_half_hz": 7.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0048004249110745615,
+                "variance_fraction": 0.0002489321146086397
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.006749232232387245,
+                "variance_fraction": 0.0004920738776561258
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.29522158094627043,
+                "variance_fraction": 0.9414944624232972
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.056859636164237864,
+                "variance_fraction": 0.034924461586622525
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.045982007918505485,
+                "variance_fraction": 0.02284006999781562
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.02006050747923648,
+            "dc_vector_norm": 2.9006078831909238e-05,
+            "ac_vector_rms": 0.020060486508853503,
+            "peak_above_half_hz": 7.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.000187238778421608,
+                "variance_fraction": 8.711815621921216e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0004807947645447673,
+                "variance_fraction": 0.0005744292380721879
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.01971581849373252,
+                "variance_fraction": 0.9659323248398021
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.0021710027598860243,
+                "variance_fraction": 0.011712182429961047
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.0029546819024891527,
+                "variance_fraction": 0.021693945335945423
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.019971874385393443,
+            "dc_vector_norm": 2.9056152434703387e-05,
+            "ac_vector_rms": 0.019971853249158938,
+            "peak_above_half_hz": 7.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00018748645691657283,
+                "variance_fraction": 8.812579976883396e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.000481206436498993,
+                "variance_fraction": 0.0005805319453212063
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.019597991663685716,
+                "variance_fraction": 0.9629115691850701
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.002295001652083444,
+                "variance_fraction": 0.013204722307275943
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.0030430086373397945,
+                "variance_fraction": 0.0232150507625638
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 2.9441866276003967,
+            "dc_vector_norm": 0.0074890658422032816,
+            "ac_vector_rms": 2.9441771026950483,
+            "peak_above_half_hz": 7.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.032071809618808,
+                "variance_fraction": 0.0001186640232660043
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.06419294460734964,
+                "variance_fraction": 0.0004753863789290492
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 2.896737696848846,
+                "variance_fraction": 0.968033708845049
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.3844646535476945,
+                "variance_fraction": 0.017052378940584808
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.3523167931727257,
+                "variance_fraction": 0.01431986181217105
+              }
+            ]
+          }
+        }
+      },
+      "comparable": true,
+      "ratios": {
+        "angular": {
+          "raw_rms": 0.8347305533073018,
+          "band_3_to_12_hz_rms": 0.8717187342186546
+        },
+        "vertical": {
+          "raw_rms": 0.7293974524959299,
+          "band_3_to_12_hz_rms": 0.7474711841762919
+        },
+        "relative_vertical": {
+          "raw_rms": 0.7272383673499461,
+          "band_3_to_12_hz_rms": 0.746754221384282
+        },
+        "joint": {
+          "raw_rms": 0.8907712786449588,
+          "band_3_to_12_hz_rms": 0.9023216421699142
+        }
+      }
+    },
+    {
+      "profile": "forward",
+      "timestep_s": 0.0005,
+      "seed": 31000,
+      "source": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.026946984452949668,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 1.0587972506240328,
+            "dc_vector_norm": 0.00942443488868051,
+            "ac_vector_rms": 1.0587553059871957,
+            "peak_above_half_hz": 7.035714285714286,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.006861442852857153,
+                "variance_fraction": 4.199907268008262e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.043029058976673855,
+                "variance_fraction": 0.00165170505193758
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.9457602345695431,
+                "variance_fraction": 0.7979412188557878
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.45756131977772574,
+                "variance_fraction": 0.18677012452017566
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.12344811052352259,
+                "variance_fraction": 0.013594952499418696
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.0715767964176741,
+            "dc_vector_norm": 5.3303363840624715e-06,
+            "ac_vector_rms": 0.07157679621919856,
+            "peak_above_half_hz": 7.035714285714286,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0001375391253302588,
+                "variance_fraction": 3.6923937349479077e-06
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0018692818097243154,
+                "variance_fraction": 0.0006820324665566796
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.06130266007360735,
+                "variance_fraction": 0.7335236642028092
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.0360058155643857,
+                "variance_fraction": 0.2530467676781248
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.0080802066157186,
+                "variance_fraction": 0.012743843258774422
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.071283966765262,
+            "dc_vector_norm": 4.842659170180183e-06,
+            "ac_vector_rms": 0.07128396660076956,
+            "peak_above_half_hz": 7.035714285714286,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00013795520528132386,
+                "variance_fraction": 3.745350509415769e-06
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.001866256196673762,
+                "variance_fraction": 0.00068542321453781
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.06049335679696204,
+                "variance_fraction": 0.7201644058723516
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.03668978791812004,
+                "variance_fraction": 0.2649150836004484
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.008503834221582655,
+                "variance_fraction": 0.014231341962152418
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 6.370503636307155,
+            "dc_vector_norm": 0.003701047966862661,
+            "ac_vector_rms": 6.37050256121498,
+            "peak_above_half_hz": 7.035714285714286,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0413596961139258,
+                "variance_fraction": 4.2150942410756334e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.4123273102360214,
+                "variance_fraction": 0.00418925515399605
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 6.115225631905666,
+                "variance_fraction": 0.9214623225082754
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.5548473151688944,
+                "variance_fraction": 0.05957006950593899
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.7733328808563279,
+                "variance_fraction": 0.014736201889378934
+              }
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.030328248022229647,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.9445139853325594,
+            "dc_vector_norm": 0.007044803680652218,
+            "ac_vector_rms": 0.9444877125880967,
+            "peak_above_half_hz": 6.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00923680052590026,
+                "variance_fraction": 9.564240872862345e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.051723052693971455,
+                "variance_fraction": 0.0029989945287499644
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.8379160189800463,
+                "variance_fraction": 0.7870609434005349
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.41635647816467647,
+                "variance_fraction": 0.19432918444245065
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.11764554727185483,
+                "variance_fraction": 0.015515235219535498
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.06318307575954883,
+            "dc_vector_norm": 4.8014847780337026e-05,
+            "ac_vector_rms": 0.063183057515534,
+            "peak_above_half_hz": 6.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00040436619200979757,
+                "variance_fraction": 4.0958910886993996e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.001747245912920011,
+                "variance_fraction": 0.0007647276447893389
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.053885214673719026,
+                "variance_fraction": 0.7273408142354182
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.032026744800830266,
+                "variance_fraction": 0.2569356233324792
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.007717100086401043,
+                "variance_fraction": 0.014917875876426552
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.06280193268862447,
+            "dc_vector_norm": 4.691404070481204e-05,
+            "ac_vector_rms": 0.06280191516585544,
+            "peak_above_half_hz": 6.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0003996136806559264,
+                "variance_fraction": 4.0488801332452036e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0017461196892292774,
+                "variance_fraction": 0.0007730404923586683
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.053366084547693225,
+                "variance_fraction": 0.7220793147937011
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.0320559571024912,
+                "variance_fraction": 0.2605383873683171
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.008083845478986072,
+                "variance_fraction": 0.016568768544290572
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 6.5724798298522895,
+            "dc_vector_norm": 0.010139727988944684,
+            "ac_vector_rms": 6.572472008288167,
+            "peak_above_half_hz": 6.678571428571428,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.07006882633246946,
+                "variance_fraction": 0.00011365595506708639
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.495054533838292,
+                "variance_fraction": 0.005673467797944905
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 6.342553089645256,
+                "variance_fraction": 0.9312595339292454
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.4752185488857525,
+                "variance_fraction": 0.05037966073032506
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.736987249475088,
+                "variance_fraction": 0.012573681587417444
+              }
+            ]
+          }
+        }
+      },
+      "comparable": true,
+      "ratios": {
+        "angular": {
+          "raw_rms": 0.892063126132867,
+          "band_3_to_12_hz_rms": 0.8859708712128488
+        },
+        "vertical": {
+          "raw_rms": 0.8827312609921076,
+          "band_3_to_12_hz_rms": 0.8790028786518881
+        },
+        "relative_vertical": {
+          "raw_rms": 0.8810106330843112,
+          "band_3_to_12_hz_rms": 0.8821809099932979
+        },
+        "joint": {
+          "raw_rms": 1.0317049020102618,
+          "band_3_to_12_hz_rms": 1.037174009827786
+        }
+      }
+    },
+    {
+      "profile": "backward",
+      "timestep_s": 0.0005,
+      "seed": 31000,
+      "source": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.03358767147830306,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.9020489269870222,
+            "dc_vector_norm": 0.003403517484633041,
+            "ac_vector_rms": 0.9020425060645259,
+            "peak_above_half_hz": 9.0,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.009977349536894827,
+                "variance_fraction": 0.0001223422232973266
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.04401079323104338,
+                "variance_fraction": 0.002380479175548414
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.8410616631139216,
+                "variance_fraction": 0.8693640345149461
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.3127278299835148,
+                "variance_fraction": 0.12019296724116343
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.08037890591696864,
+                "variance_fraction": 0.007940176845044276
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.023523187031321793,
+            "dc_vector_norm": 2.551527725962093e-05,
+            "ac_vector_rms": 0.023523173193282666,
+            "peak_above_half_hz": 9.0,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00019981612429106245,
+                "variance_fraction": 7.215546829627455e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.002239136676578144,
+                "variance_fraction": 0.009060859475764514
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.01732531823381218,
+                "variance_fraction": 0.5424636337054713
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.014802080959383204,
+                "variance_fraction": 0.3959622087537267
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.0053868139851166565,
+                "variance_fraction": 0.05244114259674104
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.02375337114188847,
+            "dc_vector_norm": 2.5316282580022457e-05,
+            "ac_vector_rms": 0.023753357650869826,
+            "peak_above_half_hz": 9.0,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0001991522164684535,
+                "variance_fraction": 7.029432625115547e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.002232858819093373,
+                "variance_fraction": 0.00883634191637532
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.016428685171798768,
+                "variance_fraction": 0.47836081652666407
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.016026673231205334,
+                "variance_fraction": 0.45523615704615356
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.00569567627634283,
+                "variance_fraction": 0.057496390184556045
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 5.142290202368363,
+            "dc_vector_norm": 0.009054374615087242,
+            "ac_vector_rms": 5.142282231040415,
+            "peak_above_half_hz": 9.0,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.05706015124901663,
+                "variance_fraction": 0.00012312720444821322
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.45278378683175746,
+                "variance_fraction": 0.007753002371305984
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 4.899933945447867,
+                "variance_fraction": 0.9079640075063872
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.2719791516877887,
+                "variance_fraction": 0.061185451379331283
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.7794317757924859,
+                "variance_fraction": 0.022974411538527265
+              }
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.03307987440861241,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.7836225464178186,
+            "dc_vector_norm": 0.0019742700363328852,
+            "ac_vector_rms": 0.7836200594115555,
+            "peak_above_half_hz": 8.607142857142856,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00940621572522144,
+                "variance_fraction": 0.00014408500308416255
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.03629190035411998,
+                "variance_fraction": 0.0021449063262336024
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.7225445797303183,
+                "variance_fraction": 0.8501943323699123
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.29084699992806723,
+                "variance_fraction": 0.13775839918984623
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.07740911782062647,
+                "variance_fraction": 0.009758277110923561
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.0236859216405262,
+            "dc_vector_norm": 2.8615471839213916e-05,
+            "ac_vector_rms": 0.023685904355036112,
+            "peak_above_half_hz": 8.607142857142856,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0002178716786908669,
+                "variance_fraction": 8.4609984753039e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0015754198641168002,
+                "variance_fraction": 0.004423975281152223
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.01827770686644783,
+                "variance_fraction": 0.5954749181331531
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.014048919628570536,
+                "variance_fraction": 0.35180816406793786
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.005200570956487439,
+                "variance_fraction": 0.04820833253300371
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.023729175169262852,
+            "dc_vector_norm": 2.7481394995700878e-05,
+            "ac_vector_rms": 0.02372915925578675,
+            "peak_above_half_hz": 8.607142857142856,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.000213157309345623,
+                "variance_fraction": 8.069298050030594e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.001569572527942054,
+                "variance_fraction": 0.0043752016610718696
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.0173290508938949,
+                "variance_fraction": 0.5333162936665781
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.01516566744455749,
+                "variance_fraction": 0.408468297099839
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.005501866147534072,
+                "variance_fraction": 0.05375951459201066
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 5.128792389468246,
+            "dc_vector_norm": 0.007785422009068949,
+            "ac_vector_rms": 5.128786480393928,
+            "peak_above_half_hz": 8.607142857142856,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.05616159593492194,
+                "variance_fraction": 0.00011990840966644805
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.30398497101914157,
+                "variance_fraction": 0.003512974418034907
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 4.90442741325334,
+                "variance_fraction": 0.9144235122028163
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.2621683885401438,
+                "variance_fraction": 0.06056271828201072
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.7499416518017925,
+                "variance_fraction": 0.021380886687471675
+              }
+            ]
+          }
+        }
+      },
+      "comparable": true,
+      "ratios": {
+        "angular": {
+          "raw_rms": 0.8687140164727368,
+          "band_3_to_12_hz_rms": 0.8590863326895567
+        },
+        "vertical": {
+          "raw_rms": 1.0069180510696838,
+          "band_3_to_12_hz_rms": 1.0549709171157944
+        },
+        "relative_vertical": {
+          "raw_rms": 0.9989813667929034,
+          "band_3_to_12_hz_rms": 1.0548044906017
+        },
+        "joint": {
+          "raw_rms": 0.9973751359085296,
+          "band_3_to_12_hz_rms": 1.0009170466082808
+        }
+      }
+    },
+    {
+      "profile": "left",
+      "timestep_s": 0.0005,
+      "seed": 31000,
+      "source": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.029143217283807893,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.8959286223451145,
+            "dc_vector_norm": 0.00231444094079663,
+            "ac_vector_rms": 0.8959256329073001,
+            "peak_above_half_hz": 7.607142857142857,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.010998200017182212,
+                "variance_fraction": 0.00015069515966308582
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.157666041411177,
+                "variance_fraction": 0.03096937231209315
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.6388312339734249,
+                "variance_fraction": 0.5084267112213734
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.6000973335692528,
+                "variance_fraction": 0.44864152665268997
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.0973706497129477,
+                "variance_fraction": 0.011811694654180534
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.05117512128368293,
+            "dc_vector_norm": 3.367706941931453e-05,
+            "ac_vector_rms": 0.051175110202662515,
+            "peak_above_half_hz": 7.607142857142857,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00030430496486098796,
+                "variance_fraction": 3.53590430703179e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.005313740194519097,
+                "variance_fraction": 0.01078159614338259
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.030013384922124256,
+                "variance_fraction": 0.34396351870046654
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.040656955050148456,
+                "variance_fraction": 0.6311783969641309
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.006064008530236318,
+                "variance_fraction": 0.014041129148949864
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.05222299243110378,
+            "dc_vector_norm": 2.944290888335016e-05,
+            "ac_vector_rms": 0.05222298413126388,
+            "peak_above_half_hz": 15.285714285714285,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00029282300229242834,
+                "variance_fraction": 3.144032370500369e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.005292904049020922,
+                "variance_fraction": 0.010272228530277911
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.02922523378598452,
+                "variance_fraction": 0.31317898953883894
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.042460483956041295,
+                "variance_fraction": 0.661068571326968
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.00649095565881749,
+                "variance_fraction": 0.015448770280210326
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 6.576466499280467,
+            "dc_vector_norm": 0.009039854223317864,
+            "ac_vector_rms": 6.576460286293372,
+            "peak_above_half_hz": 7.607142857142857,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.06713072267731433,
+                "variance_fraction": 0.00010419772604633696
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.573655685614425,
+                "variance_fraction": 0.007608835605133956
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 6.1492580262483,
+                "variance_fraction": 0.8743011096982953
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 2.0813389027609634,
+                "variance_fraction": 0.10016158765117533
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.8780071845398638,
+                "variance_fraction": 0.017824269319349047
+              }
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.030449832379991264,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.8205088147244328,
+            "dc_vector_norm": 0.002589379145443622,
+            "ac_vector_rms": 0.8205047289054066,
+            "peak_above_half_hz": 15.035714285714285,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.010563723553194196,
+                "variance_fraction": 0.00016575700004286718
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.11474496934548407,
+                "variance_fraction": 0.01955713040971443
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.5984911793894784,
+                "variance_fraction": 0.5320510828477518
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.5417073541553252,
+                "variance_fraction": 0.4358803453200155
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.09116721207626446,
+                "variance_fraction": 0.01234568442247522
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.048804923389435755,
+            "dc_vector_norm": 1.3195121248950634e-05,
+            "ac_vector_rms": 0.0488049216056892,
+            "peak_above_half_hz": 15.035714285714285,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00017694593732549768,
+                "variance_fraction": 1.314479908385288e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.003937467439823766,
+                "variance_fraction": 0.0065088867015955995
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.028764768745525894,
+                "variance_fraction": 0.3473717805113651
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.038852776911524264,
+                "variance_fraction": 0.633748420344991
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.0054254233487170565,
+                "variance_fraction": 0.012357767642964337
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.049856341828010756,
+            "dc_vector_norm": 1.0653173602563558e-05,
+            "ac_vector_rms": 0.04985634068983951,
+            "peak_above_half_hz": 15.035714285714285,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00017068618798702717,
+                "variance_fraction": 1.1720765031327982e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.00392354874899575,
+                "variance_fraction": 0.006193231401975911
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.027973184824108554,
+                "variance_fraction": 0.31480602153065224
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.04067231128146648,
+                "variance_fraction": 0.6655135567825748
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.005787517968921483,
+                "variance_fraction": 0.013475469519765602
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 6.350326089317354,
+            "dc_vector_norm": 0.0073148736620912615,
+            "ac_vector_rms": 6.3503218763530365,
+            "peak_above_half_hz": 7.535714285714286,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.06237924787114453,
+                "variance_fraction": 9.649144061994115e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.4296804424723773,
+                "variance_fraction": 0.004578252019453828
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 5.966930298046906,
+                "variance_fraction": 0.8828978350623182
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.9596802096685644,
+                "variance_fraction": 0.09523112965866819
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.8327471249803039,
+                "variance_fraction": 0.017196291818939946
+              }
+            ]
+          }
+        }
+      },
+      "comparable": true,
+      "ratios": {
+        "angular": {
+          "raw_rms": 0.9158194015241208,
+          "band_3_to_12_hz_rms": 0.9368533464886524
+        },
+        "vertical": {
+          "raw_rms": 0.9536845671335438,
+          "band_3_to_12_hz_rms": 0.9583980220878736
+        },
+        "relative_vertical": {
+          "raw_rms": 0.9546818270474394,
+          "band_3_to_12_hz_rms": 0.9571586331509037
+        },
+        "joint": {
+          "raw_rms": 0.9656136908797673,
+          "band_3_to_12_hz_rms": 0.9703496377248894
+        }
+      }
+    },
+    {
+      "profile": "right",
+      "timestep_s": 0.0005,
+      "seed": 31000,
+      "source": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.059641999817149065,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.6969650356661468,
+            "dc_vector_norm": 0.0037080439990093018,
+            "ac_vector_rms": 0.6969551716938577,
+            "peak_above_half_hz": 6.392857142857142,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.009698336124999884,
+                "variance_fraction": 0.00019363540734839706
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.030326286598846376,
+                "variance_fraction": 0.0018933407392218154
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.47558437668931786,
+                "variance_fraction": 0.46563484053026055
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.4976183659960108,
+                "variance_fraction": 0.5097803738989725
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.1045381865197547,
+                "variance_fraction": 0.022497809424196692
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.02257180782284126,
+            "dc_vector_norm": 3.3562741907196154e-05,
+            "ac_vector_rms": 0.022571782870071062,
+            "peak_above_half_hz": 6.392857142857142,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0002608733811226929,
+                "variance_fraction": 0.00013357580686633073
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0008174018787788604,
+                "variance_fraction": 0.0013114131535931777
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.01857776664586593,
+                "variance_fraction": 0.6774157331823241
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.011135324720270368,
+                "variance_fraction": 0.24337392400792424
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.006294466697593278,
+                "variance_fraction": 0.07776535384929227
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.022614419415620153,
+            "dc_vector_norm": 3.465344301894211e-05,
+            "ac_vector_rms": 0.02261439286482095,
+            "peak_above_half_hz": 6.392857142857142,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0002652560097260789,
+                "variance_fraction": 0.00013758167711764303
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0008218368948858287,
+                "variance_fraction": 0.0013206915624178013
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.01829181335254375,
+                "variance_fraction": 0.6542498884568978
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.011511486076341325,
+                "variance_fraction": 0.25911521783849195
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.006600018227389628,
+                "variance_fraction": 0.08517662046507492
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 6.903676349025673,
+            "dc_vector_norm": 0.00836141412712353,
+            "ac_vector_rms": 6.903671285544398,
+            "peak_above_half_hz": 6.392857142857142,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.05563456941447615,
+                "variance_fraction": 6.494253742391187e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.2247491536640549,
+                "variance_fraction": 0.0010598292978667731
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 6.674269983157355,
+                "variance_fraction": 0.9346463879127798
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.5670045526279177,
+                "variance_fraction": 0.051520528268646726
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.7782587972080289,
+                "variance_fraction": 0.012708311983282797
+              }
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.05172103225560211,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.6623012305382716,
+            "dc_vector_norm": 0.0034625451998930067,
+            "ac_vector_rms": 0.662292179293435,
+            "peak_above_half_hz": 6.25,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.014016560817158637,
+                "variance_fraction": 0.00044790269761351586
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0340911314836118,
+                "variance_fraction": 0.0026496199067336363
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.4717009640328795,
+                "variance_fraction": 0.5072642713259011
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.4516656799270449,
+                "variance_fraction": 0.4650877813692564
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.10377174777734961,
+                "variance_fraction": 0.024550424700495517
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.017619817995560352,
+            "dc_vector_norm": 1.2128093219817387e-05,
+            "ac_vector_rms": 0.01761981382154838,
+            "peak_above_half_hz": 6.25,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00015264861961008082,
+                "variance_fraction": 7.505560541154577e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0006434055533639588,
+                "variance_fraction": 0.0013334200459927928
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.011905540831115904,
+                "variance_fraction": 0.45655765333392145
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.011305415802932161,
+                "variance_fraction": 0.41169012464052435
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.006361307871837571,
+                "variance_fraction": 0.13034374637414983
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.017808633303903115,
+            "dc_vector_norm": 1.2039901419768369e-05,
+            "ac_vector_rms": 0.017808629233988252,
+            "peak_above_half_hz": 6.25,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.00015239501216812422,
+                "variance_fraction": 7.322856461415667e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0006426317073406049,
+                "variance_fraction": 0.0013021568954906639
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.011668726080825023,
+                "variance_fraction": 0.42932473017837736
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.011652624883212575,
+                "variance_fraction": 0.4281407323646425
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.006690907294564531,
+                "variance_fraction": 0.14115915199687534
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 6.949625073454322,
+            "dc_vector_norm": 0.004761788201953678,
+            "ac_vector_rms": 6.949623442098004,
+            "peak_above_half_hz": 6.25,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.05283662783696555,
+                "variance_fraction": 5.7802635079506534e-05
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.22272473264062903,
+                "variance_fraction": 0.0010271038228796441
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 6.687504422649423,
+                "variance_fraction": 0.9259885521269927
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.7077596186067558,
+                "variance_fraction": 0.060385258986117976
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.7782735080211874,
+                "variance_fraction": 0.012541282428930189
+              }
+            ]
+          }
+        }
+      },
+      "comparable": true,
+      "ratios": {
+        "angular": {
+          "raw_rms": 0.9502646426233647,
+          "band_3_to_12_hz_rms": 0.9918344402238948
+        },
+        "vertical": {
+          "raw_rms": 0.7806117318494178,
+          "band_3_to_12_hz_rms": 0.6408488737135267
+        },
+        "relative_vertical": {
+          "raw_rms": 0.7874901838780968,
+          "band_3_to_12_hz_rms": 0.6379206837468802
+        },
+        "joint": {
+          "raw_rms": 1.006655689245214,
+          "band_3_to_12_hz_rms": 1.0019829044263215
+        }
+      }
+    },
+    {
+      "profile": "switch",
+      "timestep_s": 0.0005,
+      "seed": 31000,
+      "source": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.03430448831722511,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.781590085528318,
+            "dc_vector_norm": 0.003114719883548566,
+            "ac_vector_rms": 0.781583879258145,
+            "peak_above_half_hz": 7.0,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.05020899326253342,
+                "variance_fraction": 0.0041267849741101715
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.09282332691848427,
+                "variance_fraction": 0.014104674683727836
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.6623977622588844,
+                "variance_fraction": 0.7182680142058472
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.3912231752711578,
+                "variance_fraction": 0.2505520502482214
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.08893750039625024,
+                "variance_fraction": 0.01294847588809335
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.04044478049572333,
+            "dc_vector_norm": 3.3778702834763805e-05,
+            "ac_vector_rms": 0.04044476639005939,
+            "peak_above_half_hz": 7.035714285714286,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.002198542941852173,
+                "variance_fraction": 0.0029549167020207845
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0038947728630564097,
+                "variance_fraction": 0.009273413135020508
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.03289222013796925,
+                "variance_fraction": 0.6613962281682022
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.02242025579672888,
+                "variance_fraction": 0.30729568636743476
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.005586614898945874,
+                "variance_fraction": 0.01907975562732165
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.04055570803586662,
+            "dc_vector_norm": 3.32873747470553e-05,
+            "ac_vector_rms": 0.040555694375033674,
+            "peak_above_half_hz": 7.035714285714286,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.002197776039393443,
+                "variance_fraction": 0.00293672435833782
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0038872272838918888,
+                "variance_fraction": 0.009187052231018001
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.03240622184265633,
+                "variance_fraction": 0.6384885570479727
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.023238540628956132,
+                "variance_fraction": 0.32833260995582847
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.005884777488237905,
+                "variance_fraction": 0.021055056406843128
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 5.605609910869842,
+            "dc_vector_norm": 0.009522466619065213,
+            "ac_vector_rms": 5.605601822772616,
+            "peak_above_half_hz": 7.571428571428571,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.30879111536591625,
+                "variance_fraction": 0.0030344857401366394
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.5462831625647478,
+                "variance_fraction": 0.009497102790427567
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 5.339126882633796,
+                "variance_fraction": 0.9071852748830673
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.4128290697841954,
+                "variance_fraction": 0.06352354889058291
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.7256946324390621,
+                "variance_fraction": 0.01675958769578558
+              }
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "completed": true,
+        "survival_s": 30.0,
+        "full_horizon": true,
+        "mean_error_mps": 0.033445875623024326,
+        "spectra": {
+          "angular": {
+            "raw_vector_rms": 0.707269500727588,
+            "dc_vector_norm": 0.0039022591968381867,
+            "ac_vector_rms": 0.7072587355647242,
+            "peak_above_half_hz": 6.642857142857142,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.04132605390198928,
+                "variance_fraction": 0.0034142179014032526
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.09528835273159278,
+                "variance_fraction": 0.018151937938717232
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.5919508123083549,
+                "variance_fraction": 0.7005104223404338
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.3630171384165607,
+                "variance_fraction": 0.26344964488265626
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.08508818460004983,
+                "variance_fraction": 0.01447377693678931
+              }
+            ]
+          },
+          "vertical": {
+            "raw_vector_rms": 0.036431445032682835,
+            "dc_vector_norm": 0.00015668184580562108,
+            "ac_vector_rms": 0.036431108107887494,
+            "peak_above_half_hz": 6.7142857142857135,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0019668985426723098,
+                "variance_fraction": 0.0029148697602675642
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.0035511048677089336,
+                "variance_fraction": 0.009501282540598842
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.028923026617500857,
+                "variance_fraction": 0.6302933312809191
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.02109957791201827,
+                "variance_fraction": 0.33543067232089335
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.0053863666351225215,
+                "variance_fraction": 0.021859844097321324
+              }
+            ]
+          },
+          "relative_vertical": {
+            "raw_vector_rms": 0.03653857056847466,
+            "dc_vector_norm": 0.00015667217592826887,
+            "ac_vector_rms": 0.03653823467296543,
+            "peak_above_half_hz": 6.7142857142857135,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.0019666928913339124,
+                "variance_fraction": 0.0028971966505453523
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.00354470358998501,
+                "variance_fraction": 0.009411627469098663
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 0.028489110307445092,
+                "variance_fraction": 0.6079427056149553
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 0.02179035820542694,
+                "variance_fraction": 0.3556588480431202
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.005671037975223388,
+                "variance_fraction": 0.0240896222222804
+              }
+            ]
+          },
+          "joint": {
+            "raw_vector_rms": 5.480294320819473,
+            "dc_vector_norm": 0.013604664090866768,
+            "ac_vector_rms": 5.480277434210895,
+            "peak_above_half_hz": 7.535714285714286,
+            "bands": [
+              {
+                "from_hz": 0.0,
+                "to_hz": 0.5,
+                "rms": 0.30937321289995884,
+                "variance_fraction": 0.003186840483509154
+              },
+              {
+                "from_hz": 0.5,
+                "to_hz": 3.0,
+                "rms": 0.5236326831573022,
+                "variance_fraction": 0.009129529616631034
+              },
+              {
+                "from_hz": 3.0,
+                "to_hz": 12.0,
+                "rms": 5.226844094746696,
+                "variance_fraction": 0.9096493276549489
+              },
+              {
+                "from_hz": 12.0,
+                "to_hz": 50.0,
+                "rms": 1.3722928680963302,
+                "variance_fraction": 0.062703029304319
+              },
+              {
+                "from_hz": 50.0,
+                "to_hz": null,
+                "rms": 0.6785653082600988,
+                "variance_fraction": 0.01533127294059187
+              }
+            ]
+          }
+        }
+      },
+      "comparable": true,
+      "ratios": {
+        "angular": {
+          "raw_rms": 0.9049110445784471,
+          "band_3_to_12_hz_rms": 0.8936485689349344
+        },
+        "vertical": {
+          "raw_rms": 0.9007700026097343,
+          "band_3_to_12_hz_rms": 0.8793272845730916
+        },
+        "relative_vertical": {
+          "raw_rms": 0.9009476677404008,
+          "band_3_to_12_hz_rms": 0.8791247077727788
+        },
+        "joint": {
+          "raw_rms": 0.977644611015945,
+          "band_3_to_12_hz_rms": 0.9789698221534472
+        }
+      }
+    }
+  ],
+  "goal_achieved": false,
+  "method": "Verified raw native-substep recordings, steady window2\u201330s. Unwindowed mean-centered DFT with Parseval check; no filtering/resampling.",
+  "limitations": "Only the declared seed/profile cases. Failed or shortened episodes receive no favorable smoothness ratio. Stop and moving cases are separate. Spectral bands describe motion, not necessarily undesirable jitter. No automatic policy qualification."
+}

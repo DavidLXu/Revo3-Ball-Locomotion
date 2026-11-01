@@ -1,0 +1,1408 @@
+{
+  "engine": "MjLab / MuJoCo Warp",
+  "checkpoint": "runs/teleop_opposed_v152_settled_smooth_tracking/model_7650.pt",
+  "checkpoint_sha256": "e638d5b28d3ec4bf08ef0f569e9d786516e92ce962673ddcff1d80efb3ca290a",
+  "policy_mode": "deterministic",
+  "reset_mode": "native_matched_numpy_seeds_noise1",
+  "terminal_samples_preserved": true,
+  "startup_short_horizons": false,
+  "reward_discount_gamma": 0.998,
+  "control_timestep_s": 0.01,
+  "training_physics_timesteps_s": [
+    0.001,
+    0.0005
+  ],
+  "evaluation_physics_timesteps_s": [
+    0.001,
+    0.0005
+  ],
+  "hypothetical_immediate_failure_return": -5.0,
+  "early_failure_diagnostic": "Counterfactual prefix truncation; not a physically demonstrated alternative policy.",
+  "requested_speed_mps": 0.1,
+  "requested_seconds": 30.0,
+  "episodes": [
+    {
+      "profile": "stop",
+      "seed": 31000,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.003509337836798366,
+      "mean_actual_velocity_mps": [
+        0.001233223354479297,
+        0.0004980310425589047
+      ],
+      "ball_displacement_xy_m": [
+        0.037801895290613174,
+        0.014990655705332756
+      ],
+      "mean_body_motion_cost": 0.5044665939589031,
+      "discounted_return": 111.53570230559468,
+      "best_hypothetical_early_failure_return": 111.52282992217569,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012872383418994104,
+      "mean_finger_contacts": 4.359
+    },
+    {
+      "profile": "stop",
+      "seed": 31001,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.0035061623067793096,
+      "mean_actual_velocity_mps": [
+        0.0012495210299708504,
+        0.0005119676639385164
+      ],
+      "ball_displacement_xy_m": [
+        0.03714839369058609,
+        0.017088670283555984
+      ],
+      "mean_body_motion_cost": 0.48664416386156034,
+      "discounted_return": 110.00744097639343,
+      "best_hypothetical_early_failure_return": 109.99453916855731,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012901807836115609,
+      "mean_finger_contacts": 4.370333333333333
+    },
+    {
+      "profile": "stop",
+      "seed": 31002,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.004259554496319485,
+      "mean_actual_velocity_mps": [
+        0.0010258756497336613,
+        8.715271539683401e-05
+      ],
+      "ball_displacement_xy_m": [
+        0.027183357626199722,
+        0.002468185033649206
+      ],
+      "mean_body_motion_cost": 0.435447260323291,
+      "discounted_return": 114.31806909775318,
+      "best_hypothetical_early_failure_return": 114.3052834695395,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012785628213677569,
+      "mean_finger_contacts": 4.423666666666667
+    },
+    {
+      "profile": "forward",
+      "seed": 31000,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.024598745751766668,
+      "mean_actual_velocity_mps": [
+        0.07562315411998757,
+        0.0006610174088679953
+      ],
+      "ball_displacement_xy_m": [
+        2.152193069458008,
+        0.01609131321310997
+      ],
+      "mean_body_motion_cost": 1.6723523691128939,
+      "discounted_return": 69.74779397142855,
+      "best_hypothetical_early_failure_return": 69.73511857669322,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012675394735325085,
+      "mean_finger_contacts": 3.7903333333333333
+    },
+    {
+      "profile": "forward",
+      "seed": 31001,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.023990200633909192,
+      "mean_actual_velocity_mps": [
+        0.07622229182161391,
+        0.00036210684940832444
+      ],
+      "ball_displacement_xy_m": [
+        2.1672255992889404,
+        0.010710440576076508
+      ],
+      "mean_body_motion_cost": 1.6527489704558005,
+      "discounted_return": 69.75964272150406,
+      "best_hypothetical_early_failure_return": 69.74693008970075,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012712631803310614,
+      "mean_finger_contacts": 3.7956666666666665
+    },
+    {
+      "profile": "forward",
+      "seed": 31002,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.025195724484728146,
+      "mean_actual_velocity_mps": [
+        0.07502807843631931,
+        0.0005099192070376343
+      ],
+      "ball_displacement_xy_m": [
+        2.1331899166107178,
+        0.01248214952647686
+      ],
+      "mean_body_motion_cost": 1.6557898728487392,
+      "discounted_return": 70.23761228563379,
+      "best_hypothetical_early_failure_return": 70.22478892653889,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012823359094895181,
+      "mean_finger_contacts": 3.759
+    },
+    {
+      "profile": "backward",
+      "seed": 31000,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.031897510425582865,
+      "mean_actual_velocity_mps": [
+        -0.06888767647823053,
+        -0.005733033369443531
+      ],
+      "ball_displacement_xy_m": [
+        -1.962462067604065,
+        -0.15783731639385223
+      ],
+      "mean_body_motion_cost": 0.9402087265693893,
+      "discounted_return": 75.25193384807422,
+      "best_hypothetical_early_failure_return": 75.23929404067655,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012639807397661684,
+      "mean_finger_contacts": 3.87
+    },
+    {
+      "profile": "backward",
+      "seed": 31001,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03217183601906749,
+      "mean_actual_velocity_mps": [
+        -0.06854996592870781,
+        -0.005368791276989425
+      ],
+      "ball_displacement_xy_m": [
+        -1.9533621072769165,
+        -0.14571310579776764
+      ],
+      "mean_body_motion_cost": 0.9280779314320534,
+      "discounted_return": 73.81482681538375,
+      "best_hypothetical_early_failure_return": 73.80212108725831,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012705728125439464,
+      "mean_finger_contacts": 3.8606666666666665
+    },
+    {
+      "profile": "backward",
+      "seed": 31002,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.032272972807956365,
+      "mean_actual_velocity_mps": [
+        -0.06846648591570556,
+        -0.005635361327539954
+      ],
+      "ball_displacement_xy_m": [
+        -1.9539366960525513,
+        -0.1570730060338974
+      ],
+      "mean_body_motion_cost": 0.9168902489244938,
+      "discounted_return": 76.56304594883976,
+      "best_hypothetical_early_failure_return": 76.55036352909778,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012682419741977924,
+      "mean_finger_contacts": 3.8646666666666665
+    },
+    {
+      "profile": "left",
+      "seed": 31000,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.027750571459944782,
+      "mean_actual_velocity_mps": [
+        -0.0010384851777633587,
+        0.07304604908052299
+      ],
+      "ball_displacement_xy_m": [
+        -0.023912541568279266,
+        2.080885410308838
+      ],
+      "mean_body_motion_cost": 1.4238784230419745,
+      "discounted_return": 64.70103960556816,
+      "best_hypothetical_early_failure_return": 64.68826964165198,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012769963916170468,
+      "mean_finger_contacts": 3.302
+    },
+    {
+      "profile": "left",
+      "seed": 31001,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.02783465730105869,
+      "mean_actual_velocity_mps": [
+        -0.0012558057268678828,
+        0.07304748079340373
+      ],
+      "ball_displacement_xy_m": [
+        -0.03132842481136322,
+        2.082108497619629
+      ],
+      "mean_body_motion_cost": 1.47523650382335,
+      "discounted_return": 62.3404264485325,
+      "best_hypothetical_early_failure_return": 62.327932052594804,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012494395937693525,
+      "mean_finger_contacts": 3.252
+    },
+    {
+      "profile": "left",
+      "seed": 31002,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.027765630860230636,
+      "mean_actual_velocity_mps": [
+        -0.0008244591834897059,
+        0.07306416844683034
+      ],
+      "ball_displacement_xy_m": [
+        -0.022106792777776718,
+        2.0822770595550537
+      ],
+      "mean_body_motion_cost": 1.4403010926808542,
+      "discounted_return": 66.37834121654957,
+      "best_hypothetical_early_failure_return": 66.36560841542489,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012732801124684556,
+      "mean_finger_contacts": 3.28
+    },
+    {
+      "profile": "right",
+      "seed": 31000,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.036963167260870164,
+      "mean_actual_velocity_mps": [
+        0.002308685733040891,
+        -0.06737518352057252
+      ],
+      "ball_displacement_xy_m": [
+        0.06460105627775192,
+        -1.9185737371444702
+      ],
+      "mean_body_motion_cost": 1.1441357889349262,
+      "discounted_return": 65.45539955510296,
+      "best_hypothetical_early_failure_return": 65.44308064649236,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012318908610595258,
+      "mean_finger_contacts": 3.3063333333333333
+    },
+    {
+      "profile": "right",
+      "seed": 31001,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.036533093165014324,
+      "mean_actual_velocity_mps": [
+        0.0022962867127547986,
+        -0.06785915194345372
+      ],
+      "ball_displacement_xy_m": [
+        0.06082916632294655,
+        -1.931692361831665
+      ],
+      "mean_body_motion_cost": 1.1517882936025658,
+      "discounted_return": 63.548197836753296,
+      "best_hypothetical_early_failure_return": 63.535597488657984,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012600348095311631,
+      "mean_finger_contacts": 3.2883333333333336
+    },
+    {
+      "profile": "right",
+      "seed": 31002,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03719868648177508,
+      "mean_actual_velocity_mps": [
+        0.0024644331367504233,
+        -0.06708431880655033
+      ],
+      "ball_displacement_xy_m": [
+        0.06281778961420059,
+        -1.9129818677902222
+      ],
+      "mean_body_motion_cost": 1.1385207736308998,
+      "discounted_return": 65.62388482605598,
+      "best_hypothetical_early_failure_return": 65.61133936434832,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.01254546170765991,
+      "mean_finger_contacts": 3.2983333333333333
+    },
+    {
+      "profile": "diagonal",
+      "seed": 31000,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.02376227477712551,
+      "mean_actual_velocity_mps": [
+        0.05756900140749557,
+        0.052303318377983354
+      ],
+      "ball_displacement_xy_m": [
+        1.6377021074295044,
+        1.4864091873168945
+      ],
+      "mean_body_motion_cost": 1.5450951878074557,
+      "discounted_return": 69.38426542446895,
+      "best_hypothetical_early_failure_return": 69.37156465515444,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012700769314506033,
+      "mean_finger_contacts": 3.412333333333333
+    },
+    {
+      "profile": "diagonal",
+      "seed": 31001,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.024033240586732865,
+      "mean_actual_velocity_mps": [
+        0.05702451334201864,
+        0.05222684644561793
+      ],
+      "ball_displacement_xy_m": [
+        1.623600721359253,
+        1.486268401145935
+      ],
+      "mean_body_motion_cost": 1.510587875958532,
+      "discounted_return": 68.50583285390483,
+      "best_hypothetical_early_failure_return": 68.49310816220522,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012724691699617097,
+      "mean_finger_contacts": 3.428
+    },
+    {
+      "profile": "diagonal",
+      "seed": 31002,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.02398706972875039,
+      "mean_actual_velocity_mps": [
+        0.05709633347112685,
+        0.052240148831957156
+      ],
+      "ball_displacement_xy_m": [
+        1.6226478815078735,
+        1.483332872390747
+      ],
+      "mean_body_motion_cost": 1.5605078025733432,
+      "discounted_return": 70.86759111134447,
+      "best_hypothetical_early_failure_return": 70.85484718166394,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012743929680524957,
+      "mean_finger_contacts": 3.4126666666666665
+    },
+    {
+      "profile": "diagonal_forward_right",
+      "seed": 31000,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.032307691253084005,
+      "mean_actual_velocity_mps": [
+        0.05165196633565106,
+        -0.04826663228550128
+      ],
+      "ball_displacement_xy_m": [
+        1.4676493406295776,
+        -1.3734909296035767
+      ],
+      "mean_body_motion_cost": 1.2671722764323154,
+      "discounted_return": 61.87261097378489,
+      "best_hypothetical_early_failure_return": 61.85981482468943,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012796149095457565,
+      "mean_finger_contacts": 3.089
+    },
+    {
+      "profile": "diagonal_forward_right",
+      "seed": 31001,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03254344001478525,
+      "mean_actual_velocity_mps": [
+        0.05158800528185176,
+        -0.047868744106963276
+      ],
+      "ball_displacement_xy_m": [
+        1.4652155637741089,
+        -1.3589909076690674
+      ],
+      "mean_body_motion_cost": 1.242053336918354,
+      "discounted_return": 61.03185025568986,
+      "best_hypothetical_early_failure_return": 61.019234693994036,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.01261556169582434,
+      "mean_finger_contacts": 3.093
+    },
+    {
+      "profile": "diagonal_forward_right",
+      "seed": 31002,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.0323797130430426,
+      "mean_actual_velocity_mps": [
+        0.051927443091491506,
+        -0.04798276133037039
+      ],
+      "ball_displacement_xy_m": [
+        1.4734323024749756,
+        -1.3648513555526733
+      ],
+      "mean_body_motion_cost": 1.2508986749785642,
+      "discounted_return": 63.09739178414745,
+      "best_hypothetical_early_failure_return": 63.08459313530263,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012798648844814409,
+      "mean_finger_contacts": 3.0973333333333333
+    },
+    {
+      "profile": "diagonal_backward_left",
+      "seed": 31000,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.02499314927876048,
+      "mean_actual_velocity_mps": [
+        -0.050789020309623865,
+        0.058200497373140286
+      ],
+      "ball_displacement_xy_m": [
+        -1.4395595788955688,
+        1.6620992422103882
+      ],
+      "mean_body_motion_cost": 1.1501176302886258,
+      "discounted_return": 68.9550556132448,
+      "best_hypothetical_early_failure_return": 68.94244956247273,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012606050772063782,
+      "mean_finger_contacts": 3.478666666666667
+    },
+    {
+      "profile": "diagonal_backward_left",
+      "seed": 31001,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.02440402065488108,
+      "mean_actual_velocity_mps": [
+        -0.051330307597028356,
+        0.058625698379640066
+      ],
+      "ball_displacement_xy_m": [
+        -1.455908179283142,
+        1.67414128780365
+      ],
+      "mean_body_motion_cost": 1.1647036202140153,
+      "discounted_return": 67.55345748171689,
+      "best_hypothetical_early_failure_return": 67.54089081324858,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012566668468309672,
+      "mean_finger_contacts": 3.485
+    },
+    {
+      "profile": "diagonal_backward_left",
+      "seed": 31002,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.024600730925557195,
+      "mean_actual_velocity_mps": [
+        -0.05116799969558737,
+        0.05843747969184603
+      ],
+      "ball_displacement_xy_m": [
+        -1.4541523456573486,
+        1.6644524335861206
+      ],
+      "mean_body_motion_cost": 1.1541677019832035,
+      "discounted_return": 70.83592999741857,
+      "best_hypothetical_early_failure_return": 70.8232174945592,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012712502859372421,
+      "mean_finger_contacts": 3.4883333333333333
+    },
+    {
+      "profile": "diagonal_backward_right",
+      "seed": 31000,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.02532554107261918,
+      "mean_actual_velocity_mps": [
+        -0.04654888165782073,
+        -0.06575643655977079
+      ],
+      "ball_displacement_xy_m": [
+        -1.3258919715881348,
+        -1.869160771369934
+      ],
+      "mean_body_motion_cost": 0.9074409599074473,
+      "discounted_return": 80.11244059839336,
+      "best_hypothetical_early_failure_return": 80.09968835845913,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012752239934229692,
+      "mean_finger_contacts": 3.561
+    },
+    {
+      "profile": "diagonal_backward_right",
+      "seed": 31001,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.025609878277817678,
+      "mean_actual_velocity_mps": [
+        -0.04631990926872407,
+        -0.06548360918648541
+      ],
+      "ball_displacement_xy_m": [
+        -1.3224176168441772,
+        -1.860807180404663
+      ],
+      "mean_body_motion_cost": 0.8879893942108998,
+      "discounted_return": 78.86676485499794,
+      "best_hypothetical_early_failure_return": 78.853949906369,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012814948628943057,
+      "mean_finger_contacts": 3.5593333333333335
+    },
+    {
+      "profile": "diagonal_backward_right",
+      "seed": 31002,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.025411710438161858,
+      "mean_actual_velocity_mps": [
+        -0.04641209919936955,
+        -0.06588925596858775
+      ],
+      "ball_displacement_xy_m": [
+        -1.3241586685180664,
+        -1.874886393547058
+      ],
+      "mean_body_motion_cost": 0.8982198236342519,
+      "discounted_return": 82.05569399430767,
+      "best_hypothetical_early_failure_return": 82.04297483911084,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012719155196833754,
+      "mean_finger_contacts": 3.563
+    },
+    {
+      "profile": "switch",
+      "seed": 31000,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03165355467788547,
+      "mean_actual_velocity_mps": [
+        0.0002212772682470846,
+        0.00043963336679784756
+      ],
+      "ball_displacement_xy_m": [
+        0.03284106403589249,
+        0.01033542025834322
+      ],
+      "mean_body_motion_cost": 1.004156977140655,
+      "discounted_return": 65.99249509176187,
+      "best_hypothetical_early_failure_return": 65.9796035102042,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012891581557667564,
+      "mean_finger_contacts": 3.834
+    },
+    {
+      "profile": "switch",
+      "seed": 31001,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03144964080330461,
+      "mean_actual_velocity_mps": [
+        0.0006351236611798023,
+        0.000869684896892165
+      ],
+      "ball_displacement_xy_m": [
+        0.043356701731681824,
+        0.025516796857118607
+      ],
+      "mean_body_motion_cost": 0.9765026914551854,
+      "discounted_return": 64.79132984253388,
+      "best_hypothetical_early_failure_return": 64.77842008037406,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.01290976215982198,
+      "mean_finger_contacts": 3.846
+    },
+    {
+      "profile": "switch",
+      "seed": 31002,
+      "physics_timestep_s": 0.001,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.032210931456795315,
+      "mean_actual_velocity_mps": [
+        0.000474291959688214,
+        0.0002425496728491794
+      ],
+      "ball_displacement_xy_m": [
+        0.037737566977739334,
+        0.006113514304161072
+      ],
+      "mean_body_motion_cost": 0.9989770572868486,
+      "discounted_return": 65.96113863211036,
+      "best_hypothetical_early_failure_return": 65.94821787122181,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012920760888547989,
+      "mean_finger_contacts": 3.857666666666667
+    },
+    {
+      "profile": "stop",
+      "seed": 31000,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.003650086340618728,
+      "mean_actual_velocity_mps": [
+        0.0014291728780216723,
+        -0.0005148276655808307
+      ],
+      "ball_displacement_xy_m": [
+        0.04080301895737648,
+        -0.012832120060920715
+      ],
+      "mean_body_motion_cost": 0.41156648441636934,
+      "discounted_return": 112.52827994275688,
+      "best_hypothetical_early_failure_return": 112.51532073971558,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012959203041305045,
+      "mean_finger_contacts": 4.4206666666666665
+    },
+    {
+      "profile": "stop",
+      "seed": 31001,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.0036481043810679932,
+      "mean_actual_velocity_mps": [
+        0.0012000053711901972,
+        -0.0005497728768319478
+      ],
+      "ball_displacement_xy_m": [
+        0.03528744354844093,
+        -0.011329361237585545
+      ],
+      "mean_body_motion_cost": 0.39340935774861524,
+      "discounted_return": 112.29314107045693,
+      "best_hypothetical_early_failure_return": 112.28025247672336,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.01288859373356388,
+      "mean_finger_contacts": 4.450666666666667
+    },
+    {
+      "profile": "stop",
+      "seed": 31002,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.003554977951954489,
+      "mean_actual_velocity_mps": [
+        0.0016351439786169764,
+        -0.0005332157744737082
+      ],
+      "ball_displacement_xy_m": [
+        0.04591585695743561,
+        -0.012430350296199322
+      ],
+      "mean_body_motion_cost": 0.3954833102825408,
+      "discounted_return": 113.91216679459276,
+      "best_hypothetical_early_failure_return": 113.8992444239815,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012922370611264,
+      "mean_finger_contacts": 4.450333333333333
+    },
+    {
+      "profile": "forward",
+      "seed": 31000,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.02545656364527357,
+      "mean_actual_velocity_mps": [
+        0.07493745461638485,
+        0.001288242966091145
+      ],
+      "ball_displacement_xy_m": [
+        2.1294057369232178,
+        0.03619030490517616
+      ],
+      "mean_body_motion_cost": 2.1062845107018946,
+      "discounted_return": 62.150474203966006,
+      "best_hypothetical_early_failure_return": 62.13777714331191,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012697060654097925,
+      "mean_finger_contacts": 3.8466666666666667
+    },
+    {
+      "profile": "forward",
+      "seed": 31001,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.025368586056964508,
+      "mean_actual_velocity_mps": [
+        0.07502195385949953,
+        0.0012826626661532816
+      ],
+      "ball_displacement_xy_m": [
+        2.135016918182373,
+        0.037673138082027435
+      ],
+      "mean_body_motion_cost": 2.1080048350567617,
+      "discounted_return": 61.999695159012,
+      "best_hypothetical_early_failure_return": 61.986900575603194,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012794583408805238,
+      "mean_finger_contacts": 3.832
+    },
+    {
+      "profile": "forward",
+      "seed": 31002,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.025479667416609543,
+      "mean_actual_velocity_mps": [
+        0.074914179259379,
+        0.0013471602773737297
+      ],
+      "ball_displacement_xy_m": [
+        2.128465175628662,
+        0.03973844647407532
+      ],
+      "mean_body_motion_cost": 2.1202666812655515,
+      "discounted_return": 63.081293657221146,
+      "best_hypothetical_early_failure_return": 63.06864382363832,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012649833582827341,
+      "mean_finger_contacts": 3.8533333333333335
+    },
+    {
+      "profile": "backward",
+      "seed": 31000,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03301394008546472,
+      "mean_actual_velocity_mps": [
+        -0.06745225108494717,
+        -0.00312707078049639
+      ],
+      "ball_displacement_xy_m": [
+        -1.9249058961868286,
+        -0.08175335079431534
+      ],
+      "mean_body_motion_cost": 1.0187906157534259,
+      "discounted_return": 71.09226018748055,
+      "best_hypothetical_early_failure_return": 71.07958356429992,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012676623180624347,
+      "mean_finger_contacts": 3.8786666666666667
+    },
+    {
+      "profile": "backward",
+      "seed": 31001,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03306323892515009,
+      "mean_actual_velocity_mps": [
+        -0.06740525076165796,
+        -0.0030750540280595423
+      ],
+      "ball_displacement_xy_m": [
+        -1.9218147993087769,
+        -0.07971378415822983
+      ],
+      "mean_body_motion_cost": 1.0188297351350386,
+      "discounted_return": 69.04191100583536,
+      "best_hypothetical_early_failure_return": 69.02917780706262,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012733198772735932,
+      "mean_finger_contacts": 3.8706666666666667
+    },
+    {
+      "profile": "backward",
+      "seed": 31002,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.033249108417563636,
+      "mean_actual_velocity_mps": [
+        -0.06720280470858728,
+        -0.002962545856745221
+      ],
+      "ball_displacement_xy_m": [
+        -1.919699788093567,
+        -0.07802806049585342
+      ],
+      "mean_body_motion_cost": 1.0189542865138501,
+      "discounted_return": 71.61687079975579,
+      "best_hypothetical_early_failure_return": 71.6040791720178,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.01279162773798248,
+      "mean_finger_contacts": 3.8853333333333335
+    },
+    {
+      "profile": "left",
+      "seed": 31000,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.031220341889296444,
+      "mean_actual_velocity_mps": [
+        0.0017004088067998932,
+        0.06918740521451192
+      ],
+      "ball_displacement_xy_m": [
+        0.05218261107802391,
+        1.9734113216400146
+      ],
+      "mean_body_motion_cost": 1.2264010586082004,
+      "discounted_return": 64.52355002867468,
+      "best_hypothetical_early_failure_return": 64.510983941853,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012566086821678368,
+      "mean_finger_contacts": 3.409
+    },
+    {
+      "profile": "left",
+      "seed": 31001,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03070185931631638,
+      "mean_actual_velocity_mps": [
+        0.0016990135641539643,
+        0.06969798812376601
+      ],
+      "ball_displacement_xy_m": [
+        0.052085310220718384,
+        1.9896889925003052
+      ],
+      "mean_body_motion_cost": 1.2229889514682193,
+      "discounted_return": 64.11480313556632,
+      "best_hypothetical_early_failure_return": 64.10205639118918,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012746744377139407,
+      "mean_finger_contacts": 3.3893333333333335
+    },
+    {
+      "profile": "left",
+      "seed": 31002,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.030623865687482307,
+      "mean_actual_velocity_mps": [
+        0.0018647966454480931,
+        0.06979822518703128
+      ],
+      "ball_displacement_xy_m": [
+        0.054248686879873276,
+        1.9914284944534302
+      ],
+      "mean_body_motion_cost": 1.2608056311531304,
+      "discounted_return": 65.49235848352838,
+      "best_hypothetical_early_failure_return": 65.47962339301189,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012735090516486025,
+      "mean_finger_contacts": 3.389666666666667
+    },
+    {
+      "profile": "right",
+      "seed": 31000,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.055548035306556144,
+      "mean_actual_velocity_mps": [
+        -0.0025921608310087714,
+        -0.047539781900122764
+      ],
+      "ball_displacement_xy_m": [
+        -0.08034643530845642,
+        -1.3614822626113892
+      ],
+      "mean_body_motion_cost": 0.6635643458813429,
+      "discounted_return": 58.9517559223811,
+      "best_hypothetical_early_failure_return": 58.939139586744865,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012616335636238318,
+      "mean_finger_contacts": 3.3426666666666667
+    },
+    {
+      "profile": "right",
+      "seed": 31001,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.055800198988330864,
+      "mean_actual_velocity_mps": [
+        -0.0024621533978165643,
+        -0.04728322019201837
+      ],
+      "ball_displacement_xy_m": [
+        -0.07080178707838058,
+        -1.3508119583129883
+      ],
+      "mean_body_motion_cost": 0.6559735535749545,
+      "discounted_return": 56.79728061299008,
+      "best_hypothetical_early_failure_return": 56.784645146391405,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012635466598673872,
+      "mean_finger_contacts": 3.3466666666666667
+    },
+    {
+      "profile": "right",
+      "seed": 31002,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.05622298914060054,
+      "mean_actual_velocity_mps": [
+        -0.0023129491205762472,
+        -0.0468078565264919
+      ],
+      "ball_displacement_xy_m": [
+        -0.07328572124242783,
+        -1.3423179388046265
+      ],
+      "mean_body_motion_cost": 0.6609596121138893,
+      "discounted_return": 57.24188745369315,
+      "best_hypothetical_early_failure_return": 57.22931126848886,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012576185204295598,
+      "mean_finger_contacts": 3.356333333333333
+    },
+    {
+      "profile": "diagonal",
+      "seed": 31000,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.023344310011121024,
+      "mean_actual_velocity_mps": [
+        0.0573758923728019,
+        0.05250666560605168
+      ],
+      "ball_displacement_xy_m": [
+        1.6331416368484497,
+        1.49300217628479
+      ],
+      "mean_body_motion_cost": 1.5276327254947586,
+      "discounted_return": 70.35503124708104,
+      "best_hypothetical_early_failure_return": 70.3422173933911,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012813853689948473,
+      "mean_finger_contacts": 3.397666666666667
+    },
+    {
+      "profile": "diagonal",
+      "seed": 31001,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.02332057696661134,
+      "mean_actual_velocity_mps": [
+        0.057660015921241474,
+        0.05228867536410689
+      ],
+      "ball_displacement_xy_m": [
+        1.6413252353668213,
+        1.4882086515426636
+      ],
+      "mean_body_motion_cost": 1.5165518020844708,
+      "discounted_return": 69.56396202159218,
+      "best_hypothetical_early_failure_return": 69.55130007346327,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012661948128908307,
+      "mean_finger_contacts": 3.389
+    },
+    {
+      "profile": "diagonal",
+      "seed": 31002,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.023158148499930798,
+      "mean_actual_velocity_mps": [
+        0.057999461399657386,
+        0.05226821474464876
+      ],
+      "ball_displacement_xy_m": [
+        1.6497694253921509,
+        1.4868251085281372
+      ],
+      "mean_body_motion_cost": 1.5092455495963804,
+      "discounted_return": 70.86389218909724,
+      "best_hypothetical_early_failure_return": 70.85111392390398,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012778265193261973,
+      "mean_finger_contacts": 3.399
+    },
+    {
+      "profile": "diagonal_forward_right",
+      "seed": 31000,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03776564678763016,
+      "mean_actual_velocity_mps": [
+        0.049120855540968476,
+        -0.04266707171885563
+      ],
+      "ball_displacement_xy_m": [
+        1.390032172203064,
+        -1.2160385847091675
+      ],
+      "mean_body_motion_cost": 1.4922830409828263,
+      "discounted_return": 56.62197491525058,
+      "best_hypothetical_early_failure_return": 56.6094075672601,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012567347990483313,
+      "mean_finger_contacts": 3.2046666666666668
+    },
+    {
+      "profile": "diagonal_forward_right",
+      "seed": 31001,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.037950656664713305,
+      "mean_actual_velocity_mps": [
+        0.04902099122958524,
+        -0.04247989382328732
+      ],
+      "ball_displacement_xy_m": [
+        1.393153429031372,
+        -1.2077922821044922
+      ],
+      "mean_body_motion_cost": 1.514681224523733,
+      "discounted_return": 54.9617271116846,
+      "best_hypothetical_early_failure_return": 54.94892663201744,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012800479667163245,
+      "mean_finger_contacts": 3.1936666666666667
+    },
+    {
+      "profile": "diagonal_forward_right",
+      "seed": 31002,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03752671844612274,
+      "mean_actual_velocity_mps": [
+        0.04896040467711698,
+        -0.04298286405059376
+      ],
+      "ball_displacement_xy_m": [
+        1.3847861289978027,
+        -1.224354863166809
+      ],
+      "mean_body_motion_cost": 1.4969632956928884,
+      "discounted_return": 56.50509216443055,
+      "best_hypothetical_early_failure_return": 56.49257889623692,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012513268193629301,
+      "mean_finger_contacts": 3.224666666666667
+    },
+    {
+      "profile": "diagonal_backward_left",
+      "seed": 31000,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03091148479981733,
+      "mean_actual_velocity_mps": [
+        -0.05187016973671104,
+        0.04688959758861789
+      ],
+      "ball_displacement_xy_m": [
+        -1.472405195236206,
+        1.3446986675262451
+      ],
+      "mean_body_motion_cost": 1.189918565105802,
+      "discounted_return": 61.403792024756534,
+      "best_hypothetical_early_failure_return": 61.391204640030985,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.0125873847255491,
+      "mean_finger_contacts": 3.529333333333333
+    },
+    {
+      "profile": "diagonal_backward_left",
+      "seed": 31001,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.0304561922724785,
+      "mean_actual_velocity_mps": [
+        -0.05190323871826487,
+        0.04748978097790054
+      ],
+      "ball_displacement_xy_m": [
+        -1.4747947454452515,
+        1.3628838062286377
+      ],
+      "mean_body_motion_cost": 1.1871177624023208,
+      "discounted_return": 60.14224605729219,
+      "best_hypothetical_early_failure_return": 60.129571905092455,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012674152199736,
+      "mean_finger_contacts": 3.5183333333333335
+    },
+    {
+      "profile": "diagonal_backward_left",
+      "seed": 31002,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.030194486465520462,
+      "mean_actual_velocity_mps": [
+        -0.05212287020337369,
+        0.047657422589005106
+      ],
+      "ball_displacement_xy_m": [
+        -1.48250412940979,
+        1.3653854131698608
+      ],
+      "mean_body_motion_cost": 1.2003936246496936,
+      "discounted_return": 62.313761066951386,
+      "best_hypothetical_early_failure_return": 62.30114290957977,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012618157371619532,
+      "mean_finger_contacts": 3.5123333333333333
+    },
+    {
+      "profile": "diagonal_backward_right",
+      "seed": 31000,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03657615331013276,
+      "mean_actual_velocity_mps": [
+        -0.04508416464385976,
+        -0.047551762403787244
+      ],
+      "ball_displacement_xy_m": [
+        -1.2874246835708618,
+        -1.35775625705719
+      ],
+      "mean_body_motion_cost": 0.6670265834745951,
+      "discounted_return": 75.75182660640799,
+      "best_hypothetical_early_failure_return": 75.73916252498114,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012664081426848384,
+      "mean_finger_contacts": 3.711
+    },
+    {
+      "profile": "diagonal_backward_right",
+      "seed": 31001,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03660968202326129,
+      "mean_actual_velocity_mps": [
+        -0.04510049003974668,
+        -0.04745605490303465
+      ],
+      "ball_displacement_xy_m": [
+        -1.292114019393921,
+        -1.3545160293579102
+      ],
+      "mean_body_motion_cost": 0.6446049153761317,
+      "discounted_return": 74.32699631638047,
+      "best_hypothetical_early_failure_return": 74.31414952900819,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.01284678737228262,
+      "mean_finger_contacts": 3.711333333333333
+    },
+    {
+      "profile": "diagonal_backward_right",
+      "seed": 31002,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03680498391044347,
+      "mean_actual_velocity_mps": [
+        -0.044920320243441635,
+        -0.047335708480594416
+      ],
+      "ball_displacement_xy_m": [
+        -1.2839434146881104,
+        -1.3521796464920044
+      ],
+      "mean_body_motion_cost": 0.6462641743575223,
+      "discounted_return": 76.37105644064756,
+      "best_hypothetical_early_failure_return": 76.35835682127116,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012699619376405735,
+      "mean_finger_contacts": 3.7303333333333333
+    },
+    {
+      "profile": "switch",
+      "seed": 31000,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.032661681235105176,
+      "mean_actual_velocity_mps": [
+        0.00014228758773469961,
+        0.0028084261834481236
+      ],
+      "ball_displacement_xy_m": [
+        0.028966916725039482,
+        0.0782746896147728
+      ],
+      "mean_body_motion_cost": 0.9910680805447821,
+      "discounted_return": 61.893780112597916,
+      "best_hypothetical_early_failure_return": 61.880812906303944,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012967206293971856,
+      "mean_finger_contacts": 3.891
+    },
+    {
+      "profile": "switch",
+      "seed": 31001,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03250554279805632,
+      "mean_actual_velocity_mps": [
+        0.00016312110084040147,
+        0.0030491909628871383
+      ],
+      "ball_displacement_xy_m": [
+        0.030914824455976486,
+        0.08729041367769241
+      ],
+      "mean_body_motion_cost": 1.0088372750611354,
+      "discounted_return": 60.45684503759212,
+      "best_hypothetical_early_failure_return": 60.44392390826547,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.01292112932664935,
+      "mean_finger_contacts": 3.8693333333333335
+    },
+    {
+      "profile": "switch",
+      "seed": 31002,
+      "physics_timestep_s": 0.0005,
+      "completed": true,
+      "survival_s": 30.0,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03281366630301474,
+      "mean_actual_velocity_mps": [
+        0.0005403153575684883,
+        0.003351650019460481
+      ],
+      "ball_displacement_xy_m": [
+        0.039940137416124344,
+        0.09540152549743652
+      ],
+      "mean_body_motion_cost": 1.0065027664504014,
+      "discounted_return": 61.225566730516206,
+      "best_hypothetical_early_failure_return": 61.21266764386031,
+      "hypothetical_early_failure_time_s": 29.990000000000002,
+      "hypothetical_early_failure_gain": -0.012899086655899339,
+      "mean_finger_contacts": 3.8886666666666665
+    }
+  ],
+  "completed": 60,
+  "trials": 60,
+  "goal_achieved": false
+}

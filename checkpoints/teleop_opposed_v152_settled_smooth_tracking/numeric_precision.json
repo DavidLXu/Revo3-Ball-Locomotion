@@ -1,0 +1,6 @@
+{
+  "cuda_matmul_allow_tf32": false,
+  "float32_matmul_precision": "highest",
+  "torch_version": "2.7.0+cu128",
+  "scope": "Preserved source float32 policy and PPO matrix arithmetic."
+}

@@ -1,0 +1,391 @@
+{
+  "checkpoint": "runs/teleop_opposed_v152_settled_smooth_tracking/model_7650.pt",
+  "reports": {
+    "evaluation_mjlab.json": {
+      "source": "outputs/teleop_opposed_v152_settled_smooth_tracking/iteration_7650/evaluation_mjlab.json",
+      "source_sha256": "5b795341e4858e0148d1318d3f3dfc617e3539a66d19011ff18d7dd74ed9d279",
+      "engine": "MjLab / MuJoCo Warp",
+      "trials": 60,
+      "completed": 60,
+      "moving_trials": 54,
+      "moving_completed": 54,
+      "mean_moving_survival_s": 30.0,
+      "profiles": {
+        "stop": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.003688037218923062,
+          "full_trial_mean_error_mps": 0.003688037218923062,
+          "mean_displacement_xy_m": [
+            0.03735666101177534,
+            -0.0003407200953612725
+          ]
+        },
+        "forward": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.025014914664875272,
+          "full_trial_mean_error_mps": 0.025014914664875272,
+          "mean_displacement_xy_m": [
+            2.1409160693486533,
+            0.025480965462823708
+          ]
+        },
+        "backward": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.032611434446797524,
+          "full_trial_mean_error_mps": 0.032611434446797524,
+          "mean_displacement_xy_m": [
+            -1.9393635590871174,
+            -0.11668643727898598
+          ]
+        },
+        "left": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.029316154419054875,
+          "full_trial_mean_error_mps": 0.029316154419054875,
+          "mean_displacement_xy_m": [
+            0.013528141503532728,
+            2.033299962679545
+          ]
+        },
+        "right": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.046377695057191186,
+          "full_trial_mean_error_mps": 0.046377695057191186,
+          "mean_displacement_xy_m": [
+            -0.006030988569060962,
+            -1.6363100210825603
+          ]
+        },
+        "diagonal": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.023600936761711988,
+          "full_trial_mean_error_mps": 0.023600936761711988,
+          "mean_displacement_xy_m": [
+            1.6346978346506755,
+            1.4873410662015278
+          ]
+        },
+        "diagonal_forward_right": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.03507897770156301,
+          "full_trial_mean_error_mps": 0.03507897770156301,
+          "mean_displacement_xy_m": [
+            1.4290448228518169,
+            -1.290919820467631
+          ]
+        },
+        "diagonal_backward_left": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.027593344066169173,
+          "full_trial_mean_error_mps": 0.027593344066169173,
+          "mean_displacement_xy_m": [
+            -1.4632206956545513,
+            1.5122768084208171
+          ]
+        },
+        "diagonal_backward_right": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.031056324838739373,
+          "full_trial_mean_error_mps": 0.031056324838739373,
+          "mean_displacement_xy_m": [
+            -1.3059917291005452,
+            -1.61155104637146
+          ]
+        },
+        "switch": {
+          "trials": 6,
+          "completed": 6,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.03221583621236027,
+          "full_trial_mean_error_mps": 0.03221583621236027,
+          "mean_displacement_xy_m": [
+            0.03562620189040899,
+            0.05048872670158744
+          ]
+        }
+      }
+    },
+    "evaluation_1000us.json": {
+      "source": "outputs/teleop_opposed_v152_settled_smooth_tracking/iteration_7650/evaluation_1000us.json",
+      "source_sha256": "48e1cee11c9b2d56c829af22978d679eab8aae8f992b657bb75ea58c2fd5c690",
+      "engine": "native_mujoco",
+      "trials": 30,
+      "completed": 30,
+      "moving_trials": 27,
+      "moving_completed": 27,
+      "mean_moving_survival_s": 30.0,
+      "profiles": {
+        "stop": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.003412404396411876,
+          "full_trial_mean_error_mps": 0.003412404396411876,
+          "mean_displacement_xy_m": [
+            0.04569415998351173,
+            0.011517933409036365
+          ]
+        },
+        "forward": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.02446696382083054,
+          "full_trial_mean_error_mps": 0.02446696382083054,
+          "mean_displacement_xy_m": [
+            2.154323618617287,
+            0.0165789273452127
+          ]
+        },
+        "backward": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.032084611125944934,
+          "full_trial_mean_error_mps": 0.032084611125944934,
+          "mean_displacement_xy_m": [
+            -1.9564612010867615,
+            -0.1473238867815779
+          ]
+        },
+        "left": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.02789318785077718,
+          "full_trial_mean_error_mps": 0.02789318785077718,
+          "mean_displacement_xy_m": [
+            -0.025346329154030154,
+            2.0789195962560507
+          ]
+        },
+        "right": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.03749150364954258,
+          "full_trial_mean_error_mps": 0.03749150364954258,
+          "mean_displacement_xy_m": [
+            0.06360645041604245,
+            -1.9018881087602961
+          ]
+        },
+        "diagonal": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.02380429305889439,
+          "full_trial_mean_error_mps": 0.02380429305889439,
+          "mean_displacement_xy_m": [
+            1.630378954177371,
+            1.4849504578125376
+          ]
+        },
+        "diagonal_forward_right": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.03243389550333585,
+          "full_trial_mean_error_mps": 0.03243389550333585,
+          "mean_displacement_xy_m": [
+            1.460002748788885,
+            -1.3677592867067971
+          ]
+        },
+        "diagonal_backward_left": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.0246645589644169,
+          "full_trial_mean_error_mps": 0.0246645589644169,
+          "mean_displacement_xy_m": [
+            -1.451429510646348,
+            1.6638366245437646
+          ]
+        },
+        "diagonal_backward_right": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.025343719626838453,
+          "full_trial_mean_error_mps": 0.025343719626838453,
+          "mean_displacement_xy_m": [
+            -1.327862330928178,
+            -1.8679167905547611
+          ]
+        },
+        "switch": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.032106208294174106,
+          "full_trial_mean_error_mps": 0.032106208294174106,
+          "mean_displacement_xy_m": [
+            0.03476260788580201,
+            0.026417518291545837
+          ]
+        }
+      }
+    },
+    "evaluation_500us.json": {
+      "source": "outputs/teleop_opposed_v152_settled_smooth_tracking/iteration_7650/evaluation_500us.json",
+      "source_sha256": "9eb8f777f7a57c50b8058c90cbbc63c9c945ba930dec5ab09d4849646277fc3d",
+      "engine": "native_mujoco",
+      "trials": 30,
+      "completed": 30,
+      "moving_trials": 27,
+      "moving_completed": 27,
+      "mean_moving_survival_s": 30.0,
+      "profiles": {
+        "stop": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.0036966522879045413,
+          "full_trial_mean_error_mps": 0.0036966522879045413,
+          "mean_displacement_xy_m": [
+            0.03822424146265295,
+            -0.011689702430107066
+          ]
+        },
+        "forward": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.02549684030833814,
+          "full_trial_mean_error_mps": 0.02549684030833814,
+          "mean_displacement_xy_m": [
+            2.129195403852686,
+            0.04187763646043375
+          ]
+        },
+        "backward": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.03311409973515353,
+          "full_trial_mean_error_mps": 0.03311409973515353,
+          "mean_displacement_xy_m": [
+            -1.9228592728441984,
+            -0.08339357292105226
+          ]
+        },
+        "left": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.03075801144356262,
+          "full_trial_mean_error_mps": 0.03075801144356262,
+          "mean_displacement_xy_m": [
+            0.04359663156506569,
+            1.9862051925577209
+          ]
+        },
+        "right": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.056267521084487404,
+          "full_trial_mean_error_mps": 0.056267521084487404,
+          "mean_displacement_xy_m": [
+            -0.07414315944553322,
+            -1.3387362112899217
+          ]
+        },
+        "diagonal": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.023208157217820467,
+          "full_trial_mean_error_mps": 0.023208157217820467,
+          "mean_displacement_xy_m": [
+            1.6508940387579376,
+            1.4847292495572595
+          ]
+        },
+        "diagonal_forward_right": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.03761810850540275,
+          "full_trial_mean_error_mps": 0.03761810850540275,
+          "mean_displacement_xy_m": [
+            1.3815828805120387,
+            -1.2240279617730023
+          ]
+        },
+        "diagonal_backward_left": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.030578294278050956,
+          "full_trial_mean_error_mps": 0.030578294278050956,
+          "mean_displacement_xy_m": [
+            -1.4758914045695222,
+            1.3563940616614516
+          ]
+        },
+        "diagonal_backward_right": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.03653880181816879,
+          "full_trial_mean_error_mps": 0.03653880181816879,
+          "mean_displacement_xy_m": [
+            -1.2895800487554108,
+            -1.3574620058560636
+          ]
+        },
+        "switch": {
+          "trials": 3,
+          "completed": 3,
+          "mean_survival_s": 30.0,
+          "mean_error_mps": 0.033062334178108194,
+          "full_trial_mean_error_mps": 0.033062334178108194,
+          "mean_displacement_xy_m": [
+            0.02393589205281736,
+            0.07748078299953812
+          ]
+        }
+      }
+    }
+  },
+  "baseline_checkpoint": "runs/teleop_opposed_v134_target_startup/model_7550.pt",
+  "changes": {
+    "evaluation_mjlab.json": {
+      "baseline_source_sha256": "48a36883763e1337a6460aa56099ba39eaee0f011937021464855d5bfd9ee193",
+      "moving_completed_delta": 2,
+      "mean_moving_survival_delta_s": 1.0281481481481478
+    },
+    "evaluation_1000us.json": {
+      "baseline_source_sha256": "26bf51fa7c503962cfb1349f2b700128efa5680e8f1213c4d764c110c6b3846f",
+      "moving_completed_delta": 2,
+      "mean_moving_survival_delta_s": 2.0599999999999987
+    },
+    "evaluation_500us.json": {
+      "baseline_source_sha256": "b038249d0b6c167966fc65327a267e83b4eda32987836b1b59fa8c6783a01792",
+      "moving_completed_delta": 2,
+      "mean_moving_survival_delta_s": 2.057407407407407
+    }
+  },
+  "goal_achieved": false,
+  "scope": "Complete matched 120-case target-speed batch. Error averages for failed trials have unequal durations; survival and displacement alone do not prove tracking. Smoothness, sustained turns/stops and keyboard operation require separate evidence."
+}

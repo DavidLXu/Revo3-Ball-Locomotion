@@ -1,0 +1,4578 @@
+{
+  "checkpoint": "runs/teleop_opposed_v152_settled_smooth_tracking/model_7650.pt",
+  "training_speed_limit_mps": 0.075,
+  "test_speed_mps": 0.1,
+  "hand_inertia_mode": "collision_only",
+  "hand_mass_kg": 1.7640477535610513,
+  "seconds": 30.0,
+  "noise": 1.0,
+  "engine": "native_mujoco",
+  "deterministic_policy": true,
+  "physics_timestep_s": 0.001,
+  "control_timestep_s": 0.01,
+  "completion_rate": 1.0,
+  "mean_velocity_error_mps": 0.026370134629116682,
+  "episodes": [
+    {
+      "profile": "stop",
+      "seed": 31000,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.0033583723435291293,
+      "mean_actual_speed_mps": 0.0033583723435291293,
+      "mean_actual_velocity_mps": [
+        0.0014244363785420372,
+        0.00035122272044619526
+      ],
+      "integrated_command_xy_m": [
+        0.0,
+        0.0
+      ],
+      "hand_displacement_xy_m": [
+        0.03867455660556842,
+        0.031133642417752766
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.001441570700515582,
+        0.0003686880265401933
+      ],
+      "ball_displacement_xy_m": [
+        0.04324712101546746,
+        0.0110606407962058
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 4.370333333333333,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.0011302911228612644,
+            0.000618498274825882
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.003534774892159174
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.002228827856299465,
+            0.00038671815358448083
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.0034275122996412534
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.0004236268849470932,
+            0.0006061812224621967
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.00307935290722117
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.002051466637063093,
+            1.4986004527702684e-05
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.003932925956980041
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.001208959164910002,
+            0.0005088407436996754
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.0032521777330044416
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.0016062525370125745,
+            7.690376014122223e-05
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.003675874728467029
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          1.0,
+          0.8310714285714286,
+          0.9528571428571428,
+          0.5889285714285715,
+          0.9942857142857143
+        ],
+        "any_link_contact_fraction": [
+          1.0,
+          0.8310714285714286,
+          0.9528571428571428,
+          0.5889285714285715,
+          0.9942857142857143
+        ],
+        "load_bearing_contact_fraction": [
+          1.0,
+          0.83,
+          0.9528571428571428,
+          0.5889285714285715,
+          0.9942857142857143
+        ],
+        "mean_total_normal_force_N": [
+          8.808316373729895,
+          1.3834876858596654,
+          3.3235454802745172,
+          1.518601880223132,
+          2.85667866278071
+        ],
+        "four_or_more_fraction": 0.8814285714285715,
+        "all_five_fraction": 0.4857142857142857
+      }
+    },
+    {
+      "profile": "stop",
+      "seed": 31001,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.0033783405946060073,
+      "mean_actual_speed_mps": 0.0033783405946060073,
+      "mean_actual_velocity_mps": [
+        0.0017028601296337853,
+        0.00033021757693346395
+      ],
+      "integrated_command_xy_m": [
+        0.0,
+        0.0
+      ],
+      "hand_displacement_xy_m": [
+        0.04660196460878925,
+        0.03392779970427929
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.0016974420298816293,
+        0.0003968968379655268
+      ],
+      "ball_displacement_xy_m": [
+        0.05092326089644888,
+        0.011906905138965805
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 4.383333333333334,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.0012802389150756448,
+            0.0007314518827278604
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.004158028198422786
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.002654871638726914,
+            0.0004508037184008544
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.003469196825740668
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.001380578439920039,
+            4.059952597363966e-05
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.0036639829624838098
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.001464652486952199,
+            0.0004814745112989894
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.003381941132225883
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.0022039600516669117,
+            0.0001259887659866194
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.0036894016788250363
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.0012003506469480674,
+            0.0005510626234051976
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.003274180354739338
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          1.0,
+          0.8371428571428572,
+          0.9603571428571429,
+          0.59,
+          0.9975
+        ],
+        "any_link_contact_fraction": [
+          1.0,
+          0.8371428571428572,
+          0.9603571428571429,
+          0.59,
+          0.9975
+        ],
+        "load_bearing_contact_fraction": [
+          1.0,
+          0.8360714285714286,
+          0.9603571428571429,
+          0.59,
+          0.9975
+        ],
+        "mean_total_normal_force_N": [
+          8.822774186447045,
+          1.3876120878985645,
+          3.2406802796972287,
+          1.4873181003427176,
+          2.938773007503601
+        ],
+        "four_or_more_fraction": 0.8910714285714286,
+        "all_five_fraction": 0.49392857142857144
+      }
+    },
+    {
+      "profile": "stop",
+      "seed": 31002,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.003500500251100491,
+      "mean_actual_speed_mps": 0.003500500251100491,
+      "mean_actual_velocity_mps": [
+        0.0015434777083624149,
+        0.0004094469950605288
+      ],
+      "integrated_command_xy_m": [
+        0.0,
+        0.0
+      ],
+      "hand_displacement_xy_m": [
+        0.037821949989011075,
+        0.03216174667533983
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.0014304032679539618,
+        0.0003862084763979163
+      ],
+      "ball_displacement_xy_m": [
+        0.042912098038618854,
+        0.011586254291937489
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 4.386666666666667,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.0008309001497706139,
+            0.00023615977450262376
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.003037795373889122
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.002988534958971305,
+            0.0003780559557452685
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.003675719093342425
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.0019494036905800837,
+            4.707032997137098e-05
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.0033150067742277493
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            5.562918272167192e-05,
+            0.0015822263590811625
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.0039125405320664325
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.0005610573012454212,
+            0.00019596788163177766
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.0033124390828741654
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.0021968943244346758,
+            -0.00012222944254470548
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.0038762568373926815
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9996428571428572,
+          0.8375,
+          0.9528571428571428,
+          0.5910714285714286,
+          0.9925
+        ],
+        "any_link_contact_fraction": [
+          0.9996428571428572,
+          0.8375,
+          0.9528571428571428,
+          0.5910714285714286,
+          0.9925
+        ],
+        "load_bearing_contact_fraction": [
+          0.9996428571428572,
+          0.8357142857142857,
+          0.9528571428571428,
+          0.5910714285714286,
+          0.9925
+        ],
+        "mean_total_normal_force_N": [
+          8.829394956627251,
+          1.4020791456516384,
+          3.2055107161286807,
+          1.5386545422987414,
+          2.8912157502014137
+        ],
+        "four_or_more_fraction": 0.8885714285714286,
+        "all_five_fraction": 0.4853571428571429
+      }
+    },
+    {
+      "profile": "forward",
+      "seed": 31000,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.02458972338790537,
+      "mean_actual_speed_mps": 0.07570886281346748,
+      "mean_actual_velocity_mps": [
+        0.07564029207119329,
+        0.0004375596098769847
+      ],
+      "integrated_command_xy_m": [
+        2.8904999999999723,
+        0.0
+      ],
+      "hand_displacement_xy_m": [
+        2.1471688225778918,
+        0.019701437113445804
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.07175247897851136,
+        0.0003094851534416339
+      ],
+      "ball_displacement_xy_m": [
+        2.152574369355341,
+        0.009284554603249017
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.7636666666666665,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.04946913174394564,
+            -0.00037736988027152067
+          ],
+          "mean_command_xy_mps": [
+            0.07810000000000057,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03209312605255004
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.0757744873196236,
+            0.0005913134691100427
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.02475481073000241
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.07691454820111136,
+            0.00020497977918340778
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.02304774042872716
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.07647174812147828,
+            0.00019644050645315986
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.02394196400577087
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.07562835370432816,
+            0.0006377053245128453
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.024461232777359433
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.07625660478058113,
+            0.0006038417216618684
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.024150023018128224
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.8982142857142857,
+          0.8453571428571428,
+          0.5128571428571429,
+          0.4992857142857143,
+          0.9778571428571429
+        ],
+        "any_link_contact_fraction": [
+          0.8982142857142857,
+          0.8453571428571428,
+          0.5125,
+          0.4992857142857143,
+          0.9778571428571429
+        ],
+        "load_bearing_contact_fraction": [
+          0.8982142857142857,
+          0.8403571428571428,
+          0.5089285714285714,
+          0.4992857142857143,
+          0.9778571428571429
+        ],
+        "mean_total_normal_force_N": [
+          8.877450413805784,
+          2.0311159653990924,
+          0.9126460191250271,
+          1.5600228845607942,
+          4.2027712247389335
+        ],
+        "four_or_more_fraction": 0.5328571428571428,
+        "all_five_fraction": 0.3392857142857143
+      }
+    },
+    {
+      "profile": "forward",
+      "seed": 31001,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.024370604091654095,
+      "mean_actual_speed_mps": 0.07595106225823185,
+      "mean_actual_velocity_mps": [
+        0.07587265717206541,
+        0.0010287096446304246
+      ],
+      "integrated_command_xy_m": [
+        2.8904999999999723,
+        0.0
+      ],
+      "hand_displacement_xy_m": [
+        2.156313619946735,
+        0.038855664578027846
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.0719318535279528,
+        0.0009636853248890647
+      ],
+      "ball_displacement_xy_m": [
+        2.157955605838584,
+        0.028910559746671942
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.7843333333333335,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.049591789659571964,
+            0.00018405714142829977
+          ],
+          "mean_command_xy_mps": [
+            0.07810000000000057,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.032024829925475604
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.07602099155233684,
+            0.0012271421643903
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.02432322350068616
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.07574333214204912,
+            0.0004906777798621782
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.02468764998322846
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.07736102161527843,
+            0.0016140106080690525
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.022602293120575694
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.07701390039138314,
+            0.0007506029242183868
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.023266172689586376
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.07586008580709733,
+            0.001515621331366171
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.024250514616136795
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.8989285714285714,
+          0.8414285714285714,
+          0.5282142857142857,
+          0.5178571428571429,
+          0.9735714285714285
+        ],
+        "any_link_contact_fraction": [
+          0.8989285714285714,
+          0.8410714285714286,
+          0.5282142857142857,
+          0.5178571428571429,
+          0.9735714285714285
+        ],
+        "load_bearing_contact_fraction": [
+          0.8989285714285714,
+          0.8357142857142857,
+          0.525,
+          0.5178571428571429,
+          0.9735714285714285
+        ],
+        "mean_total_normal_force_N": [
+          8.829910532061932,
+          2.062666767314518,
+          0.9268935891210728,
+          1.6595803105273506,
+          4.134483993888129
+        ],
+        "four_or_more_fraction": 0.545,
+        "all_five_fraction": 0.34714285714285714
+      }
+    },
+    {
+      "profile": "forward",
+      "seed": 31002,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.024440563982932154,
+      "mean_actual_speed_mps": 0.07582528619970356,
+      "mean_actual_velocity_mps": [
+        0.07576349462469877,
+        0.0004368783121963572
+      ],
+      "integrated_command_xy_m": [
+        2.8904999999999723,
+        0.0
+      ],
+      "hand_displacement_xy_m": [
+        2.1496519620046834,
+        0.021656535554088155
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.07174802935526453,
+        0.0003847222561905713
+      ],
+      "ball_displacement_xy_m": [
+        2.152440880657936,
+        0.01154166768571714
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.7723333333333335,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.04944346712259728,
+            0.00013299238746534574
+          ],
+          "mean_command_xy_mps": [
+            0.07810000000000057,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03120625942949838
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.0758491466782812,
+            9.623473159556489e-06
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.02427018816103118
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.07654209721872243,
+            0.0006887587399411457
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.023740112119704195
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.07614049131433856,
+            0.0004959863221255792
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.024205923004101834
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.07683776805934564,
+            0.00014739297169749887
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.023378146458733373
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.07567520573830207,
+            0.0008335796427543019
+          ],
+          "mean_command_xy_mps": [
+            0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.024232128672839335
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9,
+          0.8471428571428572,
+          0.5157142857142857,
+          0.4992857142857143,
+          0.9778571428571429
+        ],
+        "any_link_contact_fraction": [
+          0.9,
+          0.8471428571428572,
+          0.5146428571428572,
+          0.4992857142857143,
+          0.9778571428571429
+        ],
+        "load_bearing_contact_fraction": [
+          0.9,
+          0.8375,
+          0.5135714285714286,
+          0.4992857142857143,
+          0.9778571428571429
+        ],
+        "mean_total_normal_force_N": [
+          8.894553390962493,
+          2.0161881587974526,
+          0.9086418468436247,
+          1.571949331951988,
+          4.158002903036778
+        ],
+        "four_or_more_fraction": 0.5253571428571429,
+        "all_five_fraction": 0.3425
+      }
+    },
+    {
+      "profile": "backward",
+      "seed": 31000,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.0324522781921776,
+      "mean_actual_speed_mps": 0.0686338574160108,
+      "mean_actual_velocity_mps": [
+        -0.06823186649661452,
+        -0.005357177380272317
+      ],
+      "integrated_command_xy_m": [
+        -2.8904999999999723,
+        0.0
+      ],
+      "hand_displacement_xy_m": [
+        -1.9474827512311563,
+        -0.1280438494725271
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        -0.06486882550158937,
+        -0.00482686314696187
+      ],
+      "ball_displacement_xy_m": [
+        -1.946064765047681,
+        -0.14480589440885608
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.861,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            -0.04766111533339397,
+            -0.00018487881124946932
+          ],
+          "mean_command_xy_mps": [
+            -0.07810000000000057,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.033409630142986424
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            -0.06785341826545203,
+            -0.004849574241951828
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03225896669253113
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.06883168120554324,
+            -0.005717512215103619
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03231229782984597
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.06719346606903884,
+            -0.005955901500748842
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03311282040539448
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            -0.0685784592960454,
+            -0.006081291276821674
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03249784105718436
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            -0.06909481284006272,
+            -0.006172020835895783
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.031872213345429654
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9967857142857143,
+          0.8128571428571428,
+          0.7364285714285714,
+          0.4967857142857143,
+          0.7935714285714286
+        ],
+        "any_link_contact_fraction": [
+          0.9967857142857143,
+          0.8128571428571428,
+          0.7360714285714286,
+          0.4967857142857143,
+          0.7935714285714286
+        ],
+        "load_bearing_contact_fraction": [
+          0.9967857142857143,
+          0.8128571428571428,
+          0.7360714285714286,
+          0.4957142857142857,
+          0.7925
+        ],
+        "mean_total_normal_force_N": [
+          8.681843778216134,
+          4.744424596740502,
+          2.9742634539746717,
+          1.8710255120298933,
+          2.234361623612348
+        ],
+        "four_or_more_fraction": 0.6821428571428572,
+        "all_five_fraction": 0.24607142857142858
+      }
+    },
+    {
+      "profile": "backward",
+      "seed": 31001,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03201238184475131,
+      "mean_actual_speed_mps": 0.06912117154424426,
+      "mean_actual_velocity_mps": [
+        -0.06871142221714907,
+        -0.005415173197818724
+      ],
+      "integrated_command_xy_m": [
+        -2.8904999999999723,
+        0.0
+      ],
+      "hand_displacement_xy_m": [
+        -1.9599358241189464,
+        -0.12779065661970934
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        -0.06524456395307997,
+        -0.00490067465078112
+      ],
+      "ball_displacement_xy_m": [
+        -1.957336918592399,
+        -0.1470202395234336
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.876,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            -0.047225324067353816,
+            -3.7928686628273756e-06
+          ],
+          "mean_command_xy_mps": [
+            -0.07810000000000057,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03459225536316519
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            -0.06795076731394033,
+            -0.005904368207540119
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03234777334969232
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.06884722716656884,
+            -0.005679091456748518
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03208449935910838
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.06883375116721155,
+            -0.005843647852067207
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.031941029238785834
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            -0.06950271273461599,
+            -0.005913154266539522
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03165639098352475
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            -0.06910760126878927,
+            -0.0060599932531285264
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03131213441089054
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.995,
+          0.8132142857142857,
+          0.7328571428571429,
+          0.5121428571428571,
+          0.8014285714285714
+        ],
+        "any_link_contact_fraction": [
+          0.995,
+          0.8132142857142857,
+          0.7328571428571429,
+          0.5117857142857143,
+          0.8010714285714285
+        ],
+        "load_bearing_contact_fraction": [
+          0.995,
+          0.8132142857142857,
+          0.7328571428571429,
+          0.5103571428571428,
+          0.7992857142857143
+        ],
+        "mean_total_normal_force_N": [
+          8.60285328010218,
+          4.754676100454664,
+          2.873470549769574,
+          1.9405146382532543,
+          2.2556734501564843
+        ],
+        "four_or_more_fraction": 0.665,
+        "all_five_fraction": 0.2710714285714286
+      }
+    },
+    {
+      "profile": "backward",
+      "seed": 31002,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03178917334090589,
+      "mean_actual_speed_mps": 0.06932206306339148,
+      "mean_actual_velocity_mps": [
+        -0.06891957823144615,
+        -0.0053455225632941476
+      ],
+      "integrated_command_xy_m": [
+        -2.8904999999999723,
+        0.0
+      ],
+      "hand_displacement_xy_m": [
+        -1.969672702680116,
+        -0.13016332956865373
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        -0.06553273065400682,
+        -0.005004850880414802
+      ],
+      "ball_displacement_xy_m": [
+        -1.9659819196202044,
+        -0.15014552641244405
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.885,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            -0.04727025621398636,
+            -0.0013550187616783447
+          ],
+          "mean_command_xy_mps": [
+            -0.07810000000000057,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03321363064674982
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            -0.06957830412549758,
+            -0.004844119933841323
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03152254541499038
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.06879449340879278,
+            -0.006210727168596169
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03169990650052513
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.06872586122734328,
+            -0.005869945404333882
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.032349413038174464
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            -0.06935375838167493,
+            -0.005344707888871647
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.031309280840767846
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            -0.06947371056674596,
+            -0.006404586125167444
+          ],
+          "mean_command_xy_mps": [
+            -0.10000000000000088,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03107386627803983
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9960714285714286,
+          0.8103571428571429,
+          0.7335714285714285,
+          0.515,
+          0.7996428571428571
+        ],
+        "any_link_contact_fraction": [
+          0.9960714285714286,
+          0.8103571428571429,
+          0.7335714285714285,
+          0.515,
+          0.7996428571428571
+        ],
+        "load_bearing_contact_fraction": [
+          0.9960714285714286,
+          0.8103571428571429,
+          0.7335714285714285,
+          0.5142857142857142,
+          0.7978571428571428
+        ],
+        "mean_total_normal_force_N": [
+          8.608537926687944,
+          4.724252093514646,
+          2.879319529089437,
+          1.9484440962842051,
+          2.2448646665104715
+        ],
+        "four_or_more_fraction": 0.6671428571428571,
+        "all_five_fraction": 0.2675
+      }
+    },
+    {
+      "profile": "left",
+      "seed": 31000,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.027798653772471538,
+      "mean_actual_speed_mps": 0.07332923529434537,
+      "mean_actual_velocity_mps": [
+        -0.0012686293166668564,
+        0.07304140692497395
+      ],
+      "integrated_command_xy_m": [
+        0.0,
+        2.8904999999999723
+      ],
+      "hand_displacement_xy_m": [
+        -0.03275122496803018,
+        2.093258193553354
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        -0.0009713364130949526,
+        0.06933035857494306
+      ],
+      "ball_displacement_xy_m": [
+        -0.02914009239284858,
+        2.079910757248292
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.2843333333333335,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.002213034161848611,
+            0.048590907113898685
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.07810000000000057
+          ],
+          "mean_velocity_error_mps": 0.03364787506066126
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            -0.001842753037147286,
+            0.0732497714018695
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.027398755079700302
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.0019474509217280247,
+            0.07343320106262934
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.027168148126393617
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.0018153559687558289,
+            0.07451507673485355
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.026420114146983063
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            -0.0001665114548278633,
+            0.07362541924040364
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.02732536035505739
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            -0.002268981257959324,
+            0.07256777589600368
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.028182576364701697
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.8989285714285714,
+          0.6310714285714286,
+          0.655,
+          0.29178571428571426,
+          0.7657142857142857
+        ],
+        "any_link_contact_fraction": [
+          0.8989285714285714,
+          0.6310714285714286,
+          0.655,
+          0.29178571428571426,
+          0.7657142857142857
+        ],
+        "load_bearing_contact_fraction": [
+          0.8989285714285714,
+          0.6307142857142857,
+          0.6546428571428572,
+          0.29178571428571426,
+          0.765
+        ],
+        "mean_total_normal_force_N": [
+          6.757814801416661,
+          1.8656525439993261,
+          2.682448394323516,
+          0.9804338623673755,
+          2.889784198962092
+        ],
+        "four_or_more_fraction": 0.44821428571428573,
+        "all_five_fraction": 0.07678571428571429
+      }
+    },
+    {
+      "profile": "left",
+      "seed": 31001,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.02796087025921968,
+      "mean_actual_speed_mps": 0.07317376584111476,
+      "mean_actual_velocity_mps": [
+        -0.0009714430670309958,
+        0.07288002033092583
+      ],
+      "integrated_command_xy_m": [
+        0.0,
+        2.8904999999999723
+      ],
+      "hand_displacement_xy_m": [
+        -0.024822797827016227,
+        2.0917182544515973
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        -0.0007506892375665766,
+        0.06926121038818076
+      ],
+      "ball_displacement_xy_m": [
+        -0.022520677126997297,
+        2.077836311645423
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.2786666666666666,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.002486374619959804,
+            0.04912691883270216
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.07810000000000057
+          ],
+          "mean_velocity_error_mps": 0.033156143663027556
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            -0.0009579135471911502,
+            0.07350143516308394
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.02760163979474659
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.0019015472266485766,
+            0.07393047790188816
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.026820331014800906
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.0021069405410764535,
+            0.07329706920453365
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.027892212839558755
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            -0.001491968991183016,
+            0.07241783521400351
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.027977892099553814
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            -0.0005321397392600673,
+            0.07329352601287313
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.027614585241093302
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9071428571428571,
+          0.6285714285714286,
+          0.6485714285714286,
+          0.2932142857142857,
+          0.7582142857142857
+        ],
+        "any_link_contact_fraction": [
+          0.9071428571428571,
+          0.6285714285714286,
+          0.6485714285714286,
+          0.2932142857142857,
+          0.7582142857142857
+        ],
+        "load_bearing_contact_fraction": [
+          0.9071428571428571,
+          0.6285714285714286,
+          0.6485714285714286,
+          0.2932142857142857,
+          0.7582142857142857
+        ],
+        "mean_total_normal_force_N": [
+          6.759516252287698,
+          1.892703726992748,
+          2.6748920620107812,
+          0.9839468505962816,
+          2.9184769692802943
+        ],
+        "four_or_more_fraction": 0.43464285714285716,
+        "all_five_fraction": 0.07892857142857143
+      }
+    },
+    {
+      "profile": "left",
+      "seed": 31002,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.027920039520640327,
+      "mean_actual_speed_mps": 0.07328926376448434,
+      "mean_actual_velocity_mps": [
+        -0.0008671524414703946,
+        0.07297582634318302
+      ],
+      "integrated_command_xy_m": [
+        0.0,
+        2.8904999999999723
+      ],
+      "hand_displacement_xy_m": [
+        -0.028705688101123644,
+        2.0924183316249723
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        -0.0008126072647414862,
+        0.06930039066248123
+      ],
+      "ball_displacement_xy_m": [
+        -0.02437821794224459,
+        2.079011719874437
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.2803333333333335,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            -0.0003464775371527708,
+            0.04834514835508208
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.07810000000000057
+          ],
+          "mean_velocity_error_mps": 0.032586072582205014
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.0006891033649800429,
+            0.07220324113763799
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.028456004264138832
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.002230069899575325,
+            0.07377298215035495
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.027285246008253144
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.00044516483269955927,
+            0.07353823838902811
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.02758855817980441
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            -0.002533554698426738,
+            0.07330564976141551
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.027327033178622385
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            -9.479985574567528e-06,
+            0.07463708418136875
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.02634411290883182
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9028571428571428,
+          0.6325,
+          0.6492857142857142,
+          0.28964285714285715,
+          0.7567857142857143
+        ],
+        "any_link_contact_fraction": [
+          0.9028571428571428,
+          0.6325,
+          0.6492857142857142,
+          0.28964285714285715,
+          0.7564285714285715
+        ],
+        "load_bearing_contact_fraction": [
+          0.9028571428571428,
+          0.6317857142857143,
+          0.6489285714285714,
+          0.28964285714285715,
+          0.7546428571428572
+        ],
+        "mean_total_normal_force_N": [
+          6.816550047753177,
+          1.8496784054078337,
+          2.6325124611158186,
+          0.9944928988462222,
+          2.856895179006385
+        ],
+        "four_or_more_fraction": 0.43642857142857144,
+        "all_five_fraction": 0.07607142857142857
+      }
+    },
+    {
+      "profile": "right",
+      "seed": 31000,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.037203368208109974,
+      "mean_actual_speed_mps": 0.06932616464306579,
+      "mean_actual_velocity_mps": [
+        0.002269112900559867,
+        -0.06702240484751151
+      ],
+      "integrated_command_xy_m": [
+        0.0,
+        -2.8904999999999723
+      ],
+      "hand_displacement_xy_m": [
+        0.06119821967126532,
+        -1.897152570513539
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.002027299805787016,
+        -0.063658623173567
+      ],
+      "ball_displacement_xy_m": [
+        0.060818994173610474,
+        -1.90975869520701
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.3093333333333335,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.0011752257725919737,
+            -0.044108193613889325
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.07810000000000057
+          ],
+          "mean_velocity_error_mps": 0.038961107178512096
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.0025010394597362283,
+            -0.0680230073532177
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.036052733448010674
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.0003642269416058816,
+            -0.06898996399478448
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.03537373392869123
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.004185031941476955,
+            -0.06689433832699668
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.037568069379522104
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.0009488870605591559,
+            -0.06709870969220466
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.037247656458376015
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.0029893876587519007,
+            -0.06683752606030917
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.037392036207642
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9482142857142857,
+          0.755,
+          0.24714285714285714,
+          0.4607142857142857,
+          0.8464285714285714
+        ],
+        "any_link_contact_fraction": [
+          0.9482142857142857,
+          0.755,
+          0.24714285714285714,
+          0.46,
+          0.8457142857142858
+        ],
+        "load_bearing_contact_fraction": [
+          0.9482142857142857,
+          0.7546428571428572,
+          0.24714285714285714,
+          0.4592857142857143,
+          0.8425
+        ],
+        "mean_total_normal_force_N": [
+          7.677197618537846,
+          3.242391124273326,
+          0.7412900076516554,
+          2.4111392580333386,
+          2.97835171594708
+        ],
+        "four_or_more_fraction": 0.30857142857142855,
+        "all_five_fraction": 0.03964285714285714
+      }
+    },
+    {
+      "profile": "right",
+      "seed": 31001,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.0374870454116461,
+      "mean_actual_speed_mps": 0.06916678139734607,
+      "mean_actual_velocity_mps": [
+        0.002628158314989294,
+        -0.0668020534265812
+      ],
+      "integrated_command_xy_m": [
+        0.0,
+        -2.8904999999999723
+      ],
+      "hand_displacement_xy_m": [
+        0.0725339197802216,
+        -1.8875496449872498
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.002381181962407265,
+        -0.06335898619399877
+      ],
+      "ball_displacement_xy_m": [
+        0.07143545887221794,
+        -1.900769585819963
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.2936666666666667,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.0024867875592702792,
+            -0.04399103017334352
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.07810000000000057
+          ],
+          "mean_velocity_error_mps": 0.03952363928146196
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.001370828408555207,
+            -0.06933885136411226
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.03523417135693245
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.003372156755373804,
+            -0.06639109939861121
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.03775658887158436
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.0023855874124942404,
+            -0.06541364320339274
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.038609767646659535
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.0021230990459883054,
+            -0.06862856208968945
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.03600655081801996
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.0025486325927617528,
+            -0.0663907309348434
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.03810069841261154
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9475,
+          0.7578571428571429,
+          0.24464285714285713,
+          0.4625,
+          0.8317857142857142
+        ],
+        "any_link_contact_fraction": [
+          0.9475,
+          0.7578571428571429,
+          0.24464285714285713,
+          0.4614285714285714,
+          0.8317857142857142
+        ],
+        "load_bearing_contact_fraction": [
+          0.9475,
+          0.7567857142857143,
+          0.24464285714285713,
+          0.4607142857142857,
+          0.8282142857142857
+        ],
+        "mean_total_normal_force_N": [
+          7.6855436500430345,
+          3.2441192838842925,
+          0.7408504326733204,
+          2.4019146700984275,
+          2.9923390642781187
+        ],
+        "four_or_more_fraction": 0.30464285714285716,
+        "all_five_fraction": 0.0375
+      }
+    },
+    {
+      "profile": "right",
+      "seed": 31002,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.037784097328871676,
+      "mean_actual_speed_mps": 0.06872600258315416,
+      "mean_actual_velocity_mps": [
+        0.002307063662125789,
+        -0.06639473184819084
+      ],
+      "integrated_command_xy_m": [
+        0.0,
+        -2.8904999999999723
+      ],
+      "hand_displacement_xy_m": [
+        0.05780659420855847,
+        -1.8803118690384462
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.001952163273409964,
+        -0.06317120150846384
+      ],
+      "ball_displacement_xy_m": [
+        0.05856489820229892,
+        -1.8951360452539152
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.299,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.0009347135485731994,
+            -0.04401455091602649
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.07810000000000057
+          ],
+          "mean_velocity_error_mps": 0.039247935395865075
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.0034141726617977876,
+            -0.06614431920080219
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.038037033447755705
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.0028209720010336898,
+            -0.06698163019619571
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.03695676404943329
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.0005238446091377178,
+            -0.06611320540494951
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.03815072222874471
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.003139255333346108,
+            -0.06726371239653259
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.03698123989446322
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.0008800214865712808,
+            -0.06850979093627654
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.10000000000000088
+          ],
+          "mean_velocity_error_mps": 0.03628727576525098
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9467857142857142,
+          0.7632142857142857,
+          0.23714285714285716,
+          0.4546428571428571,
+          0.8367857142857142
+        ],
+        "any_link_contact_fraction": [
+          0.9467857142857142,
+          0.7632142857142857,
+          0.23714285714285716,
+          0.4546428571428571,
+          0.8367857142857142
+        ],
+        "load_bearing_contact_fraction": [
+          0.9467857142857142,
+          0.7625,
+          0.23714285714285716,
+          0.45357142857142857,
+          0.8325
+        ],
+        "mean_total_normal_force_N": [
+          7.671386757458911,
+          3.2502823369513396,
+          0.7136795236480752,
+          2.3883807904058276,
+          2.974381679057959
+        ],
+        "four_or_more_fraction": 0.29392857142857143,
+        "all_five_fraction": 0.03892857142857143
+      }
+    },
+    {
+      "profile": "diagonal",
+      "seed": 31000,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.02393203456979598,
+      "mean_actual_speed_mps": 0.07764041783581328,
+      "mean_actual_velocity_mps": [
+        0.05720464177226358,
+        0.05211769221707473
+      ],
+      "integrated_command_xy_m": [
+        2.0438921510196444,
+        2.0438921510196444
+      ],
+      "hand_displacement_xy_m": [
+        1.6243695649926733,
+        1.4955234978960046
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.05428760071942637,
+        0.049389988143815705
+      ],
+      "ball_displacement_xy_m": [
+        1.628628021582791,
+        1.4816996443144712
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.453,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.03817025990071969,
+            0.032838828766585344
+          ],
+          "mean_command_xy_mps": [
+            0.05522503961066926,
+            0.05522503961066926
+          ],
+          "mean_velocity_error_mps": 0.03231354133656552
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.05817572904903058,
+            0.05310874629490851
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.022605455719487563
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.05782531681033708,
+            0.05174344167695357
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.024001998962233657
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.056860960036181706,
+            0.05246402143038851
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.023901978149413056
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.05777871650751738,
+            0.053042137097414566
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.022835947037202972
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.056914622012771775,
+            0.053142753596643735
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.023250037314929552
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.8257142857142857,
+          0.7371428571428571,
+          0.6139285714285714,
+          0.445,
+          0.7857142857142857
+        ],
+        "any_link_contact_fraction": [
+          0.8257142857142857,
+          0.7371428571428571,
+          0.6139285714285714,
+          0.445,
+          0.7857142857142857
+        ],
+        "load_bearing_contact_fraction": [
+          0.8257142857142857,
+          0.735,
+          0.6139285714285714,
+          0.445,
+          0.7853571428571429
+        ],
+        "mean_total_normal_force_N": [
+          7.2968997279836705,
+          1.7466671023728313,
+          2.0209720810077223,
+          1.927443630797949,
+          3.1122555849594975
+        ],
+        "four_or_more_fraction": 0.4517857142857143,
+        "all_five_fraction": 0.14535714285714285
+      }
+    },
+    {
+      "profile": "diagonal",
+      "seed": 31001,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.0235328705325853,
+      "mean_actual_speed_mps": 0.07822388715174079,
+      "mean_actual_velocity_mps": [
+        0.05774093797913533,
+        0.05237247813719017
+      ],
+      "integrated_command_xy_m": [
+        2.0438921510196444,
+        2.0438921510196444
+      ],
+      "hand_displacement_xy_m": [
+        1.6425280350960756,
+        1.5069770422687097
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.05477439332032651,
+        0.04968223700311194
+      ],
+      "ball_displacement_xy_m": [
+        1.6432317996097954,
+        1.4904671100933582
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.4126666666666665,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.03917295680294782,
+            0.032811901821051065
+          ],
+          "mean_command_xy_mps": [
+            0.05522503961066926,
+            0.05522503961066926
+          ],
+          "mean_velocity_error_mps": 0.03184002327028917
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.05832445017914747,
+            0.053337998766066194
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.022481047546864325
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.05820676292822117,
+            0.052736740335713364
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.022675880698793817
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.058788232984394596,
+            0.05284853533286164
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.023059998466771616
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.05722360835199543,
+            0.05348662996072908
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.022884986495875795
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.056930348675252596,
+            0.052871615802250284
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.023311527386971904
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.8242857142857143,
+          0.7260714285714286,
+          0.5921428571428572,
+          0.4375,
+          0.7907142857142857
+        ],
+        "any_link_contact_fraction": [
+          0.8242857142857143,
+          0.7260714285714286,
+          0.5921428571428572,
+          0.4375,
+          0.7907142857142857
+        ],
+        "load_bearing_contact_fraction": [
+          0.8242857142857143,
+          0.7242857142857143,
+          0.5921428571428572,
+          0.4375,
+          0.7907142857142857
+        ],
+        "mean_total_normal_force_N": [
+          7.296077634999748,
+          1.7737141651508743,
+          1.925120096271649,
+          1.8650886026407862,
+          3.1723628621356252
+        ],
+        "four_or_more_fraction": 0.4392857142857143,
+        "all_five_fraction": 0.14
+      }
+    },
+    {
+      "profile": "diagonal",
+      "seed": 31002,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.023947974074301888,
+      "mean_actual_speed_mps": 0.0775775800582818,
+      "mean_actual_velocity_mps": [
+        0.0570268069203768,
+        0.05223612293579155
+      ],
+      "integrated_command_xy_m": [
+        2.0438921510196444,
+        2.0438921510196444
+      ],
+      "hand_displacement_xy_m": [
+        1.6167779124979706,
+        1.498266037135844
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.05397590137798422,
+        0.049422820634326126
+      ],
+      "ball_displacement_xy_m": [
+        1.6192770413395265,
+        1.4826846190297838
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.441333333333333,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.03802291539098239,
+            0.031889401733221134
+          ],
+          "mean_command_xy_mps": [
+            0.05522503961066926,
+            0.05522503961066926
+          ],
+          "mean_velocity_error_mps": 0.031678514592757424
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.057847991432846156,
+            0.05263337014661258
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.023052589953697064
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.0564425511872101,
+            0.05319995607893827
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.02349797435618814
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.05704165289412495,
+            0.052690663460676544
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.023670320292300383
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.057777764934323274,
+            0.0534284548855013
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.022766039233546826
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.056722532428418446,
+            0.05269507750100692
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.023600850044751945
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.8221428571428572,
+          0.7332142857142857,
+          0.6082142857142857,
+          0.4442857142857143,
+          0.7842857142857143
+        ],
+        "any_link_contact_fraction": [
+          0.8221428571428572,
+          0.7321428571428571,
+          0.6082142857142857,
+          0.4442857142857143,
+          0.7842857142857143
+        ],
+        "load_bearing_contact_fraction": [
+          0.8221428571428572,
+          0.7303571428571428,
+          0.6075,
+          0.4442857142857143,
+          0.7839285714285714
+        ],
+        "mean_total_normal_force_N": [
+          7.301428014589688,
+          1.7345858933363247,
+          1.968871867676635,
+          1.9235288586958603,
+          3.1093262930522965
+        ],
+        "four_or_more_fraction": 0.4517857142857143,
+        "all_five_fraction": 0.1407142857142857
+      }
+    },
+    {
+      "profile": "diagonal_forward_right",
+      "seed": 31000,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.032572671329633054,
+      "mean_actual_speed_mps": 0.07136910884571722,
+      "mean_actual_velocity_mps": [
+        0.05128734156323346,
+        -0.04808480252850402
+      ],
+      "integrated_command_xy_m": [
+        2.0438921510196444,
+        -2.0438921510196444
+      ],
+      "hand_displacement_xy_m": [
+        1.4516431869257531,
+        -1.3581655266246757
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.0485075306941407,
+        -0.04562031850669295
+      ],
+      "ball_displacement_xy_m": [
+        1.455225920824221,
+        -1.3686095552007886
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.0843333333333334,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.0345234845592472,
+            -0.030476167388507714
+          ],
+          "mean_command_xy_mps": [
+            0.05522503961066926,
+            -0.05522503961066926
+          ],
+          "mean_velocity_error_mps": 0.03704340340196309
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.05201781304614256,
+            -0.048623310298704724
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.03191447103343035
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.05044504971221744,
+            -0.048731834519644156
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.03246111054314677
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.05073426213111547,
+            -0.04926447654430997
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.03200241625783703
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.05163334682692113,
+            -0.04763593055799968
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.032553994085576465
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.05169122788920042,
+            -0.048990191730991485
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.031669958851255925
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9307142857142857,
+          0.6664285714285715,
+          0.0825,
+          0.4421428571428571,
+          0.8953571428571429
+        ],
+        "any_link_contact_fraction": [
+          0.9307142857142857,
+          0.6664285714285715,
+          0.0825,
+          0.4417857142857143,
+          0.8953571428571429
+        ],
+        "load_bearing_contact_fraction": [
+          0.9307142857142857,
+          0.6664285714285715,
+          0.0825,
+          0.4417857142857143,
+          0.8953571428571429
+        ],
+        "mean_total_normal_force_N": [
+          7.555913584872373,
+          2.379889863979336,
+          0.19199686554513518,
+          1.9284723274628988,
+          4.709010577293108
+        ],
+        "four_or_more_fraction": 0.2739285714285714,
+        "all_five_fraction": 0.015357142857142857
+      }
+    },
+    {
+      "profile": "diagonal_forward_right",
+      "seed": 31001,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.032323238707057,
+      "mean_actual_speed_mps": 0.07156917815020494,
+      "mean_actual_velocity_mps": [
+        0.05162905442071784,
+        -0.0480728733363295
+      ],
+      "integrated_command_xy_m": [
+        2.0438921510196444,
+        -2.0438921510196444
+      ],
+      "hand_displacement_xy_m": [
+        1.4658693221250088,
+        -1.3516196403131788
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.048891129363924216,
+        -0.04554641168113444
+      ],
+      "ball_displacement_xy_m": [
+        1.4667338809177264,
+        -1.3663923504340332
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.091666666666667,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.034391968257527605,
+            -0.0304376714068344
+          ],
+          "mean_command_xy_mps": [
+            0.05522503961066926,
+            -0.05522503961066926
+          ],
+          "mean_velocity_error_mps": 0.03695408757705316
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.04996672760219897,
+            -0.049909698816724565
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.03179397063928473
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.05341837967087291,
+            -0.04730054339647686
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.03207984794297948
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.0530131737316835,
+            -0.04874905477258633
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.031224730637144097
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.05222946654316474,
+            -0.047694185430091296
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.032400034531635896
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.05032706037809755,
+            -0.04918731626409319
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.03208670292001834
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9317857142857143,
+          0.6732142857142858,
+          0.08928571428571429,
+          0.4392857142857143,
+          0.8982142857142857
+        ],
+        "any_link_contact_fraction": [
+          0.9317857142857143,
+          0.6732142857142858,
+          0.08928571428571429,
+          0.43892857142857145,
+          0.8982142857142857
+        ],
+        "load_bearing_contact_fraction": [
+          0.9317857142857143,
+          0.6732142857142858,
+          0.08928571428571429,
+          0.43857142857142856,
+          0.8982142857142857
+        ],
+        "mean_total_normal_force_N": [
+          7.5998706800809215,
+          2.3812523156028225,
+          0.2033996341629376,
+          1.901961834832049,
+          4.76961557646745
+        ],
+        "four_or_more_fraction": 0.27964285714285714,
+        "all_five_fraction": 0.0175
+      }
+    },
+    {
+      "profile": "diagonal_forward_right",
+      "seed": 31002,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03240577647331749,
+      "mean_actual_speed_mps": 0.07152373022579127,
+      "mean_actual_velocity_mps": [
+        0.051504964482090645,
+        -0.04809632842647228
+      ],
+      "integrated_command_xy_m": [
+        2.0438921510196444,
+        -2.0438921510196444
+      ],
+      "hand_displacement_xy_m": [
+        1.456500932151509,
+        -1.3590003842155467
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.048601614820823584,
+        -0.04560919848285232
+      ],
+      "ball_displacement_xy_m": [
+        1.4580484446247075,
+        -1.3682759544855696
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.0986666666666665,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.03582329140559108,
+            -0.030342518186372763
+          ],
+          "mean_command_xy_mps": [
+            0.05522503961066926,
+            -0.05522503961066926
+          ],
+          "mean_velocity_error_mps": 0.03619501534072107
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.05263034622179623,
+            -0.048464117865996706
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.031609204067320366
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            0.05098132610910174,
+            -0.049178253346894615
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.031858968036692414
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            0.04990895260573487,
+            -0.048484304168360845
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.032877072652964544
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.0511231457087221,
+            -0.04866909203631944
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.03202190664879236
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.05114262687399549,
+            -0.04851690529316954
+          ],
+          "mean_command_xy_mps": [
+            0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.032050679698724084
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9307142857142857,
+          0.6689285714285714,
+          0.09,
+          0.4392857142857143,
+          0.8971428571428571
+        ],
+        "any_link_contact_fraction": [
+          0.9307142857142857,
+          0.6689285714285714,
+          0.09,
+          0.4392857142857143,
+          0.8971428571428571
+        ],
+        "load_bearing_contact_fraction": [
+          0.9307142857142857,
+          0.6685714285714286,
+          0.09,
+          0.4382142857142857,
+          0.8971428571428571
+        ],
+        "mean_total_normal_force_N": [
+          7.552821883389776,
+          2.403966304887486,
+          0.20455468512280045,
+          1.9154915836279143,
+          4.719875551972021
+        ],
+        "four_or_more_fraction": 0.2789285714285714,
+        "all_five_fraction": 0.015357142857142857
+      }
+    },
+    {
+      "profile": "diagonal_backward_left",
+      "seed": 31000,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.02468112555049997,
+      "mean_actual_speed_mps": 0.07793787288658001,
+      "mean_actual_velocity_mps": [
+        -0.05095407878665407,
+        0.05856405295035295
+      ],
+      "integrated_command_xy_m": [
+        -2.0438921510196444,
+        2.0438921510196444
+      ],
+      "hand_displacement_xy_m": [
+        -1.448158576477263,
+        1.6904383994757353
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        -0.04814631654614503,
+        0.055695590190224194
+      ],
+      "ball_displacement_xy_m": [
+        -1.4443894963843509,
+        1.6708677057067258
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.489,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            -0.031349755288294354,
+            0.03995146050575389
+          ],
+          "mean_command_xy_mps": [
+            -0.05522503961066926,
+            0.05522503961066926
+          ],
+          "mean_velocity_error_mps": 0.03200202019084233
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            -0.051752916227516724,
+            0.05971825139778546
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.023558380724716187
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.051727116790760995,
+            0.058930851568690115
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.02373431328249272
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.05024592368377747,
+            0.05820038910278604
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.02563847071240162
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            -0.051686623805660845,
+            0.05936436793724709
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.023823888025822103
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            -0.05211556348085979,
+            0.05800822062908258
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.02386300931087488
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9885714285714285,
+          0.5939285714285715,
+          0.6953571428571429,
+          0.39964285714285713,
+          0.7664285714285715
+        ],
+        "any_link_contact_fraction": [
+          0.9885714285714285,
+          0.5939285714285715,
+          0.6946428571428571,
+          0.39964285714285713,
+          0.7653571428571428
+        ],
+        "load_bearing_contact_fraction": [
+          0.9885714285714285,
+          0.5939285714285715,
+          0.6946428571428571,
+          0.39964285714285713,
+          0.76
+        ],
+        "mean_total_normal_force_N": [
+          6.385599470977518,
+          2.436920930583539,
+          2.6033801485691894,
+          1.2799610157474666,
+          2.8917183874559056
+        ],
+        "four_or_more_fraction": 0.5217857142857143,
+        "all_five_fraction": 0.12142857142857143
+      }
+    },
+    {
+      "profile": "diagonal_backward_left",
+      "seed": 31001,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.024802484846964828,
+      "mean_actual_speed_mps": 0.07771404612960743,
+      "mean_actual_velocity_mps": [
+        -0.05126096839364795,
+        0.05795627532612294
+      ],
+      "integrated_command_xy_m": [
+        -2.0438921510196444,
+        2.0438921510196444
+      ],
+      "hand_displacement_xy_m": [
+        -1.4567572779989377,
+        1.6752606971891693
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        -0.048467026841658115,
+        0.05512996553083128
+      ],
+      "ball_displacement_xy_m": [
+        -1.4540108052497434,
+        1.6538989659249383
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.4776666666666665,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            -0.03139807239901653,
+            0.039835115987625555
+          ],
+          "mean_command_xy_mps": [
+            -0.05522503961066926,
+            0.05522503961066926
+          ],
+          "mean_velocity_error_mps": 0.03256380139187184
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            -0.052590330482106484,
+            0.05889137482349964
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.023692757705266927
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.051668005410078474,
+            0.057747078186790535
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.024297249746068325
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.051779986373117516,
+            0.058048462979583014
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.02426463426966644
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            -0.051332350924172473,
+            0.058194443828346466
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.02463737095529477
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            -0.05203341546145719,
+            0.05806331737914246
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.02425071504230261
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9903571428571428,
+          0.5885714285714285,
+          0.6875,
+          0.3982142857142857,
+          0.7735714285714286
+        ],
+        "any_link_contact_fraction": [
+          0.9903571428571428,
+          0.5885714285714285,
+          0.6875,
+          0.3982142857142857,
+          0.7732142857142857
+        ],
+        "load_bearing_contact_fraction": [
+          0.9903571428571428,
+          0.5885714285714285,
+          0.6871428571428572,
+          0.3982142857142857,
+          0.7692857142857142
+        ],
+        "mean_total_normal_force_N": [
+          6.326655588286511,
+          2.414756499399164,
+          2.5598618285993555,
+          1.2771401473975457,
+          2.892494583915358
+        ],
+        "four_or_more_fraction": 0.5171428571428571,
+        "all_five_fraction": 0.12535714285714286
+      }
+    },
+    {
+      "profile": "diagonal_backward_left",
+      "seed": 31002,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.0245100664957859,
+      "mean_actual_speed_mps": 0.07804902920384095,
+      "mean_actual_velocity_mps": [
+        -0.0512354400491493,
+        0.0584584016279525
+      ],
+      "integrated_command_xy_m": [
+        -2.0438921510196444,
+        2.0438921510196444
+      ],
+      "hand_displacement_xy_m": [
+        -1.4608666814398954,
+        1.6857317733249948
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        -0.04852960767683165,
+        0.05555810673332098
+      ],
+      "ball_displacement_xy_m": [
+        -1.4558882303049494,
+        1.6667432019996296
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.501,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            -0.03291087255598956,
+            0.03970928612205575
+          ],
+          "mean_command_xy_mps": [
+            -0.05522503961066926,
+            0.05522503961066926
+          ],
+          "mean_velocity_error_mps": 0.030369712799465536
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            -0.0516617630084508,
+            0.05938402122819812
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.023808220982155407
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.0514027892864158,
+            0.05867472469961275
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.024205847766120395
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.052165512542917944,
+            0.0588147061127108
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.023882511499405717
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            -0.051560465667815046,
+            0.05849508134102308
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.023940425211112202
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            -0.05147624299940072,
+            0.058270820896325404
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.02440403042339456
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9889285714285714,
+          0.5953571428571428,
+          0.6903571428571429,
+          0.4042857142857143,
+          0.7742857142857142
+        ],
+        "any_link_contact_fraction": [
+          0.9889285714285714,
+          0.5953571428571428,
+          0.6903571428571429,
+          0.4042857142857143,
+          0.7735714285714286
+        ],
+        "load_bearing_contact_fraction": [
+          0.9889285714285714,
+          0.5953571428571428,
+          0.6903571428571429,
+          0.4042857142857143,
+          0.7685714285714286
+        ],
+        "mean_total_normal_force_N": [
+          6.353740579292027,
+          2.4119143312815647,
+          2.593777269021725,
+          1.3119651061349282,
+          2.8412646200002563
+        ],
+        "four_or_more_fraction": 0.5160714285714286,
+        "all_five_fraction": 0.1325
+      }
+    },
+    {
+      "profile": "diagonal_backward_right",
+      "seed": 31000,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.025444913411592336,
+      "mean_actual_speed_mps": 0.08118667940955052,
+      "mean_actual_velocity_mps": [
+        -0.046442544211381775,
+        -0.06549647694338621
+      ],
+      "integrated_command_xy_m": [
+        -2.0438921510196444,
+        -2.0438921510196444
+      ],
+      "hand_displacement_xy_m": [
+        -1.3258958232265943,
+        -1.8482451060514051
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        -0.0441344920639419,
+        -0.062080788060005124
+      ],
+      "ball_displacement_xy_m": [
+        -1.3240347619182569,
+        -1.8624236418001536
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.558333333333333,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            -0.031146286731724527,
+            -0.04275841098844398
+          ],
+          "mean_command_xy_mps": [
+            -0.05522503961066926,
+            -0.05522503961066926
+          ],
+          "mean_velocity_error_mps": 0.0304080086422724
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            -0.046288876588548786,
+            -0.0661669882647631
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.02538203306863143
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.04625075724027901,
+            -0.0662020223314693
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.02531314134318394
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.04691188069855732,
+            -0.06590807755497671
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.0249237668320537
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            -0.04688232862120565,
+            -0.06556790547535325
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.024990914124501933
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            -0.047326822503336086,
+            -0.06588132374502438
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.024798298360284594
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9835714285714285,
+          0.7671428571428571,
+          0.5332142857142858,
+          0.4492857142857143,
+          0.7842857142857143
+        ],
+        "any_link_contact_fraction": [
+          0.9835714285714285,
+          0.7671428571428571,
+          0.5332142857142858,
+          0.4492857142857143,
+          0.7842857142857143
+        ],
+        "load_bearing_contact_fraction": [
+          0.9835714285714285,
+          0.7671428571428571,
+          0.5314285714285715,
+          0.4492857142857143,
+          0.7814285714285715
+        ],
+        "mean_total_normal_force_N": [
+          8.179122275640804,
+          3.48004008052284,
+          1.9242855065185687,
+          2.1543949915549945,
+          2.999918884715686
+        ],
+        "four_or_more_fraction": 0.4767857142857143,
+        "all_five_fraction": 0.05285714285714286
+      }
+    },
+    {
+      "profile": "diagonal_backward_right",
+      "seed": 31001,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.025205684359855242,
+      "mean_actual_speed_mps": 0.08185314675543405,
+      "mean_actual_velocity_mps": [
+        -0.046581054224718824,
+        -0.06621405244339042
+      ],
+      "integrated_command_xy_m": [
+        -2.0438921510196444,
+        -2.0438921510196444
+      ],
+      "hand_displacement_xy_m": [
+        -1.328982154552133,
+        -1.865282729232764
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        -0.04418359930757073,
+        -0.06266598712821182
+      ],
+      "ball_displacement_xy_m": [
+        -1.3255079792271218,
+        -1.8799796138463547
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.547,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            -0.031081324944249672,
+            -0.042263541972717346
+          ],
+          "mean_command_xy_mps": [
+            -0.05522503961066926,
+            -0.05522503961066926
+          ],
+          "mean_velocity_error_mps": 0.031618803911778674
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            -0.04611488748111352,
+            -0.06618259214470688
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.025408047023123194
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.04647526028556572,
+            -0.06599591429301248
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.025448233162066985
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.046861009044684244,
+            -0.0674877652119124
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.02453906125073872
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            -0.04705455924077569,
+            -0.06663311864759916
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.024519305228166643
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            -0.04751455484903553,
+            -0.06743299049932268
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.024087802002910955
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9821428571428571,
+          0.7610714285714286,
+          0.5289285714285714,
+          0.45071428571428573,
+          0.7846428571428572
+        ],
+        "any_link_contact_fraction": [
+          0.9821428571428571,
+          0.7610714285714286,
+          0.5275,
+          0.45071428571428573,
+          0.7842857142857143
+        ],
+        "load_bearing_contact_fraction": [
+          0.9821428571428571,
+          0.7610714285714286,
+          0.5271428571428571,
+          0.45071428571428573,
+          0.7821428571428571
+        ],
+        "mean_total_normal_force_N": [
+          8.177720140667644,
+          3.4080823205643784,
+          1.939628575372869,
+          2.1502162241339287,
+          3.063532974393034
+        ],
+        "four_or_more_fraction": 0.4757142857142857,
+        "all_five_fraction": 0.046785714285714285
+      }
+    },
+    {
+      "profile": "diagonal_backward_right",
+      "seed": 31002,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.025380561109067782,
+      "mean_actual_speed_mps": 0.08119902362587404,
+      "mean_actual_velocity_mps": [
+        -0.046616463993165325,
+        -0.06538471274802533
+      ],
+      "integrated_command_xy_m": [
+        -2.0438921510196444,
+        -2.0438921510196444
+      ],
+      "hand_displacement_xy_m": [
+        -1.3335084566297621,
+        -1.84821849942439
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        -0.04446814172130519,
+        -0.06204490386725916
+      ],
+      "ball_displacement_xy_m": [
+        -1.3340442516391557,
+        -1.8613471160177748
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.5476666666666667,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            -0.03258930142129967,
+            -0.04303270771325432
+          ],
+          "mean_command_xy_mps": [
+            -0.05522503961066926,
+            -0.05522503961066926
+          ],
+          "mean_velocity_error_mps": 0.03000702703237568
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            -0.04686812636557876,
+            -0.06581535133023683
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.025029632473274478
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.047934672056970995,
+            -0.06665264656031937
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.02395217559306024
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.046549178874095376,
+            -0.06547791338644396
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.02538237218165493
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            -0.04676267131666911,
+            -0.06643726627228697
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.024742607823773986
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            -0.04610490029321723,
+            -0.06485353794101352
+          ],
+          "mean_command_xy_mps": [
+            -0.07071067811865497,
+            -0.07071067811865497
+          ],
+          "mean_velocity_error_mps": 0.025979310131343615
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9817857142857143,
+          0.7632142857142857,
+          0.5246428571428572,
+          0.44535714285714284,
+          0.785
+        ],
+        "any_link_contact_fraction": [
+          0.9817857142857143,
+          0.7632142857142857,
+          0.5246428571428572,
+          0.44535714285714284,
+          0.7842857142857143
+        ],
+        "load_bearing_contact_fraction": [
+          0.9817857142857143,
+          0.7632142857142857,
+          0.5225,
+          0.44535714285714284,
+          0.7825
+        ],
+        "mean_total_normal_force_N": [
+          8.103524542996654,
+          3.4928179250747573,
+          1.8858866594251589,
+          2.123804438721619,
+          3.052105743879957
+        ],
+        "four_or_more_fraction": 0.4725,
+        "all_five_fraction": 0.04607142857142857
+      }
+    },
+    {
+      "profile": "switch",
+      "seed": 31000,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.032161483060723015,
+      "mean_actual_speed_mps": 0.0476521461068198,
+      "mean_actual_velocity_mps": [
+        -0.0002586375925050496,
+        0.000652677314503095
+      ],
+      "integrated_command_xy_m": [
+        -0.0031457323419130673,
+        0.01685426765808693
+      ],
+      "hand_displacement_xy_m": [
+        0.015200009537333012,
+        0.03082744027568134
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.0006769299640066203,
+        0.00051887343388695
+      ],
+      "ball_displacement_xy_m": [
+        0.02030789892019861,
+        0.0155662030166085
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.8453333333333335,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.04946913174394564,
+            -0.00037736988027152067
+          ],
+          "mean_command_xy_mps": [
+            0.07810000000000057,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03209312605255004
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.02146300042572772,
+            0.0020852128303328
+          ],
+          "mean_command_xy_mps": [
+            0.018699999999999974,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.016325738491862186
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.051810727228350284,
+            -0.00014770891583723388
+          ],
+          "mean_command_xy_mps": [
+            -0.08470000000000068,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.035474226980088605
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.01701806049869396,
+            0.052664049789366785
+          ],
+          "mean_command_xy_mps": [
+            -0.012729146468382612,
+            0.08727085353161809
+          ],
+          "mean_velocity_error_mps": 0.04126902193394355
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.000745433881304082,
+            -0.03576966024881526
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.07860000000000057
+          ],
+          "mean_velocity_error_mps": 0.0522788037206933
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.0012128014601065235,
+            -0.015341282971453868
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.0053
+          ],
+          "mean_velocity_error_mps": 0.01740983400117925
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9632142857142857,
+          0.7971428571428572,
+          0.6714285714285714,
+          0.5178571428571429,
+          0.8714285714285714
+        ],
+        "any_link_contact_fraction": [
+          0.9632142857142857,
+          0.7971428571428572,
+          0.6710714285714285,
+          0.5178571428571429,
+          0.8714285714285714
+        ],
+        "load_bearing_contact_fraction": [
+          0.9632142857142857,
+          0.7935714285714286,
+          0.6710714285714285,
+          0.5167857142857143,
+          0.8689285714285714
+        ],
+        "mean_total_normal_force_N": [
+          8.272484541862207,
+          2.7031616593167413,
+          2.258614233433183,
+          1.7721508117535745,
+          2.8059614616782893
+        ],
+        "four_or_more_fraction": 0.6196428571428572,
+        "all_five_fraction": 0.29178571428571426
+      }
+    },
+    {
+      "profile": "switch",
+      "seed": 31001,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03250318330854058,
+      "mean_actual_speed_mps": 0.047291579161064905,
+      "mean_actual_velocity_mps": [
+        0.0009175248112287228,
+        0.0013986246108352426
+      ],
+      "integrated_command_xy_m": [
+        -0.0031457323419130673,
+        0.01685426765808693
+      ],
+      "hand_displacement_xy_m": [
+        0.048714036148505814,
+        0.056472714166809865
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.0017730702463719867,
+        0.0012829482450585864
+      ],
+      "ball_displacement_xy_m": [
+        0.0531921073911596,
+        0.03848844735175759
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.8533333333333335,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.049591789659571964,
+            0.00018405714142829977
+          ],
+          "mean_command_xy_mps": [
+            0.07810000000000057,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.032024829925475604
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.025233918379774657,
+            0.0019678257144568447
+          ],
+          "mean_command_xy_mps": [
+            0.018699999999999974,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.017021360394488035
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.05226147995229112,
+            0.0008867862959677928
+          ],
+          "mean_command_xy_mps": [
+            -0.08470000000000068,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.035503953485974446
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.017058375273538984,
+            0.051761376628824705
+          ],
+          "mean_command_xy_mps": [
+            -0.012729146468382612,
+            0.08727085353161809
+          ],
+          "mean_velocity_error_mps": 0.041844276748145316
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.0030133388992230016,
+            -0.03324126074873569
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.07860000000000057
+          ],
+          "mean_velocity_error_mps": 0.05437734703396609
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.002119229765492406,
+            -0.013861095561590436
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.0053
+          ],
+          "mean_velocity_error_mps": 0.015925359862203916
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.965,
+          0.8042857142857143,
+          0.6725,
+          0.5089285714285714,
+          0.8832142857142857
+        ],
+        "any_link_contact_fraction": [
+          0.965,
+          0.8042857142857143,
+          0.6725,
+          0.5085714285714286,
+          0.8832142857142857
+        ],
+        "load_bearing_contact_fraction": [
+          0.965,
+          0.8032142857142858,
+          0.6710714285714285,
+          0.5082142857142857,
+          0.8821428571428571
+        ],
+        "mean_total_normal_force_N": [
+          8.315580413700243,
+          2.695184123282018,
+          2.2001543692774557,
+          1.6762775483274146,
+          2.9721002215498884
+        ],
+        "four_or_more_fraction": 0.6317857142857143,
+        "all_five_fraction": 0.29428571428571426
+      }
+    },
+    {
+      "profile": "switch",
+      "seed": 31002,
+      "requested_speed_mps": 0.1,
+      "survival_s": 30.0,
+      "completed": true,
+      "failure_reason": "none",
+      "mean_velocity_error_mps": 0.03165395851325873,
+      "mean_actual_speed_mps": 0.04751772172809265,
+      "mean_actual_velocity_mps": [
+        0.0002093658861538805,
+        0.0009220876951414861
+      ],
+      "integrated_command_xy_m": [
+        -0.0031457323419130673,
+        0.01685426765808693
+      ],
+      "hand_displacement_xy_m": [
+        0.026198243561638607,
+        0.04009199354107105
+      ],
+      "ball_net_average_velocity_xy_mps": [
+        0.0010262605782015942,
+        0.0008399301502090475
+      ],
+      "ball_displacement_xy_m": [
+        0.030787817346047824,
+        0.025197904506271424
+      ],
+      "palm_contact_fraction": 0.0,
+      "mean_finger_contacts": 3.841666666666667,
+      "velocity_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 5.0,
+          "net_velocity_xy_mps": [
+            0.04944346712259728,
+            0.00013299238746534574
+          ],
+          "mean_command_xy_mps": [
+            0.07810000000000057,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03120625942949838
+        },
+        {
+          "start_s": 5.0,
+          "end_s": 10.0,
+          "net_velocity_xy_mps": [
+            0.022795812158040114,
+            0.00075136490603302
+          ],
+          "mean_command_xy_mps": [
+            0.018699999999999974,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.015381774638499834
+        },
+        {
+          "start_s": 10.0,
+          "end_s": 15.0,
+          "net_velocity_xy_mps": [
+            -0.05146267405639399,
+            0.0005708680749197911
+          ],
+          "mean_command_xy_mps": [
+            -0.08470000000000068,
+            0.0
+          ],
+          "mean_velocity_error_mps": 0.03523849895585273
+        },
+        {
+          "start_s": 15.0,
+          "end_s": 20.0,
+          "net_velocity_xy_mps": [
+            -0.017110531950352618,
+            0.05262544845905746
+          ],
+          "mean_command_xy_mps": [
+            -0.012729146468382612,
+            0.08727085353161809
+          ],
+          "mean_velocity_error_mps": 0.04100427738675002
+        },
+        {
+          "start_s": 20.0,
+          "end_s": 25.0,
+          "net_velocity_xy_mps": [
+            0.0016332441623320294,
+            -0.03458048323672848
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.07860000000000057
+          ],
+          "mean_velocity_error_mps": 0.052607074850907244
+        },
+        {
+          "start_s": 25.0,
+          "end_s": 30.0,
+          "net_velocity_xy_mps": [
+            0.0008582460329867494,
+            -0.014460609689492846
+          ],
+          "mean_command_xy_mps": [
+            0.0,
+            -0.0053
+          ],
+          "mean_velocity_error_mps": 0.015989881954228936
+        }
+      ],
+      "support": {
+        "from_s": 2.0,
+        "finger_order": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "distal_contact_fraction": [
+          0.9639285714285715,
+          0.7985714285714286,
+          0.6632142857142858,
+          0.5032142857142857,
+          0.8853571428571428
+        ],
+        "any_link_contact_fraction": [
+          0.9639285714285715,
+          0.7982142857142858,
+          0.6625,
+          0.5032142857142857,
+          0.8846428571428572
+        ],
+        "load_bearing_contact_fraction": [
+          0.9639285714285715,
+          0.7967857142857143,
+          0.6625,
+          0.5014285714285714,
+          0.8828571428571429
+        ],
+        "mean_total_normal_force_N": [
+          8.34467662521847,
+          2.6656414511276423,
+          2.175302976741442,
+          1.6685676908871876,
+          2.942708650259536
+        ],
+        "four_or_more_fraction": 0.6167857142857143,
+        "all_five_fraction": 0.2907142857142857
+      }
+    }
+  ],
+  "parallel_workers": 4
+}
